@@ -1,0 +1,41 @@
+version: "3.9"
+
+services:
+  db:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: dbtechchallange
+      MYSQL_USER: turmafiap
+      MYSQL_PASSWORD: Password123
+    volumes:
+      - ./docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
+    ports:
+      - "3306:3306"
+    healthcheck:
+      test: [ "CMD", "mysqladmin", "ping", "-h", "localhost" ]
+      interval: 15s
+      timeout: 5s
+      retries: 1
+    networks:
+      - backend
+
+  pedido:
+    container_name: applicationOrder
+    build:
+      context: ../
+      dockerfile: docker/Dockerfile
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      SPRING_PROFILES_ACTIVE: dev
+    ports:
+      - "8080:8080"
+    command: [ "dockerize", "-wait", "tcp://db:3306", "-timeout", "30s", "java", "-jar", "app.jar" ]
+    networks:
+      - backend
+
+networks:
+  backend:
+    driver: bridge
