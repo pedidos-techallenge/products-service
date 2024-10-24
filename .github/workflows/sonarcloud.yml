@@ -23,5 +23,6 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-            -Dsonar.projectKey=pedidos-techallenge
+            -Dsonar.projectKey=pedidos-techallenge_products-service
             -Dsonar.organization=pedidos-techallenge
+            -Dsonar.host.url=https://sonarcloud.io
