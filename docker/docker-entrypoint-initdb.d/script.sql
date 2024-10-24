@@ -1,3 +1,7 @@
+CREATE DATABASE IF NOT EXISTS sonarqube;
+
+USE dbtechchallange;
+
 CREATE TABLE IF NOT EXISTS dbtechchallange.item (
     `order_id` VARCHAR(255) NOT NULL,
     `sku` VARCHAR(255) NOT NULL,
@@ -5,14 +9,14 @@ CREATE TABLE IF NOT EXISTS dbtechchallange.item (
     `unit_value` DECIMAL(10, 0) NOT NULL
 );
 
-CREATE TABLE IF NOT EXISTS dbtechchallange.product (
+CREATE TABLE IF NOT EXISTS product (
     `sku` VARCHAR(100) NOT NULL,
     `name` VARCHAR(100) NOT NULL,
     `description` VARCHAR(255) NOT NULL,
     `category` VARCHAR(100) NOT NULL,
     `price` DECIMAL(10, 2) NOT NULL,
     PRIMARY KEY (`sku`)
-);
+    );
 
 insert into dbtechchallange.product(sku, name, description, price, category) values('123456A', 'MC Lanche Feliz',       'Hamburguer com queijo, salada especial e queijo', 35.00, 'Lanche');
 insert into dbtechchallange.product(sku, name, description, price, category) values('123456B', 'Quarteirão Com Queijo', 'Hamburguer com queijo e salada', 28.00, 'Lanche');

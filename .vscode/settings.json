@@ -1,0 +1,6 @@
+{
+    "sonarlint.connectedMode.project": {
+        "connectionId": "pedidos-techallenge",
+        "projectKey": "pedidos-techallenge_products-service"
+    }
+}
