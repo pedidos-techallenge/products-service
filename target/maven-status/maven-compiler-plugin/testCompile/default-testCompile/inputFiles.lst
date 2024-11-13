@@ -1,2 +1,5 @@
-/home/axel/pos/products-service/src/test/java/br/com/fiap/techchallange/application/ProductApplicationTest.java
+/home/axel/pos/products-service/src/test/java/br/com/fiap/techchallange/core/entity/ProductTest.java
+/home/axel/pos/products-service/src/test/java/br/com/fiap/techchallange/RunCucumberTest.java
+/home/axel/pos/products-service/src/test/java/br/com/fiap/techchallange/core/enums/CategoryTest.java
 /home/axel/pos/products-service/src/test/java/br/com/fiap/techchallange/MainApplicationTests.java
+/home/axel/pos/products-service/src/test/java/br/com/fiap/techchallange/steps/ProductSteps.java
