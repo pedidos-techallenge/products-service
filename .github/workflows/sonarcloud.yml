@@ -1,10 +1,10 @@
-name: SonarCloud analysis
+name: SonarCloud and Tests
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   pull_request:
-    branches: [ "main" ]
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:
@@ -16,6 +16,17 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+
+      - name: Set up JDK
+        uses: actions/setup-java@v3
+        with:
+          java-version: '17'
+
+      - name: Install dependencies
+        run: mvn install -DskipTests
+
+      - name: Run BDD tests
+        run: mvn test -Dcucumber.options="--tags @bdd"
 
       - name: Analyze with SonarCloud
         uses: SonarSource/sonarcloud-github-action@v2.2.0
