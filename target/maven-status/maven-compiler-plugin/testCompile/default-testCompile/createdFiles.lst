@@ -1,5 +1,6 @@
-br/com/fiap/techchallange/steps/ProductSteps.class
-br/com/fiap/techchallange/core/entity/ProductTest.class
+br/com/fiap/techchallange/core/entity/ProductTests.class
 br/com/fiap/techchallange/MainApplicationTests.class
-br/com/fiap/techchallange/RunCucumberTest.class
-br/com/fiap/techchallange/core/enums/CategoryTest.class
+br/com/fiap/techchallange/core/vo/ItemTests.class
+br/com/fiap/techchallange/steps/ProductSteps.class
+br/com/fiap/techchallange/RunCucumberTests.class
+br/com/fiap/techchallange/core/enums/CategoryTests.class
