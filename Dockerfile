@@ -1,3 +1,4 @@
+# dockerfile do kubernets
 # Build stage
 FROM maven:3.9.2 AS builder
 WORKDIR /tmp/app
