@@ -12,6 +12,24 @@ jobs:
   build-and-test:
     runs-on: ubuntu-latest
 
+    services:
+      mysql:
+        image: mysql:latest
+        env:
+          MYSQL_ROOT_PASSWORD: root
+          MYSQL_DATABASE: dbtechchallange
+          MYSQL_USER: turmafiap
+          MYSQL_PASSWORD: Password123
+        ports:
+          - 3306:3306
+        options: >-
+          --health-cmd="mysqladmin ping -h localhost"
+          --health-interval=10s
+          --health-timeout=5s
+          --health-retries=3
+        volumes:
+          - ./docker/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -30,18 +48,13 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-maven-
 
-      - name: Build and run tests with H2
+      - name: Build and run tests
         run: |
           mvn clean test -Dspring.profiles.active=test
 
-      - name: SonarCloud Scan
+      - name: SonarCloud Analysis
         uses: sonarsource/sonarcloud-github-action@v2
         with:
-          sonar-token: ${{ secrets.SONAR_TOKEN }}
-        
-      - name: Analyze with SonarCloud
-        run: |
-          mvn sonar:sonar \
-            -Dsonar.projectKey=your-sonarcloud-project-key \
-            -Dsonar.organization=your-sonarcloud-organization \
-            -Dsonar.host.url=https://sonarcloud.io
+          projectBaseDir: .
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
