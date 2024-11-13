@@ -22,6 +22,7 @@ class CategoryTest {
             Category.fromValue(invalidCategory);
         });
 
+
         assertTrue(thrown.getMessage().contains("Valor inválido para campo de Category"));
     }
 }
