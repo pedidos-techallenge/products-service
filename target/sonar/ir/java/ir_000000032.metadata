@@ -1,0 +1,7 @@
+java.util.Optional#map(Ljava/util/function/Function;)Ljava/util/Optional;
+true
+2cd9ff323345032d73b3ef83fb1c9eb8
+java.lang.NullPointerException#<init>()V
+java.lang.NullPointerException#instance-init#
+java.util.Optional#empty()Ljava/util/Optional;
+java.util.Optional#isEmpty()Z

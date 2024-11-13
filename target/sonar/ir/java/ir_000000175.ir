@@ -1,0 +1,41 @@
+
+h
+
+checkStateXcom.google.common.base.Preconditions#checkState(ZLjava/lang/String;ILjava/lang/Object;)V(ñLerrorMessageTemplate
+ã4 ã(O"&java.lang.Stringjava.lang.ObjectJ
+expression
+ã  ã(2".booleanjava.lang.Booleanjava.lang.ObjectPp1
+ãQ ã(W"<intjava.lang.Objectjava.lang.Numberjava.lang.Integer(p2
+ãY ã(p"java.lang.ObjectJ
+expression
+ã  ã(2".booleanjava.lang.Booleanjava.lang.ObjectLerrorMessageTemplate
+ã4 ã(O"&java.lang.Stringjava.lang.ObjectPp1
+ãQ ã(W"<intjava.lang.Objectjava.lang.Numberjava.lang.Integer(p2
+ãY ã(p"java.lang.Object"Û_
+]
+
+å å("
+#unaryop !##unaryop !#*2.booleanjava.lang.Booleanjava.lang.ObjectX"V
+
+å å( *
+å å(26
+#unknownˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇ ˇˇˇˇˇˇˇˇˇ(ˇˇˇˇˇˇˇˇˇ"6
+#unknownˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇ ˇˇˇˇˇˇˇˇˇ(ˇˇˇˇˇˇˇˇˇ"Ì‚
+ﬂ
+
+ç ç(+"
+#new-object##new-object#2∞>com.google.common.base.Preconditions$FakeIllegalStateExceptionjava.lang.Throwablejava.lang.Objectjava.lang.RuntimeExceptionjava.lang.Exceptionjava.io.Serializabley
+w
+
+ç ç(+"b
+#instance-init#Mcom.google.common.base.Preconditions$FakeIllegalStateException#instance-init#(*8k
+i
+
+ç ç(+"T
+<init>Hcom.google.common.base.Preconditions$FakeIllegalStateException#<init>()V(*82
+
+ç ç(,"
+å é("
+
+è è("
+é é(*Preconditions.java

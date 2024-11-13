@@ -1,0 +1,16 @@
+
+q
+getProducts`br.com.fiap.techchallange.infrastructure.bd.MySQLProductRepository#getProducts()Ljava/util/List; êS'"SELECT * FROM dbtechchallange.product"&java.lang.Stringjava.lang.Object∏this ($"£Bbr.com.fiap.techchallange.infrastructure.bd.MySQLProductRepositoryjava.lang.ObjectIbr.com.fiap.techchallange.adapters.gateways.repository.IProductRepository∏this ($"£Bbr.com.fiap.techchallange.infrastructure.bd.MySQLProductRepositoryjava.lang.ObjectIbr.com.fiap.techchallange.adapters.gateways.repository.IProductRepository"ë$
+"
+ (<sql"
+#id##id#*A
+?
+. )(	"1
+/?create:org.springframework.jdbc.core.RowMapperá
+Ñ
+* *()"P
+&#get-field# namedParameterJdbcTemplate&#get-field# namedParameterJdbcTemplate*2†Corg.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplatejava.lang.ObjectEorg.springframework.jdbc.core.namedparam.NamedParameterJdbcOperationsã
+à
+* *(F"¢
+queryñorg.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate#query(Ljava/lang/String;Lorg/springframework/jdbc/core/RowMapper;)Ljava/util/List; *2Njava.util.Listjava.util.Collectionjava.lang.Objectjava.lang.Iterable8
+* *(G*u/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/infrastructure/bd/MySQLProductRepository.java

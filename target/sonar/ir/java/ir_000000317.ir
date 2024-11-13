@@ -1,0 +1,7 @@
+
+T
+getSkuHbr.com.fiap.techchallange.core.entity.vo.Item#getSku()Ljava/lang/String; omthis ("Y-br.com.fiap.techchallange.core.entity.vo.Itemjava.lang.Objectjava.io.Serializablemthis ("Y-br.com.fiap.techchallange.core.entity.vo.Itemjava.lang.Objectjava.io.Serializable"o]
+[
+ (""
+#get-field# sku#get-field# sku*2&java.lang.Stringjava.lang.Object
+ (*`/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/core/entity/vo/Item.java

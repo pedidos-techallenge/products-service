@@ -1,0 +1,40 @@
+
+)
+nextIntjava.util.Random#nextInt(I)I(ÔC0<intjava.lang.Objectjava.lang.Numberjava.lang.IntegerQbound ("<intjava.lang.Objectjava.lang.Numberjava.lang.Integer:this ("&java.util.Randomjava.lang.Object:this ("&java.util.Randomjava.lang.ObjectQbound ("<intjava.lang.Objectjava.lang.Numberjava.lang.Integer"ì\
+Z
+ ("
+
+#binop <=#
+#binop <=#*2.booleanjava.lang.Booleanjava.lang.ObjectT"R
+ ( * (26
+#unknownÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ ÿÿÿÿÿÿÿÿÿ(ÿÿÿÿÿÿÿÿÿ"6
+#unknownÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ ÿÿÿÿÿÿÿÿÿ(ÿÿÿÿÿÿÿÿÿ"Ä
+Á
+ (*"
+#new-object##new-object#2”"java.lang.IllegalArgumentExceptionjava.lang.Throwablejava.lang.Objectjava.lang.RuntimeExceptionjava.lang.Exceptionjava.io.Serializable[
+Y
+ (*"F
+#instance-init#1java.lang.IllegalArgumentException#instance-init#(*8M
+K
+ (*"8
+<init>,java.lang.IllegalArgumentException#<init>()V(*82
+ (+" ("¶|
+z
+ ('result"&
+#dependent-value##dependent-value#2<intjava.lang.Objectjava.lang.Numberjava.lang.Integer\
+Z
+ ($	"
+
+#binop <=#
+#binop <=#*2.booleanjava.lang.Booleanjava.lang.Object/
+-
+ (%
+"
+#assume##assume#*	2voidZ
+X
+ ('"
+	#binop <#	#binop <#*2.booleanjava.lang.Booleanjava.lang.Object/
+-
+ (("
+#assume##assume#*2void
+ (" (*Random.java

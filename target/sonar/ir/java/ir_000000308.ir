@@ -1,0 +1,10 @@
+
+œ
+getFormattedCurrentNumber}br.com.fiap.techchallange.infrastructure.service.mock.SequentialNumberGenerator#getFormattedCurrentNumber()Ljava/lang/String; ¯2"%05d"&java.lang.Stringjava.lang.Objectythis (+"eObr.com.fiap.techchallange.infrastructure.service.mock.SequentialNumberGeneratorjava.lang.Objectythis (+"eObr.com.fiap.techchallange.infrastructure.service.mock.SequentialNumberGeneratorjava.lang.Object"·ˆ
+…
+% (2"6
+#get-field# currentNumber#get-field# currentNumber*2<intjava.lang.Objectjava.lang.Numberjava.lang.Integer™
+–
+ (3"\
+formatPjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;(*2&java.lang.Stringjava.lang.Object
+ (4*‚/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/infrastructure/service/mock/SequentialNumberGenerator.java

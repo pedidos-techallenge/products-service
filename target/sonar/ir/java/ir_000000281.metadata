@@ -1,0 +1,5 @@
+br.com.fiap.techchallange.core.usecase.managementproduct.RemoveProductUseCase#invoke(Ljava/lang/String;)V
+false
+d46b5bd65fed11227aa507936346be81
+==
+deleteProduct br.com.fiap.techchallange.adapters.gateways.repository.IProductRepository#deleteProduct(Ljava/lang/String;)V

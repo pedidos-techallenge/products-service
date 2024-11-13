@@ -1,0 +1,38 @@
+
+Æ
+invoke°br.com.fiap.techchallange.core.usecase.managementproduct.RegisterProductUseCase#invoke(Lbr/com/fiap/techchallange/core/usecase/dto/product/InputDataProductDTO;)V ÒëinputDataProductDTO (>"nFbr.com.fiap.techchallange.core.usecase.dto.product.InputDataProductDTOjava.lang.Recordjava.lang.Object⁄this ("≈Obr.com.fiap.techchallange.core.usecase.managementproduct.RegisterProductUseCase^br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IRegisterProductUseCasejava.lang.Object⁄this ("≈Obr.com.fiap.techchallange.core.usecase.managementproduct.RegisterProductUseCase^br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IRegisterProductUseCasejava.lang.ObjectëinputDataProductDTO (>"nFbr.com.fiap.techchallange.core.usecase.dto.product.InputDataProductDTOjava.lang.Recordjava.lang.Object"§í
+è
+	 (ƒproduct"
+#new-object##new-object#2Y-br.com.fiap.techchallange.core.entity.Productjava.lang.Objectjava.io.Serializablee
+c
+	 (ƒ"O
+#instance-init#<br.com.fiap.techchallange.core.entity.Product#instance-init#*8£
+†
+& (?"e
+sku^br.com.fiap.techchallange.core.usecase.dto.product.InputDataProductDTO#sku()Ljava/lang/String;*2&java.lang.Stringjava.lang.Object8•
+¢
+A (["g
+name_br.com.fiap.techchallange.core.usecase.dto.product.InputDataProductDTO#name()Ljava/lang/String;*2&java.lang.Stringjava.lang.Object8≥
+∞
+] (~"u
+descriptionfbr.com.fiap.techchallange.core.usecase.dto.product.InputDataProductDTO#description()Ljava/lang/String;*2&java.lang.Stringjava.lang.Object8æ
+ª
+
+Ä (£"h
+monetaryValueWbr.com.fiap.techchallange.core.usecase.dto.product.InputDataProductDTO#monetaryValue()F*2<floatjava.lang.Objectjava.lang.Numberjava.lang.Float8Ø
+¨
+
+• (√	"o
+categorycbr.com.fiap.techchallange.core.usecase.dto.product.InputDataProductDTO#category()Ljava/lang/String;*2&java.lang.Stringjava.lang.Object8∏
+µ
+	 (ƒ
+"õ
+<init>êbr.com.fiap.techchallange.core.entity.Product#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Float;Ljava/lang/String;)V*	8•
+¢
+ ("0
+#get-field# repository#get-field# repository*2_Ibr.com.fiap.techchallange.adapters.gateways.repository.IProductRepositoryjava.lang.ObjectΩ
+∫
+ (."ù
+createProductâbr.com.fiap.techchallange.adapters.gateways.repository.IProductRepository#createProduct(Lbr/com/fiap/techchallange/core/entity/Product;)V *2void8
+
+ (*Ç/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/core/usecase/managementproduct/RegisterProductUseCase.java

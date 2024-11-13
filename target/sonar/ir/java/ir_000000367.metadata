@@ -1,0 +1,5 @@
+br.com.fiap.techchallange.infrastructure.config.controller.managementproduct.ManagementProductControlerConfig#removeProductController(Lbr/com/fiap/techchallange/core/usecase/inputboundary/managementproduct/IRemoveProductUseCase;)Lbr/com/fiap/techchallange/adapters/controllers/managementproduct/IRemoveProductController;
+false
+5593d723c70359d8549c3bb869fd040c
+br.com.fiap.techchallange.adapters.controllers.managementproduct.RemoveProductController#<init>(Lbr/com/fiap/techchallange/core/usecase/inputboundary/managementproduct/IRemoveProductUseCase;)V
+br.com.fiap.techchallange.adapters.controllers.managementproduct.RemoveProductController#instance-init#
