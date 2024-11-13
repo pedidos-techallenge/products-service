@@ -4,32 +4,15 @@ on:
   push:
     branches:
       - main
+      - 'feature/*' 
   pull_request:
     branches:
       - main
+      - 'feature/*' 
 
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
-
-    services:
-      mysql:
-        image: mysql:latest
-        env:
-          MYSQL_ROOT_PASSWORD: root
-          MYSQL_DATABASE: dbtechchallange
-          MYSQL_USER: turmafiap
-          MYSQL_PASSWORD: Password123
-        ports:
-          - 3306:3306
-        options: >-
-          --health-cmd="mysqladmin ping -h localhost"
-          --health-interval=10s
-          --health-timeout=5s
-          --health-retries=3
-        volumes:
-          - ./docker/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -52,7 +35,30 @@ jobs:
         run: |
           mvn clean test -Dspring.profiles.active=test
 
-      - name: SonarCloud Analysis
+  sonarqube-analysis:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    needs: build-and-test 
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up JDK
+        uses: actions/setup-java@v2
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Cache Maven dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.m2
+          key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
+          restore-keys: |
+            ${{ runner.os }}-maven-
+
+      - name: SonarCloud Scan
         uses: sonarsource/sonarcloud-github-action@v2
         with:
           projectBaseDir: .
