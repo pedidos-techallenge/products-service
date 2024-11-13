@@ -57,9 +57,4 @@ class ItemTest {
         Item dynamicItem = new Item("orderDynamic", "SKUdynamic", 5, 8.0f);
         assertEquals(40.0f, dynamicItem.getAmount()); // 5 * 8.0f
     }
-
-    @Test
-    void testeReferencia() {
-        System.out.println("teste rodaram");
-    }
 }
