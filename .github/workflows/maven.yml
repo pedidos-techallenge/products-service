@@ -68,8 +68,10 @@ jobs:
             ${{ runner.os }}-maven-
 
       - name: SonarCloud Scan
-        uses: sonarsource/sonarcloud-github-action@v2
-        with:
-          projectBaseDir: .
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        run: |
+          mvn sonar:sonar \
+            -Dsonar.projectKey=pedidos-techallenge \
+            -Dsonar.organization=Pedidos-TechChallenge \
+            -Dsonar.host.url=https://sonarcloud.io
