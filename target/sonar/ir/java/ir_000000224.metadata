@@ -1,0 +1,9 @@
+br.com.fiap.techchallange.adapters.presenters.managementproduct.ProductManagementPresenter#presentList(Ljava/util/List;)Ljava/util/List;
+false
+8202e8457b5903c4d228753347e603c6
+br.com.fiap.techchallange.core.usecase.outputboundary.presenters.managementproduct.IProductManagementPresenter$ProductResponseModel#<init>(Lbr/com/fiap/techchallange/core/usecase/dto/product/OutputDataProductDTO;)V
+br.com.fiap.techchallange.core.usecase.outputboundary.presenters.managementproduct.IProductManagementPresenter$ProductResponseModel#instance-init#
+java.util.ArrayList#<init>()V
+java.util.ArrayList#instance-init#
+==
+add java.util.List#add(Ljava/lang/Object;)Z

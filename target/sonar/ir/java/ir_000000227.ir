@@ -1,0 +1,8 @@
+
+è
+ChangeNotAllowedOrderExceptionkbr.com.fiap.techchallange.core.entity.exceptions.ChangeNotAllowedOrderException#<init>(Ljava/lang/String;)V ò÷this (-"¡Obr.com.fiap.techchallange.core.entity.exceptions.ChangeNotAllowedOrderExceptionjava.lang.Throwablejava.lang.Objectjava.lang.RuntimeExceptionjava.lang.Exceptionjava.io.Serializable=message. (<"&java.lang.Stringjava.lang.Object÷this (-"¡Obr.com.fiap.techchallange.core.entity.exceptions.ChangeNotAllowedOrderExceptionjava.lang.Throwablejava.lang.Objectjava.lang.RuntimeExceptionjava.lang.Exceptionjava.io.Serializable=message. (<"&java.lang.Stringjava.lang.Object"›Ã
+…
+ ("C
+super6java.lang.RuntimeException#<init>(Ljava/lang/String;)V (*2pjava.lang.RuntimeExceptionjava.lang.Throwablejava.lang.Objectjava.lang.Exceptionjava.io.Serializable8
+
+ (	*Ç/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/core/entity/exceptions/ChangeNotAllowedOrderException.java

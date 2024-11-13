@@ -1,0 +1,74 @@
+
+ubr.com.fiap.techchallange.infrastructure.api.ManagementProduct#getProducts()Lorg/springframework/http/ResponseEntity;{
+q/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/infrastructure/api/ManagementProduct.java0 0(("7*J
+43 3(A";
+3 3(A/
+-
+%5'org.springframework.http.ResponseEntity*•
+5	2 2(˜c
+a
+	2 2(˜
+responsejava.util.List"__id*2
+
+__unknown_file (
+
+%3java.util.Lista
+_
+32 3(?)
+%4#org.springframework.http.HttpStatus"__id*"
+
+__unknown_file (
+""db
+3 3('-
+%5'org.springframework.http.ResponseEntity"'org.springframework.http.ResponseEntityÑ
+Î
+3 3(@
+%6"lorg.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatusCode;)V*K
+
+__unknown_file (/
+-
+%5'org.springframework.http.ResponseEntity*8
+
+__unknown_file (
+
+responsejava.util.List*G
+
+__unknown_file (+
+)
+%4#org.springframework.http.HttpStatus*
+4*Á
+6	2N 2(—«¨
+	2N 2(—
+%3java.util.List"œbr.com.fiap.techchallange.core.usecase.outputboundary.presenters.managementproduct.IProductManagementPresenter#presentList(Ljava/util/List;)Ljava/util/List;*’
+
+__unknown_file (v
+t
+%0nbr.com.fiap.techchallange.core.usecase.outputboundary.presenters.managementproduct.IProductManagementPresenter*2
+
+__unknown_file (
+
+%2java.util.List2presentList(Ljava/util/List;)*
+5*»
+72N 2(^ÿ
+ü
+2N 2(^t
+%0nbr.com.fiap.techchallange.core.usecase.outputboundary.presenters.managementproduct.IProductManagementPresenter"__id*t
+
+__unknown_file (X*V@
+>br.com.fiap.techchallange.infrastructure.api.ManagementProduct"
+productPresenterô
+ñ
+	2k 2(ˆ`
+%1Zbr.com.fiap.techchallange.adapters.controllers.managementproduct.IGetProductListController"__id*|
+
+__unknown_file (`*^@
+>br.com.fiap.techchallange.infrastructure.api.ManagementProduct"
+getProductListController­ª
+	2k 2(–
+%2java.util.List"xbr.com.fiap.techchallange.adapters.controllers.managementproduct.IGetProductListController#getProducts()Ljava/util/List;*~
+
+__unknown_file (b
+`
+%1Zbr.com.fiap.techchallange.adapters.controllers.managementproduct.IGetProductListController2getProducts()*
+6BB@
+>br.com.fiap.techchallange.infrastructure.api.ManagementProductH

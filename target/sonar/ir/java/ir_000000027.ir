@@ -1,0 +1,18 @@
+
+\
+	orElseGetMjava.util.Optional#orElseGet(Ljava/util/function/Supplier;)Ljava/lang/Object;(‰<thisf f("(java.util.Optionaljava.lang.ObjectIsupplierf f(3"1java.util.function.Supplierjava.lang.Object<thisf f("(java.util.Optionaljava.lang.ObjectIsupplierf f(3"1java.util.function.Supplierjava.lang.Object"Õs
+q
+g g(".
+	isPresentjava.util.Optional#isPresent()Z(*2.booleanjava.lang.Booleanjava.lang.Object8&"$
+g g( *g g(2g g( "6
+#unknownÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ ÿÿÿÿÿÿÿÿÿ(ÿÿÿÿÿÿÿÿÿ"`B
+@
+g g("&
+#get-field# value#get-field# value*2T 
+g g(O"g g("`B
+@
+g! g(O"&
+#dependent-value##dependent-value#*2T 
+g g(O"g! g(O"\*
+g g(P"6
+#unknownÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ ÿÿÿÿÿÿÿÿÿ(ÿÿÿÿÿÿÿÿÿ*Optional.java

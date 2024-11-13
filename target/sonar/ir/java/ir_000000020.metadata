@@ -1,0 +1,5 @@
+java.util.Random#nextInt(I)I
+true
+f38ec098e053d2687bf9724d5bbd4d5b
+java.lang.IllegalArgumentException#<init>()V
+java.lang.IllegalArgumentException#instance-init#

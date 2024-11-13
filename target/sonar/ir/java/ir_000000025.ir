@@ -1,0 +1,17 @@
+
+`
+orElseThrowOjava.util.Optional#orElseThrow(Ljava/util/function/Supplier;)Ljava/lang/Object;(’<thisq! q(,"(java.util.Optionaljava.lang.ObjectRexceptionSupplierq- q(T"1java.util.function.Supplierjava.lang.Object<thisq! q(,"(java.util.Optionaljava.lang.ObjectRexceptionSupplierq- q(T"1java.util.function.Supplierjava.lang.Object"ÿo
+m
+r r("*
+isEmptyjava.util.Optional#isEmpty()Z(*2.booleanjava.lang.Booleanjava.lang.Object8T"R
+r r( *r r(26
+#unknownÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ ÿÿÿÿÿÿÿÿÿ(ÿÿÿÿÿÿÿÿÿ"6
+#unknownÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ ÿÿÿÿÿÿÿÿÿ(ÿÿÿÿÿÿÿÿÿ"‚d
+b
+s s(#">
+get3java.util.function.Supplier#get()Ljava/lang/Object; (*2	!capture! 82
+s s($"r t("`B
+@
+u u("&
+#get-field# value#get-field# value*2T 
+u u("t t(*Optional.java

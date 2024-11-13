@@ -1,0 +1,5 @@
+br.com.fiap.techchallange.adapters.controllers.managementproduct.RemoveProductController#invoke(Ljava/lang/String;)V
+false
+0f92a61d33d12afe2f4cefa93dc055c9
+==
+invoke br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IRemoveProductUseCase#invoke(Ljava/lang/String;)V

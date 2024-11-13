@@ -1,0 +1,5 @@
+com.google.common.base.Preconditions#checkArgument(ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+true
+577fba44718e6935761846160c33d12d
+com.google.common.base.Preconditions$FakeIllegalArgumentException#<init>()V
+com.google.common.base.Preconditions$FakeIllegalArgumentException#instance-init#

@@ -1,0 +1,52 @@
+
+U__sonar_lambda_0$br.com.fiap.techchallange.infrastructure.config.EndpointConfigLoggerÅ
+w/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/infrastructure/config/EndpointConfigLogger.java (O"startingBlock*≠
+startingBlock (Oå
+â
+
+__unknown_file (a
+EndpointConfigLogger.thisDbr.com.fiap.techchallange.infrastructure.config.EndpointConfigLogger"__id*É
+
+__unknown_file (g*eF
+Dbr.com.fiap.techchallange.infrastructure.config.EndpointConfigLogger"
+EndpointConfigLogger.this*
+1*å
+1 (3ì
+ê
+ (3X
+%1Rorg.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping"__id*£
+
+__unknown_file (Ü*É
+a
+EndpointConfigLogger.thisDbr.com.fiap.techchallange.infrastructure.config.EndpointConfigLogger"
+requestMappingHandlerMappingòï
+ (G
+%2java.util.Map"gorg.springframework.web.servlet.handler.AbstractHandlerMethodMapping#getHandlerMethods()Ljava/util/Map;*v
+
+__unknown_file (Z
+X
+%1Rorg.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping2getHandlerMethods()º
+π
+ (N#
+%3java.util.function.BiConsumer"__declareFunction*u
+
+__unknown_file (YW
+U__sonar_lambda_1$br.com.fiap.techchallange.infrastructure.config.EndpointConfigLoggerÚÔ
+ (O
+
+%8void"7java.util.Map#forEach(Ljava/util/function/BiConsumer;)V*1
+
+__unknown_file (
+
+%2java.util.Map*A
+
+__unknown_file (%
+#
+%3java.util.function.BiConsumer2(forEach(Ljava/util/function/BiConsumer;)"
+ (O
+
+
+%8void:&
+ (
+argsjava.lang.String[]B.,
+*org.springframework.boot.CommandLineRunner

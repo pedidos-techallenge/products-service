@@ -1,0 +1,21 @@
+
+y
+Itemobr.com.fiap.techchallange.core.entity.vo.Item#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;F)V >order_id ("&java.lang.Stringjava.lang.Object½quantity- (="¤java.lang.Integerjava.lang.constant.Constablejava.lang.constant.ConstantDescjava.lang.Objectjava.lang.Comparablejava.lang.Numberjava.io.Serializable9sku! (+"&java.lang.Stringjava.lang.Objectmthis ("Y-br.com.fiap.techchallange.core.entity.vo.Itemjava.lang.Objectjava.io.SerializableU	unitValue? (N"<floatjava.lang.Objectjava.lang.Numberjava.lang.Floatmthis ("Y-br.com.fiap.techchallange.core.entity.vo.Itemjava.lang.Objectjava.io.Serializable>order_id ("&java.lang.Stringjava.lang.Object9sku! (+"&java.lang.Stringjava.lang.Object½quantity- (="¤java.lang.Integerjava.lang.constant.Constablejava.lang.constant.ConstantDescjava.lang.Objectjava.lang.Comparablejava.lang.Numberjava.io.SerializableU	unitValue? (N"<floatjava.lang.Objectjava.lang.Numberjava.lang.Float"°@
+>
+ ( ",
+#set-field# order_id#set-field# order_id*6
+4
+ (""
+#set-field# sku#set-field# sku*B
+@
+ ("".
+#set-field# unitValue#set-field# unitValue*|
+z
+ ("	"^
+setQuantityObr.com.fiap.techchallange.core.entity.vo.Item#setQuantity(Ljava/lang/Integer;)V*2void8d
+b
+ (
+"G
+	setAmount:br.com.fiap.techchallange.core.entity.vo.Item#setAmount()V*2void8
+
+ (*`/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/core/entity/vo/Item.java

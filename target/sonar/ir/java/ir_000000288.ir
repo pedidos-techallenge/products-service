@@ -1,0 +1,21 @@
+
+µ
+OutputDataProductDTOšbr.com.fiap.techchallange.core.usecase.dto.product.OutputDataProductDTO#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;FLjava/lang/String;)V Àqthis ("]Gbr.com.fiap.techchallange.core.usecase.dto.product.OutputDataProductDTOjava.lang.Object:name, (7"&java.lang.Stringjava.lang.Object9sku  (*"&java.lang.Stringjava.lang.Object>categoryZ (i"&java.lang.Stringjava.lang.ObjectAdescription9 (K"&java.lang.Stringjava.lang.ObjectQvalueM (X"<floatjava.lang.Objectjava.lang.Numberjava.lang.Floatqthis ("]Gbr.com.fiap.techchallange.core.usecase.dto.product.OutputDataProductDTOjava.lang.Object9sku  (*"&java.lang.Stringjava.lang.Object:name, (7"&java.lang.Stringjava.lang.ObjectAdescription9 (K"&java.lang.Stringjava.lang.ObjectQvalueM (X"<floatjava.lang.Objectjava.lang.Numberjava.lang.Float>categoryZ (i"&java.lang.Stringjava.lang.Object"æŒ
+‰
+ ("m
+setSkucbr.com.fiap.techchallange.core.usecase.dto.product.OutputDataProductDTO#setSku(Ljava/lang/String;)V*2void8Ž
+‹
+ ("o
+setNamedbr.com.fiap.techchallange.core.usecase.dto.product.OutputDataProductDTO#setName(Ljava/lang/String;)V*2void8œ
+™
+ ((	"}
+setDescriptionkbr.com.fiap.techchallange.core.usecase.dto.product.OutputDataProductDTO#setDescription(Ljava/lang/String;)V*2void8~
+|
+ (
+"`
+setValueTbr.com.fiap.techchallange.core.usecase.dto.product.OutputDataProductDTO#setValue(F)V*2void8–
+“
+ (""w
+setCategoryhbr.com.fiap.techchallange.core.usecase.dto.product.OutputDataProductDTO#setCategory(Ljava/lang/String;)V*2void8
+
+ (*z/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/core/usecase/dto/product/OutputDataProductDTO.java
