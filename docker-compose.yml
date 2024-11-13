@@ -9,7 +9,8 @@ services:
       MYSQL_USER: turmafiap
       MYSQL_PASSWORD: Password123
     volumes:
-      - ./docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
+      - db_data_tech:/var/lib/mysql
+      - ./docker/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
     ports:
       - "3306:3306"
     healthcheck:
@@ -23,7 +24,7 @@ services:
   pedido:
     container_name: applicationOrder
     build:
-      context: ../
+      context: ./
       dockerfile: docker/Dockerfile
     depends_on:
       db:
@@ -32,9 +33,18 @@ services:
       SPRING_PROFILES_ACTIVE: dev
     ports:
       - "8080:8080"
-    command: [ "dockerize", "-wait", "tcp://db:3306", "-timeout", "30s", "java", "-jar", "app.jar" ]
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+#command: [ "dockerize", "-wait", "tcp://db:3306", "-timeout", "30s", "java", "-jar", "app.jar" ]
+      interval: 30s
+      timeout: 5s
+      retries: 3
     networks:
       - backend
+
+volumes:
+  db_data_tech:
+    driver: local
 
 networks:
   backend:
