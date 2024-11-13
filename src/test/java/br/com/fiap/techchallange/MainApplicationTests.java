@@ -9,7 +9,8 @@ class MainApplicationTests {
 	@Test
 	void contextLoads() {
 		assertTrue(true, "O teste sempre será verdadeiro");
-		System.out.println("O teste foi executado com sucesso.");
+		System.out.println("O teste foi executado com sucesso testesss.");
+
 	}
 
 }
