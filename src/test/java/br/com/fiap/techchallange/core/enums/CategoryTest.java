@@ -18,6 +18,8 @@ class CategoryTest {
     void testFromValueInvalid() {
         String invalidCategory = "InvalidCategory";
 
+
+
         IllegalArgumentException thrown = assertThrows(IllegalArgumentException.class, () -> {
             Category.fromValue(invalidCategory);
         });
