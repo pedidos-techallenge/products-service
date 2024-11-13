@@ -4,7 +4,7 @@ import br.com.fiap.techchallange.core.entity.enums.Category;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-class CategoryTest {
+class CategoryTests {
 
     @Test
     void testFromValueValid() {

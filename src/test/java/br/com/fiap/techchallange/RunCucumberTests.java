@@ -10,5 +10,5 @@ import io.cucumber.junit.CucumberOptions;
         glue = "br.com.fiap.techchallange.steps",
         plugin = {"pretty", "html:target/cucumber-report.html"}
 )
-public class RunCucumberTest {
+public class RunCucumberTests {
 }

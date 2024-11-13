@@ -15,64 +15,64 @@ public class Product implements Serializable {
     MonetaryValue monetaryValue;
     Category category;
 
-<span class="nc" id="L18">    public Product(String sku, String name, String description, Float monetaryValue, String category) {</span>
-<span class="nc" id="L19">        this.setSku(sku);</span>
-<span class="nc" id="L20">        this.setName(name);</span>
-<span class="nc" id="L21">        this.setDescription(description);</span>
-<span class="nc" id="L22">        this.setMonetaryValue(monetaryValue);</span>
-<span class="nc" id="L23">        this.setCategory(category);</span>
-<span class="nc" id="L24">    }</span>
+<span class="fc" id="L18">    public Product(String sku, String name, String description, Float monetaryValue, String category) {</span>
+<span class="fc" id="L19">        this.setSku(sku);</span>
+<span class="fc" id="L20">        this.setName(name);</span>
+<span class="fc" id="L21">        this.setDescription(description);</span>
+<span class="fc" id="L22">        this.setMonetaryValue(monetaryValue);</span>
+<span class="fc" id="L23">        this.setCategory(category);</span>
+<span class="fc" id="L24">    }</span>
 
     private void setSku(String sku) {
-<span class="nc" id="L27">        checkValue(sku, &quot;sku&quot;);</span>
-<span class="nc" id="L28">        this.sku = sku;</span>
-<span class="nc" id="L29">    }</span>
+<span class="fc" id="L27">        checkValue(sku, &quot;sku&quot;);</span>
+<span class="fc" id="L28">        this.sku = sku;</span>
+<span class="fc" id="L29">    }</span>
 
     private void setName(String name) {
-<span class="nc" id="L32">        checkValue(name, &quot;name&quot;);</span>
-<span class="nc" id="L33">        this.name = name;</span>
-<span class="nc" id="L34">    }</span>
+<span class="fc" id="L32">        checkValue(name, &quot;name&quot;);</span>
+<span class="fc" id="L33">        this.name = name;</span>
+<span class="fc" id="L34">    }</span>
 
     private void setDescription(String description) {
-<span class="nc" id="L37">        checkValue(description, &quot;description&quot;);</span>
-<span class="nc" id="L38">        this.description = description;</span>
-<span class="nc" id="L39">    }</span>
+<span class="fc" id="L37">        checkValue(description, &quot;description&quot;);</span>
+<span class="fc" id="L38">        this.description = description;</span>
+<span class="fc" id="L39">    }</span>
 
     private void setMonetaryValue(float monetaryValue) {
-<span class="nc" id="L42">        this.monetaryValue = new MonetaryValue(new BigDecimal(monetaryValue));</span>
-<span class="nc" id="L43">    }</span>
+<span class="fc" id="L42">        this.monetaryValue = new MonetaryValue(new BigDecimal(monetaryValue));</span>
+<span class="fc" id="L43">    }</span>
 
     private void setCategory(String category) {
-<span class="nc" id="L46">        checkValue(category, &quot;category&quot;);</span>
-<span class="nc" id="L47">        Category.fromValue(category);</span>
-<span class="nc" id="L48">        this.category = Category.fromValue(category);</span>
-<span class="nc" id="L49">    }</span>
+<span class="fc" id="L46">        checkValue(category, &quot;category&quot;);</span>
+<span class="fc" id="L47">        Category.fromValue(category);</span>
+<span class="fc" id="L48">        this.category = Category.fromValue(category);</span>
+<span class="fc" id="L49">    }</span>
 
     private void checkValue(String string, String nameVariable){
-<span class="nc bnc" id="L52" title="All 4 branches missed.">        if(string == null || string.isEmpty())</span>
-<span class="nc" id="L53">            throw new IllegalArgumentException(</span>
+<span class="pc bpc" id="L52" title="1 of 4 branches missed.">        if(string == null || string.isEmpty())</span>
+<span class="fc" id="L53">            throw new IllegalArgumentException(</span>
                     nameVariable + &quot; cannot be empty&quot;
             );
-<span class="nc" id="L56">    }</span>
+<span class="fc" id="L56">    }</span>
 
     public float getMonetaryValue() {
-<span class="nc" id="L59">        return monetaryValue.getValue();</span>
+<span class="fc" id="L59">        return monetaryValue.getValue();</span>
     }
 
     public String getSku() {
-<span class="nc" id="L63">        return sku;</span>
+<span class="fc" id="L63">        return sku;</span>
     }
 
     public String getName() {
-<span class="nc" id="L67">        return name;</span>
+<span class="fc" id="L67">        return name;</span>
     }
 
     public String getDescription() {
-<span class="nc" id="L71">        return description;</span>
+<span class="fc" id="L71">        return description;</span>
     }
 
     public String getCategory() {
-<span class="nc" id="L75">        return category.getValue();</span>
+<span class="fc" id="L75">        return category.getValue();</span>
     }
 
 

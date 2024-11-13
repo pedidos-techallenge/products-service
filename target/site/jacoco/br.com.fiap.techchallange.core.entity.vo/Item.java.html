@@ -10,51 +10,51 @@ public class Item implements Serializable {
     float unitValue;
     float amount;
 
-<span class="nc" id="L13">    public Item(String order_id, String sku, Integer quantity, float unitValue) {</span>
+<span class="fc" id="L13">    public Item(String order_id, String sku, Integer quantity, float unitValue) {</span>
 
-<span class="nc" id="L15">        this.order_id = order_id;</span>
-<span class="nc" id="L16">        this.sku = sku;</span>
-<span class="nc" id="L17">        this.unitValue = unitValue;</span>
-<span class="nc" id="L18">        this.setQuantity(quantity);</span>
-<span class="nc" id="L19">        this.setAmount();</span>
-<span class="nc" id="L20">    }</span>
+<span class="fc" id="L15">        this.order_id = order_id;</span>
+<span class="fc" id="L16">        this.sku = sku;</span>
+<span class="fc" id="L17">        this.unitValue = unitValue;</span>
+<span class="fc" id="L18">        this.setQuantity(quantity);</span>
+<span class="fc" id="L19">        this.setAmount();</span>
+<span class="fc" id="L20">    }</span>
 
     public String getOrder_id() {
-<span class="nc" id="L23">        return order_id;</span>
+<span class="fc" id="L23">        return order_id;</span>
     }
 
     public String getSku() {
-<span class="nc" id="L27">        return sku;</span>
+<span class="fc" id="L27">        return sku;</span>
     }
 
     public Integer getQuantity() {
-<span class="nc" id="L31">        return quantity;</span>
+<span class="fc" id="L31">        return quantity;</span>
     }
 
     public float getUnitValue(){
-<span class="nc" id="L35">        return this.unitValue;</span>
+<span class="fc" id="L35">        return this.unitValue;</span>
     }
 
     private void setQuantity(Integer quantity) {
-<span class="nc bnc" id="L39" title="All 2 branches missed.">        if(quantity &lt;= 0){</span>
-<span class="nc" id="L40">            throw new IllegalArgumentException(</span>
+<span class="fc bfc" id="L39" title="All 2 branches covered.">        if(quantity &lt;= 0){</span>
+<span class="fc" id="L40">            throw new IllegalArgumentException(</span>
                     &quot;quantity of item cannot be less than or equal to zero&quot;
             );
         }
-<span class="nc" id="L44">            this.quantity = quantity;</span>
-<span class="nc" id="L45">    }</span>
+<span class="fc" id="L44">            this.quantity = quantity;</span>
+<span class="fc" id="L45">    }</span>
 
     private void setSKU(String sku){
 <span class="nc" id="L48">        this.sku = sku;</span>
 <span class="nc" id="L49">    }</span>
 
     public float getAmount() {
-<span class="nc" id="L52">        return amount;</span>
+<span class="fc" id="L52">        return amount;</span>
     }
 
     private void setAmount() {
-<span class="nc" id="L56">        this.amount = this.unitValue * this.quantity ;</span>
-<span class="nc" id="L57">    }</span>
+<span class="fc" id="L56">        this.amount = this.unitValue * this.quantity ;</span>
+<span class="fc" id="L57">    }</span>
 
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>

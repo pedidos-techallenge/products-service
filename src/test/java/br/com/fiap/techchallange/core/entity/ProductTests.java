@@ -1,14 +1,12 @@
 package br.com.fiap.techchallange.core.entity;
 
-import br.com.fiap.techchallange.core.entity.Product;
 import br.com.fiap.techchallange.core.entity.enums.Category;
-import br.com.fiap.techchallange.core.entity.vo.MonetaryValue;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class ProductTest {
+class ProductTests {
 
     private Product product;
 

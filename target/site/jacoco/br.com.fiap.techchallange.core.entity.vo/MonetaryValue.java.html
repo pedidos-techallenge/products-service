@@ -7,10 +7,10 @@ public class MonetaryValue implements Serializable {
     private BigDecimal value;
     private String currency;
 
-<span class="nc" id="L10">    public MonetaryValue(BigDecimal amount) {</span>
-<span class="nc" id="L11">        this.setValue(amount);</span>
-<span class="nc" id="L12">        this.setCurrency(&quot;BRL&quot;);</span>
-<span class="nc" id="L13">    }</span>
+<span class="fc" id="L10">    public MonetaryValue(BigDecimal amount) {</span>
+<span class="fc" id="L11">        this.setValue(amount);</span>
+<span class="fc" id="L12">        this.setCurrency(&quot;BRL&quot;);</span>
+<span class="fc" id="L13">    }</span>
 
 <span class="nc" id="L15">    public MonetaryValue(BigDecimal amount, String currency) {</span>
 <span class="nc" id="L16">        this.setValue(amount);</span>
@@ -18,24 +18,24 @@ public class MonetaryValue implements Serializable {
 <span class="nc" id="L18">    }</span>
 
     public float getValue() {
-<span class="nc" id="L21">        return value.floatValue();</span>
+<span class="fc" id="L21">        return value.floatValue();</span>
     }
 
     private void setValue(BigDecimal amount) {
-<span class="nc bnc" id="L25" title="All 2 branches missed.">        if(amount.floatValue() &lt; 0){</span>
+<span class="pc bpc" id="L25" title="1 of 2 branches missed.">        if(amount.floatValue() &lt; 0){</span>
 <span class="nc" id="L26">            throw new IllegalArgumentException(</span>
                     &quot;amount of MonetaryValue cannot be less than to zero&quot;
             );
         }
-<span class="nc" id="L30">        this.value = amount;</span>
-<span class="nc" id="L31">    }</span>
+<span class="fc" id="L30">        this.value = amount;</span>
+<span class="fc" id="L31">    }</span>
 
     public String getCurrency() {
 <span class="nc" id="L34">        return currency;</span>
     }
 
     private void setCurrency(String currency) {
-<span class="nc" id="L38">        this.currency = currency;</span>
-<span class="nc" id="L39">    }</span>
+<span class="fc" id="L38">        this.currency = currency;</span>
+<span class="fc" id="L39">    }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>
