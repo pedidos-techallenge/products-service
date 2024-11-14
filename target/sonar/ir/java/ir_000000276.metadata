@@ -1,5 +1,5 @@
 br.com.fiap.techchallange.adapters.controllers.managementproduct.GetProductBySkuController#invoke(Ljava/lang/String;)Lbr/com/fiap/techchallange/core/usecase/dto/product/OutputDataProductDTO;
 false
-3c900a6a1e4889776a3ced0c35322170
+0eb62975751d0da819268c1861b75e85
 ==
 get br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IGetProductBySkuUseCase#get(Ljava/lang/String;)Lbr/com/fiap/techchallange/core/usecase/dto/product/OutputDataProductDTO;

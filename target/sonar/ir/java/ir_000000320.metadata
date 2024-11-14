@@ -1,5 +1,5 @@
 br.com.fiap.techchallange.core.entity.vo.Item#setQuantity(Ljava/lang/Integer;)V
 false
-1d7d5fdc5e6455312520f7582e1ad1a0
+890a7005fce9e28fcf82543db2e7182a
 java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V
 java.lang.IllegalArgumentException#instance-init#

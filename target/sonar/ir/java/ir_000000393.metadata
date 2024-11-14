@@ -1,6 +1,6 @@
 br.com.fiap.techchallange.infrastructure.bd.MySQLProductRepository#getProductsByCategory(Ljava/lang/String;)Ljava/util/List;
 false
-8b86e31fc1c72448782a91d523de2cd6
+67f209707427e16a53656c1016cfef60
 org.springframework.jdbc.core.namedparam.MapSqlParameterSource#<init>()V
 org.springframework.jdbc.core.namedparam.MapSqlParameterSource#instance-init#
 ==

@@ -3,5 +3,5 @@ projectKey=pedidos-techallenge_products-service
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.57675
 dashboardUrl=https://sonarcloud.io/dashboard?id=pedidos-techallenge_products-service
-ceTaskId=AZMn5wOV8y8mhoaiqSVo
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZMn5wOV8y8mhoaiqSVo
+ceTaskId=AZMn86OHRSc6Z1f1wbVq
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZMn86OHRSc6Z1f1wbVq

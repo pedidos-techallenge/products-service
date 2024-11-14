@@ -1,7 +1,7 @@
 
 …
-getProductBySkuUseCase¨br.com.fiap.techchallange.infrastructure.config.usecase.managementproduct.ManagementProductUseCaseConfig#getProductBySkuUseCase(Lbr/com/fiap/techchallange/adapters/gateways/repository/IProductRepository;)Lbr/com/fiap/techchallange/core/usecase/inputboundary/managementproduct/IGetProductBySkuUseCase; êy
-repository: (W"_Ibr.com.fiap.techchallange.adapters.gateways.repository.IProductRepositoryjava.lang.Objectíthis# (9"~hbr.com.fiap.techchallange.infrastructure.config.usecase.managementproduct.ManagementProductUseCaseConfigjava.lang.Objectíthis# (9"~hbr.com.fiap.techchallange.infrastructure.config.usecase.managementproduct.ManagementProductUseCaseConfigjava.lang.Objecty
+getProductBySkuUseCase¨br.com.fiap.techchallange.infrastructure.config.usecase.managementproduct.ManagementProductUseCaseConfig#getProductBySkuUseCase(Lbr/com/fiap/techchallange/adapters/gateways/repository/IProductRepository;)Lbr/com/fiap/techchallange/core/usecase/inputboundary/managementproduct/IGetProductBySkuUseCase; êíthis# (9"~hbr.com.fiap.techchallange.infrastructure.config.usecase.managementproduct.ManagementProductUseCaseConfigjava.lang.Objecty
+repository: (W"_Ibr.com.fiap.techchallange.adapters.gateways.repository.IProductRepositoryjava.lang.Objectíthis# (9"~hbr.com.fiap.techchallange.infrastructure.config.usecase.managementproduct.ManagementProductUseCaseConfigjava.lang.Objecty
 repository: (W"_Ibr.com.fiap.techchallange.adapters.gateways.repository.IProductRepositoryjava.lang.Object"‹ı
 Ú
  (5"
