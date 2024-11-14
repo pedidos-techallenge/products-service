@@ -1,9 +1,9 @@
 
 X
-toStringJbr.com.fiap.techchallange.core.entity.Product#toString()Ljava/lang/String; äI'\''?charjava.lang.Characterjava.lang.Numberjava.lang.Object:", category='"&java.lang.Stringjava.lang.Object6
+toStringJbr.com.fiap.techchallange.core.entity.Product#toString()Ljava/lang/String; ä6
 ", name='"&java.lang.Stringjava.lang.Object6
-"Product{"&java.lang.Stringjava.lang.Object=", description='"&java.lang.Stringjava.lang.Object3"sku='"&java.lang.Stringjava.lang.Object>
-", monetaryValue="&java.lang.Stringjava.lang.ObjectH'}'?charjava.lang.Characterjava.lang.Numberjava.lang.ObjectmthisQ Q("Y-br.com.fiap.techchallange.core.entity.Productjava.lang.Objectjava.io.SerializablemthisQ Q("Y-br.com.fiap.techchallange.core.entity.Productjava.lang.Objectjava.io.Serializable"»]
+"Product{"&java.lang.Stringjava.lang.Object3"sku='"&java.lang.Stringjava.lang.Object=", description='"&java.lang.Stringjava.lang.ObjectH'}'?charjava.lang.Characterjava.lang.Objectjava.lang.Number:", category='"&java.lang.Stringjava.lang.Object>
+", monetaryValue="&java.lang.Stringjava.lang.ObjectI'\''?charjava.lang.Characterjava.lang.Objectjava.lang.NumbermthisQ Q("Y-br.com.fiap.techchallange.core.entity.Productjava.lang.Objectjava.io.SerializablemthisQ Q("Y-br.com.fiap.techchallange.core.entity.Productjava.lang.Objectjava.io.Serializable"»]
 [
 S S(""
 #get-field# sku#get-field# sku*2&java.lang.Stringjava.lang.Object_
@@ -18,7 +18,7 @@ k
 #get-field# monetaryValue#get-field# monetaryValue*2b6br.com.fiap.techchallange.core.entity.vo.MonetaryValuejava.lang.Objectjava.io.Serializable¤
 ¡
 V% V(="P
-getValueBbr.com.fiap.techchallange.core.entity.vo.MonetaryValue#getValue()F *2<floatjava.lang.Objectjava.lang.Numberjava.lang.Float8ç
+getValueBbr.com.fiap.techchallange.core.entity.vo.MonetaryValue#getValue()F *2<floatjava.lang.Objectjava.lang.Floatjava.lang.Number8ç
 ä
 W! W()",
 #get-field# category#get-field# category*2¤4br.com.fiap.techchallange.core.entity.enums.Categoryjava.lang.constant.Constablejava.lang.Enumjava.lang.Objectjava.lang.Comparablejava.io.Serializable8

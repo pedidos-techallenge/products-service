@@ -12,18 +12,18 @@ public class MonetaryValue implements Serializable {
 <span class="fc" id="L12">        this.setCurrency(&quot;BRL&quot;);</span>
 <span class="fc" id="L13">    }</span>
 
-<span class="nc" id="L15">    public MonetaryValue(BigDecimal amount, String currency) {</span>
-<span class="nc" id="L16">        this.setValue(amount);</span>
-<span class="nc" id="L17">        this.setCurrency(currency);</span>
-<span class="nc" id="L18">    }</span>
+<span class="fc" id="L15">    public MonetaryValue(BigDecimal amount, String currency) {</span>
+<span class="fc" id="L16">        this.setValue(amount);</span>
+<span class="fc" id="L17">        this.setCurrency(currency);</span>
+<span class="fc" id="L18">    }</span>
 
     public float getValue() {
 <span class="fc" id="L21">        return value.floatValue();</span>
     }
 
     private void setValue(BigDecimal amount) {
-<span class="pc bpc" id="L25" title="1 of 2 branches missed.">        if(amount.floatValue() &lt; 0){</span>
-<span class="nc" id="L26">            throw new IllegalArgumentException(</span>
+<span class="fc bfc" id="L25" title="All 2 branches covered.">        if(amount.floatValue() &lt; 0){</span>
+<span class="fc" id="L26">            throw new IllegalArgumentException(</span>
                     &quot;amount of MonetaryValue cannot be less than to zero&quot;
             );
         }
@@ -31,7 +31,7 @@ public class MonetaryValue implements Serializable {
 <span class="fc" id="L31">    }</span>
 
     public String getCurrency() {
-<span class="nc" id="L34">        return currency;</span>
+<span class="fc" id="L34">        return currency;</span>
     }
 
     private void setCurrency(String currency) {

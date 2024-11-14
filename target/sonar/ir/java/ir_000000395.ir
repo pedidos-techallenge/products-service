@@ -1,7 +1,7 @@
 
 ¨
 updateProduct”br.com.fiap.techchallange.infrastructure.bd.MySQLProductRepository#updateProduct(Ljava/lang/String;Lbr/com/fiap/techchallange/core/entity/Product;)V °6
-"category"&java.lang.Stringjava.lang.ObjectM!" UPDATE dbtechchallange.product"&java.lang.Stringjava.lang.Object9"description"&java.lang.Stringjava.lang.Object.""&java.lang.Stringjava.lang.ObjectyM" SET name=:name, description=:description, price=:price, category=:category"&java.lang.Stringjava.lang.Object2"name"&java.lang.Stringjava.lang.Object=" WHERE sku=:sku"&java.lang.Stringjava.lang.Object3"price"&java.lang.Stringjava.lang.Object1"sku"&java.lang.Stringjava.lang.Objectpproductm* m(9"Y-br.com.fiap.techchallange.core.entity.Productjava.lang.Objectjava.io.Serializable9skum m(("&java.lang.Stringjava.lang.Object¸thism m("£Bbr.com.fiap.techchallange.infrastructure.bd.MySQLProductRepositoryjava.lang.ObjectIbr.com.fiap.techchallange.adapters.gateways.repository.IProductRepository¸thism m("£Bbr.com.fiap.techchallange.infrastructure.bd.MySQLProductRepositoryjava.lang.ObjectIbr.com.fiap.techchallange.adapters.gateways.repository.IProductRepository9skum m(("&java.lang.Stringjava.lang.Objectpproductm* m(9"Y-br.com.fiap.techchallange.core.entity.Productjava.lang.Objectjava.io.Serializable"½1
+"category"&java.lang.Stringjava.lang.Object2"name"&java.lang.Stringjava.lang.Object9"description"&java.lang.Stringjava.lang.Object.""&java.lang.Stringjava.lang.ObjectyM" SET name=:name, description=:description, price=:price, category=:category"&java.lang.Stringjava.lang.Object=" WHERE sku=:sku"&java.lang.Stringjava.lang.Object3"price"&java.lang.Stringjava.lang.Object1"sku"&java.lang.Stringjava.lang.ObjectM!" UPDATE dbtechchallange.product"&java.lang.Stringjava.lang.Object¸thism m("£Bbr.com.fiap.techchallange.infrastructure.bd.MySQLProductRepositoryjava.lang.ObjectIbr.com.fiap.techchallange.adapters.gateways.repository.IProductRepositorypproductm* m(9"Y-br.com.fiap.techchallange.core.entity.Productjava.lang.Objectjava.io.Serializable9skum m(("&java.lang.Stringjava.lang.Object¸thism m("£Bbr.com.fiap.techchallange.infrastructure.bd.MySQLProductRepositoryjava.lang.ObjectIbr.com.fiap.techchallange.adapters.gateways.repository.IProductRepository9skum m(("&java.lang.Stringjava.lang.Objectpproductm* m(9"Y-br.com.fiap.techchallange.core.entity.Productjava.lang.Objectjava.io.Serializable"½1
 /
 n q(!sql"
 	#binop +#	#binop +#*Ž
@@ -32,7 +32,7 @@ e
 addValue­org.springframework.jdbc.core.namedparam.MapSqlParameterSource#addValue(Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/jdbc/core/namedparam/MapSqlParameterSource; *	2Ö>org.springframework.jdbc.core.namedparam.MapSqlParameterSourceCorg.springframework.jdbc.core.namedparam.AbstractSqlParameterSource;org.springframework.jdbc.core.namedparam.SqlParameterSourcejava.lang.Object8«
 ¨
 v! v(;"W
-getMonetaryValueAbr.com.fiap.techchallange.core.entity.Product#getMonetaryValue()F *2<floatjava.lang.Objectjava.lang.Numberjava.lang.Float8®
+getMonetaryValueAbr.com.fiap.techchallange.core.entity.Product#getMonetaryValue()F *2<floatjava.lang.Objectjava.lang.Floatjava.lang.Number8®
 «
 v v(<"¼
 addValue­org.springframework.jdbc.core.namedparam.MapSqlParameterSource#addValue(Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/jdbc/core/namedparam/MapSqlParameterSource; *	2Ö>org.springframework.jdbc.core.namedparam.MapSqlParameterSourceCorg.springframework.jdbc.core.namedparam.AbstractSqlParameterSource;org.springframework.jdbc.core.namedparam.SqlParameterSourcejava.lang.Object8œ
@@ -47,6 +47,6 @@ e
 &#get-field# namedParameterJdbcTemplate&#get-field# namedParameterJdbcTemplate*2 Corg.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplatejava.lang.ObjectEorg.springframework.jdbc.core.namedparam.NamedParameterJdbcOperations€
 ý
 x x(6"©
-updateœorg.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate#update(Ljava/lang/String;Lorg/springframework/jdbc/core/namedparam/SqlParameterSource;)I *	2<intjava.lang.Objectjava.lang.Numberjava.lang.Integer8
+updateœorg.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate#update(Ljava/lang/String;Lorg/springframework/jdbc/core/namedparam/SqlParameterSource;)I *	2<intjava.lang.Objectjava.lang.Integerjava.lang.Number8
 
 y y(*u/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/infrastructure/bd/MySQLProductRepository.java

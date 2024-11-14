@@ -1,5 +1,5 @@
 br.com.fiap.techchallange.infrastructure.config.usecase.managementproduct.ManagementProductUseCaseConfig#updateProductUseCase(Lbr/com/fiap/techchallange/adapters/gateways/repository/IProductRepository;)Lbr/com/fiap/techchallange/core/usecase/inputboundary/managementproduct/IUpdateProductUseCase;
 false
-c5611bf720b9e19a53478c5d2b88d9ce
+706f704ea56faf9205790ec68d01cd97
 br.com.fiap.techchallange.core.usecase.managementproduct.UpdateProductUseCase#<init>(Lbr/com/fiap/techchallange/adapters/gateways/repository/IProductRepository;)V
 br.com.fiap.techchallange.core.usecase.managementproduct.UpdateProductUseCase#instance-init#

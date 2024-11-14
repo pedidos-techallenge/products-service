@@ -1,13 +1,13 @@
 
 d
-setValueXbr.com.fiap.techchallange.core.entity.vo.MonetaryValue#setValue(Ljava/math/BigDecimal;)V a5"amount of MonetaryValue cannot be less than to zero"&java.lang.Stringjava.lang.ObjectC0<intjava.lang.Objectjava.lang.Numberjava.lang.Integervthis ("b6br.com.fiap.techchallange.core.entity.vo.MonetaryValuejava.lang.Objectjava.io.Serializable~amount (+"hjava.math.BigDecimaljava.lang.Objectjava.lang.Comparablejava.lang.Numberjava.io.Serializablevthis ("b6br.com.fiap.techchallange.core.entity.vo.MonetaryValuejava.lang.Objectjava.io.Serializable~amount (+"hjava.math.BigDecimaljava.lang.Objectjava.lang.Comparablejava.lang.Numberjava.io.Serializable"½ˆ
+setValueXbr.com.fiap.techchallange.core.entity.vo.MonetaryValue#setValue(Ljava/math/BigDecimal;)V C0<intjava.lang.Objectjava.lang.Integerjava.lang.Numbera5"amount of MonetaryValue cannot be less than to zero"&java.lang.Stringjava.lang.Objectvthis ("b6br.com.fiap.techchallange.core.entity.vo.MonetaryValuejava.lang.Objectjava.io.Serializable~amount (+"hjava.math.BigDecimaljava.lang.Objectjava.lang.Comparablejava.lang.Numberjava.io.Serializablevthis ("b6br.com.fiap.techchallange.core.entity.vo.MonetaryValuejava.lang.Objectjava.io.Serializable~amount (+"hjava.math.BigDecimaljava.lang.Objectjava.lang.Comparablejava.lang.Numberjava.io.Serializable"½ˆ
 …
  ("4
 
-floatValue"java.math.BigDecimal#floatValue()F (*2<floatjava.lang.Objectjava.lang.Numberjava.lang.Float8Z
+floatValue"java.math.BigDecimal#floatValue()F (*2<floatjava.lang.Objectjava.lang.Floatjava.lang.Number8Z
 X
  (""
-	#binop <#	#binop <#*2.booleanjava.lang.Booleanjava.lang.ObjectT"R
+	#binop <#	#binop <#*2.booleanjava.lang.Objectjava.lang.BooleanT"R
  (" * (
 26
 #unknownÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ ÿÿÿÿÿÿÿÿÿ(ÿÿÿÿÿÿÿÿÿ" Ä

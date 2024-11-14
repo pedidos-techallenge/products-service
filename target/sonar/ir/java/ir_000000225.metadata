@@ -1,5 +1,5 @@
 br.com.fiap.techchallange.adapters.presenters.managementproduct.ProductManagementPresenter#present(Lbr/com/fiap/techchallange/core/usecase/dto/product/OutputDataProductDTO;)Lbr/com/fiap/techchallange/core/usecase/outputboundary/presenters/managementproduct/IProductManagementPresenter$ProductResponseModel;
 false
-552af6adde07ba0126a58e652c77d30c
+ea802a91550abc56628c0f2cc6c10fb8
 br.com.fiap.techchallange.core.usecase.outputboundary.presenters.managementproduct.IProductManagementPresenter$ProductResponseModel#<init>(Lbr/com/fiap/techchallange/core/usecase/dto/product/OutputDataProductDTO;)V
 br.com.fiap.techchallange.core.usecase.outputboundary.presenters.managementproduct.IProductManagementPresenter$ProductResponseModel#instance-init#

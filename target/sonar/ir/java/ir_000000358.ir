@@ -3,5 +3,5 @@ Q
 amountEbr.com.fiap.techchallange.infrastructure.dto.ItemRequestDTO#amount()F }{this ("g;br.com.fiap.techchallange.infrastructure.dto.ItemRequestDTOjava.lang.Objectjava.io.Serializable{this ("g;br.com.fiap.techchallange.infrastructure.dto.ItemRequestDTOjava.lang.Objectjava.io.Serializable"‹y
 w
  ("(
-#get-field# amount#get-field# amount*2<floatjava.lang.Objectjava.lang.Numberjava.lang.Float
+#get-field# amount#get-field# amount*2<floatjava.lang.Objectjava.lang.Floatjava.lang.Number
  (*n/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/infrastructure/dto/ItemRequestDTO.java

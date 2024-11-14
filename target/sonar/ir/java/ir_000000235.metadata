@@ -1,6 +1,6 @@
 br.com.fiap.techchallange.core.entity.vo.MonetaryValue#setValue(Ljava/math/BigDecimal;)V
 false
-08d6d98005502758a9703ca90c03a54c
+b43b11d800c556a70aaf2a6dcaec707b
 java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V
 java.lang.IllegalArgumentException#instance-init#
 ==

@@ -1,6 +1,6 @@
 br.com.fiap.techchallange.adapters.controllers.managementproduct.RegisterProductController#invoke(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;FLjava/lang/String;)V
 false
-e79f6c82f7f4e880469d86e776304a08
+56a8c2adccdd62d768b5a1aa3fdeaeee
 br.com.fiap.techchallange.core.usecase.dto.product.InputDataProductDTO#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;FLjava/lang/String;)V
 br.com.fiap.techchallange.core.usecase.dto.product.InputDataProductDTO#instance-init#
 ==

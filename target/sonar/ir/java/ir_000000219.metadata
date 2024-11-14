@@ -1,6 +1,6 @@
 br.com.fiap.techchallange.core.usecase.managementproduct.UpdateProductUseCase#invoke(Lbr/com/fiap/techchallange/core/usecase/dto/product/InputDataProductDTO;)V
 false
-4ad3a145bda220a25af7c58e1a9329f6
+55061ee39a7a863e47639d931246562e
 br.com.fiap.techchallange.core.entity.Product#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Float;Ljava/lang/String;)V
 br.com.fiap.techchallange.core.entity.Product#instance-init#
 br.com.fiap.techchallange.core.usecase.dto.product.InputDataProductDTO#category()Ljava/lang/String;

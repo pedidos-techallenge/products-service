@@ -1,6 +1,6 @@
 br.com.fiap.techchallange.core.entity.Product#setMonetaryValue(F)V
 false
-f7b9d6105e08bcab27a3a207e5655bfe
+1849c43fe5b383599f15ccc91c4c11b7
 br.com.fiap.techchallange.core.entity.vo.MonetaryValue#<init>(Ljava/math/BigDecimal;)V
 br.com.fiap.techchallange.core.entity.vo.MonetaryValue#instance-init#
 java.math.BigDecimal#<init>(D)V

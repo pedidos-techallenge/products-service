@@ -1,7 +1,7 @@
 
 —
 getProductsByCategory|br.com.fiap.techchallange.infrastructure.bd.MySQLProductRepository#getProductsByCategory(Ljava/lang/String;)Ljava/util/List; £6
-"category"&java.lang.Stringjava.lang.ObjectnB"SELECT * FROM dbtechchallange.product WHERE category = :category"&java.lang.Stringjava.lang.Object>categoryI/ I(>"&java.lang.Stringjava.lang.Object¸thisI I(."£Bbr.com.fiap.techchallange.infrastructure.bd.MySQLProductRepositoryjava.lang.ObjectIbr.com.fiap.techchallange.adapters.gateways.repository.IProductRepository¸thisI I(."£Bbr.com.fiap.techchallange.infrastructure.bd.MySQLProductRepositoryjava.lang.ObjectIbr.com.fiap.techchallange.adapters.gateways.repository.IProductRepository>categoryI/ I(>"&java.lang.Stringjava.lang.Object"ñ$
+"category"&java.lang.Stringjava.lang.ObjectnB"SELECT * FROM dbtechchallange.product WHERE category = :category"&java.lang.Stringjava.lang.Object¸thisI I(."£Bbr.com.fiap.techchallange.infrastructure.bd.MySQLProductRepositoryjava.lang.ObjectIbr.com.fiap.techchallange.adapters.gateways.repository.IProductRepository>categoryI/ I(>"&java.lang.Stringjava.lang.Object¸thisI I(."£Bbr.com.fiap.techchallange.infrastructure.bd.MySQLProductRepositoryjava.lang.ObjectIbr.com.fiap.techchallange.adapters.gateways.repository.IProductRepository>categoryI/ I(>"&java.lang.Stringjava.lang.Object"ñ$
 "
 J J(Wsql"
 #id##id#*Ž

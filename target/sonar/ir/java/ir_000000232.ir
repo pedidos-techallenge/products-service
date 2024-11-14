@@ -1,10 +1,10 @@
 
 i
-MonetaryValueVbr.com.fiap.techchallange.core.entity.vo.MonetaryValue#<init>(Ljava/math/BigDecimal;)V «1"BRL"&java.lang.Stringjava.lang.Object~amount
+MonetaryValueVbr.com.fiap.techchallange.core.entity.vo.MonetaryValue#<init>(Ljava/math/BigDecimal;)V «1"BRL"&java.lang.Stringjava.lang.Objectvthis
+ 
+("b6br.com.fiap.techchallange.core.entity.vo.MonetaryValuejava.lang.Objectjava.io.Serializable~amount
  
 (*"hjava.math.BigDecimaljava.lang.Objectjava.lang.Comparablejava.lang.Numberjava.io.Serializablevthis
- 
-("b6br.com.fiap.techchallange.core.entity.vo.MonetaryValuejava.lang.Objectjava.io.Serializablevthis
  
 ("b6br.com.fiap.techchallange.core.entity.vo.MonetaryValuejava.lang.Objectjava.io.Serializable~amount
  

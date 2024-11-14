@@ -1,18 +1,18 @@
 
 è
-generateNextNumberwbr.com.fiap.techchallange.infrastructure.service.mock.SequentialNumberGenerator#generateNextNumber()Ljava/lang/Integer; ‹G10000<intjava.lang.Objectjava.lang.Numberjava.lang.IntegerC1<intjava.lang.Objectjava.lang.Numberjava.lang.IntegerQ%"Limite m√°ximo de n√∫meros atingido"&java.lang.Stringjava.lang.Objectythis  (2"eObr.com.fiap.techchallange.infrastructure.service.mock.SequentialNumberGeneratorjava.lang.Objectythis  (2"eObr.com.fiap.techchallange.infrastructure.service.mock.SequentialNumberGeneratorjava.lang.Object"èà
+generateNextNumberwbr.com.fiap.techchallange.infrastructure.service.mock.SequentialNumberGenerator#generateNextNumber()Ljava/lang/Integer; ‹C1<intjava.lang.Objectjava.lang.Integerjava.lang.NumberG10000<intjava.lang.Objectjava.lang.Integerjava.lang.NumberQ%"Limite m√°ximo de n√∫meros atingido"&java.lang.Stringjava.lang.Objectythis  (2"eObr.com.fiap.techchallange.infrastructure.service.mock.SequentialNumberGeneratorjava.lang.Objectythis  (2"eObr.com.fiap.techchallange.infrastructure.service.mock.SequentialNumberGeneratorjava.lang.Object"èà
 Ö
  ("6
-#get-field# currentNumber#get-field# currentNumber*2<intjava.lang.Objectjava.lang.Numberjava.lang.IntegerZ
+#get-field# currentNumber#get-field# currentNumber*2<intjava.lang.Objectjava.lang.Integerjava.lang.NumberZ
 X
  (!"
-	#binop <#	#binop <#*2.booleanjava.lang.Booleanjava.lang.Object&"$
+	#binop <#	#binop <#*2.booleanjava.lang.Objectjava.lang.Boolean&"$
  (! * (
 2
  ("™à
 Ö
  ("6
-#get-field# currentNumber#get-field# currentNumber*2<intjava.lang.Objectjava.lang.Numberjava.lang.Integer*
+#get-field# currentNumber#get-field# currentNumber*2<intjava.lang.Objectjava.lang.Integerjava.lang.Number*
 (
  ("
 	#binop +#	#binop +#*J
@@ -21,7 +21,7 @@ H
 #set-field# currentNumber#set-field# currentNumber*à
 Ö
  (!	"6
-#get-field# currentNumber#get-field# currentNumber*2<intjava.lang.Objectjava.lang.Numberjava.lang.Integer
+#get-field# currentNumber#get-field# currentNumber*2<intjava.lang.Objectjava.lang.Integerjava.lang.Number
  ("	"# (	"ó¡
 æ
  (P
