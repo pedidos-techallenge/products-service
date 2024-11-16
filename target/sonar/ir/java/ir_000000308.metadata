@@ -1,4 +1,0 @@
-br.com.fiap.techchallange.infrastructure.service.mock.SequentialNumberGenerator#getFormattedCurrentNumber()Ljava/lang/String;
-false
-255a7332d8d2702ceac7685d66d098d8
-java.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;

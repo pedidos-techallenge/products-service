@@ -1,5 +1,0 @@
-br.com.fiap.techchallange.infrastructure.config.presenters.managementproduct.ProductPresenterConfig#getProductManagementPresenter()Lbr/com/fiap/techchallange/core/usecase/outputboundary/presenters/managementproduct/IProductManagementPresenter;
-false
-de75bd3e0e6be264fda768a01997fa7f
-br.com.fiap.techchallange.adapters.presenters.managementproduct.ProductManagementPresenter#<init>()V
-br.com.fiap.techchallange.adapters.presenters.managementproduct.ProductManagementPresenter#instance-init#

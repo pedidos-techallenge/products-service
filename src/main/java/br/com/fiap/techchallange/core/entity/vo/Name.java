@@ -10,21 +10,17 @@ public class Name {
     }
 
     public void checkNameValue(String name) throws InputMismatchException {
-//        if (name.matches(".*\\d.*")) {
-//            name = null;
-//        }
+        if (name == null || name.trim().isEmpty()) {
+            throw new IllegalArgumentException("Nome é inválido!");
+        }
 
         for (char c : name.toCharArray()) {
-            if (Character.isDigit(c) || ((!Character.isLetter(c) && c != ' '))){
-                name = null;
+            if (Character.isDigit(c) || (!Character.isLetter(c) && c != ' ')) {
+                throw new IllegalArgumentException("Nome é inválido!");
             }
         }
 
-        if (name == null) {
-            throw new IllegalArgumentException("Nome é inválido!");
-        } else {
-            this.nameValue = name;
-        }
+        this.nameValue = name.trim();
     }
 
     public String getNameValue() {

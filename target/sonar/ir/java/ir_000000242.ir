@@ -1,10 +1,0 @@
-
-ä
-RegisterProductControllerÄbr.com.fiap.techchallange.adapters.controllers.managementproduct.RegisterProductController#<init>(Lbr/com/fiap/techchallange/core/usecase/inputboundary/managementproduct/IRegisterProductUseCase;)V ‚âthis ($"ÍZbr.com.fiap.techchallange.adapters.controllers.managementproduct.RegisterProductControllerjava.lang.Object[br.com.fiap.techchallange.adapters.controllers.managementproduct.IRegisterProductControlleršregisterProductUseCase% (S"t^br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IRegisterProductUseCasejava.lang.Objectâthis ($"ÍZbr.com.fiap.techchallange.adapters.controllers.managementproduct.RegisterProductControllerjava.lang.Object[br.com.fiap.techchallange.adapters.controllers.managementproduct.IRegisterProductControlleršregisterProductUseCase% (S"t^br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IRegisterProductUseCasejava.lang.Object"l\
-Z
-	 	(<"H
-"#set-field# registerProductUseCase"#set-field# registerProductUseCase*
-
-
- 
-(*/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/adapters/controllers/managementproduct/RegisterProductController.java

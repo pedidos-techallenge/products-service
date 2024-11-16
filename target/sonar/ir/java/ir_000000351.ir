@@ -1,15 +1,0 @@
-
-∆
-getProductListUseCase™br.com.fiap.techchallange.infrastructure.config.usecase.managementproduct.ManagementProductUseCaseConfig#getProductListUseCase(Lbr/com/fiap/techchallange/adapters/gateways/repository/IProductRepository;)Lbr/com/fiap/techchallange/core/usecase/inputboundary/managementproduct/IGetProductListUseCase; êy
-repository8 (U"_Ibr.com.fiap.techchallange.adapters.gateways.repository.IProductRepositoryjava.lang.Objectíthis" (7"~hbr.com.fiap.techchallange.infrastructure.config.usecase.managementproduct.ManagementProductUseCaseConfigjava.lang.Objectíthis" (7"~hbr.com.fiap.techchallange.infrastructure.config.usecase.managementproduct.ManagementProductUseCaseConfigjava.lang.Objecty
-repository8 (U"_Ibr.com.fiap.techchallange.adapters.gateways.repository.IProductRepositoryjava.lang.Object"ÿÛ
-
- (4"
-#new-object##new-object#2√Nbr.com.fiap.techchallange.core.usecase.managementproduct.GetProductListUseCase]br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IGetProductListUseCasejava.lang.ObjectÜ
-É
- (4"p
-#instance-init#]br.com.fiap.techchallange.core.usecase.managementproduct.GetProductListUseCase#instance-init#*8∆
-√
- (4"Æ
-<init>£br.com.fiap.techchallange.core.usecase.managementproduct.GetProductListUseCase#<init>(Lbr/com/fiap/techchallange/adapters/gateways/repository/IProductRepository;)V*8
- (5*õ/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/infrastructure/config/usecase/managementproduct/ManagementProductUseCaseConfig.java

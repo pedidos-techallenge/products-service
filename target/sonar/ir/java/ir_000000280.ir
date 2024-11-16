@@ -1,12 +1,0 @@
-
-½
-RemoveProductUseCase¢br.com.fiap.techchallange.core.usecase.managementproduct.RemoveProductUseCase#<init>(Lbr/com/fiap/techchallange/adapters/gateways/repository/IProductRepository;)V ÔÖthis ("ÁMbr.com.fiap.techchallange.core.usecase.managementproduct.RemoveProductUseCasejava.lang.Object\br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IRemoveProductUseCasey
-repository  (="_Ibr.com.fiap.techchallange.adapters.gateways.repository.IProductRepositoryjava.lang.ObjectÖthis ("ÁMbr.com.fiap.techchallange.core.usecase.managementproduct.RemoveProductUseCasejava.lang.Object\br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IRemoveProductUseCasey
-repository  (="_Ibr.com.fiap.techchallange.adapters.gateways.repository.IProductRepositoryjava.lang.Object"TD
-B
-	 	($"0
-#set-field# repository#set-field# repository*
-
-
- 
-(*€/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/core/usecase/managementproduct/RemoveProductUseCase.java
