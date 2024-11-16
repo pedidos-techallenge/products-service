@@ -1,10 +1,10 @@
 
 S
-setSkuIbr.com.fiap.techchallange.core.entity.Product#setSku(Ljava/lang/String;)V›1"sku"&java.lang.Stringjava.lang.Objectmthis ("Y-br.com.fiap.techchallange.core.entity.Productjava.lang.Objectjava.io.Serializable9sku (""&java.lang.Stringjava.lang.Objectmthis ("Y-br.com.fiap.techchallange.core.entity.Productjava.lang.Objectjava.io.Serializable9sku (""&java.lang.Stringjava.lang.Object"÷ç
-ä
+setSkuIbr.com.fiap.techchallange.core.entity.Product#setSku(Ljava/lang/String;)VÖ"sku"java.lang.StringAthis ("-br.com.fiap.techchallange.core.entity.Product#sku (""java.lang.StringAthis ("-br.com.fiap.techchallange.core.entity.Product#sku (""java.lang.String"‘ã
+à
  ("m
 
-checkValue_br.com.fiap.techchallange.core.entity.Product#checkValue(Ljava/lang/String;Ljava/lang/String;)V*2void86
+checkValue_br.com.fiap.techchallange.core.entity.Product#checkValue(Ljava/lang/String;Ljava/lang/String;)V*2void86
 4
  (""
 #set-field# sku#set-field# sku*

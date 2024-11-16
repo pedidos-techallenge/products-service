@@ -1,7 +1,7 @@
 
 I
-	getAmount:br.com.fiap.techchallange.core.entity.vo.Item#getAmount()F omthis3 3("Y-br.com.fiap.techchallange.core.entity.vo.Itemjava.lang.Objectjava.io.Serializablemthis3 3("Y-br.com.fiap.techchallange.core.entity.vo.Itemjava.lang.Objectjava.io.Serializable"‹y
-w
+	getAmount:br.com.fiap.techchallange.core.entity.vo.Item#getAmount()F CAthis3 3("-br.com.fiap.techchallange.core.entity.vo.ItemAthis3 3("-br.com.fiap.techchallange.core.entity.vo.Item"TB
+@
 4 4("(
-#get-field# amount#get-field# amount*2<floatjava.lang.Objectjava.lang.Floatjava.lang.Number
+#get-field# amount#get-field# amount*2float
 4 4(*`/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/core/entity/vo/Item.java

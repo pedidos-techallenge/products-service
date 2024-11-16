@@ -1,8 +1,7 @@
 
 )
-nextIntjava.util.Scanner#nextInt()I(=;this" "("'java.util.Scannerjava.lang.Object;this" "("'java.util.Scannerjava.lang.Object"¾t
-r
+nextIntjava.util.Scanner#nextInt()I('%this" "("java.util.Scanner%this" "("java.util.Scanner"M;
+9
 # #(!"&
-#dependent-value##dependent-value#2<intjava.lang.Objectjava.lang.Numberjava.lang.Integer
-# #(""6
-#unknownÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ ÿÿÿÿÿÿÿÿÿ(ÿÿÿÿÿÿÿÿÿ*Scanner.java
+#dependent-value##dependent-value#2int
+# #("*Scanner.java

@@ -1,7 +1,9 @@
 br.com.fiap.techchallange.core.entity.vo.Name#checkNameValue(Ljava/lang/String;)V
 false
-e9733bf150bab0978eb450a3dc7198d3
+84b288e4e2688f9f067dec1392b8b9f3
 java.lang.Character#isDigit(C)Z
 java.lang.Character#isLetter(C)Z
 java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V
 java.lang.IllegalArgumentException#instance-init#
+java.lang.String#isEmpty()Z
+java.lang.String#trim()Ljava/lang/String;

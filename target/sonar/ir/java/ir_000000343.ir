@@ -1,16 +1,16 @@
 
 Á
-RegisterProductUseCase¤br.com.fiap.techchallange.core.usecase.managementproduct.RegisterProductUseCase#<init>(Lbr/com/fiap/techchallange/adapters/gateways/repository/IProductRepository;)V Øy
+RegisterProductUseCase¤br.com.fiap.techchallange.core.usecase.managementproduct.RegisterProductUseCase#<init>(Lbr/com/fiap/techchallange/adapters/gateways/repository/IProductRepository;)V Êcthis
+ 
+(!"Obr.com.fiap.techchallange.core.usecase.managementproduct.RegisterProductUseCasec
 repository
 " 
-(?"_Ibr.com.fiap.techchallange.adapters.gateways.repository.IProductRepositoryjava.lang.ObjectÚthis
+(?"Ibr.com.fiap.techchallange.adapters.gateways.repository.IProductRepositorycthis
  
-(!"ÅObr.com.fiap.techchallange.core.usecase.managementproduct.RegisterProductUseCase^br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IRegisterProductUseCasejava.lang.ObjectÚthis
- 
-(!"ÅObr.com.fiap.techchallange.core.usecase.managementproduct.RegisterProductUseCase^br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IRegisterProductUseCasejava.lang.Objecty
+(!"Obr.com.fiap.techchallange.core.usecase.managementproduct.RegisterProductUseCasec
 repository
 " 
-(?"_Ibr.com.fiap.techchallange.adapters.gateways.repository.IProductRepositoryjava.lang.Object"TD
+(?"Ibr.com.fiap.techchallange.adapters.gateways.repository.IProductRepository"TD
 B
  ($"0
 #set-field# repository#set-field# repository*

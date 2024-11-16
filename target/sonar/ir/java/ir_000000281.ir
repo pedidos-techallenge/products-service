@@ -1,11 +1,11 @@
 
 u
-invokeibr.com.fiap.techchallange.core.usecase.managementproduct.RemoveProductUseCase#invoke(Ljava/lang/String;)V î÷this ("¡Mbr.com.fiap.techchallange.core.usecase.managementproduct.RemoveProductUseCasejava.lang.Object\br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IRemoveProductUseCase9sku (!"&java.lang.Stringjava.lang.Object÷this ("¡Mbr.com.fiap.techchallange.core.usecase.managementproduct.RemoveProductUseCasejava.lang.Object\br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IRemoveProductUseCase9sku (!"&java.lang.Stringjava.lang.Object"◊•
-¢
+invokeibr.com.fiap.techchallange.core.usecase.managementproduct.RemoveProductUseCase#invoke(Ljava/lang/String;)V àathis ("Mbr.com.fiap.techchallange.core.usecase.managementproduct.RemoveProductUseCase#sku (!"java.lang.Stringathis ("Mbr.com.fiap.techchallange.core.usecase.managementproduct.RemoveProductUseCase#sku (!"java.lang.String"øè
+å
  ("0
-#get-field# repository#get-field# repository*2_Ibr.com.fiap.techchallange.adapters.gateways.repository.IProductRepositoryjava.lang.Objectû
-õ
+#get-field# repository#get-field# repository*2Ibr.com.fiap.techchallange.adapters.gateways.repository.IProductRepositoryú
+ô
  (%"
-deleteProductlbr.com.fiap.techchallange.adapters.gateways.repository.IProductRepository#deleteProduct(Ljava/lang/String;)V *2void8
+deleteProductlbr.com.fiap.techchallange.adapters.gateways.repository.IProductRepository#deleteProduct(Ljava/lang/String;)V *2void8
 
  (*Ä/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/core/usecase/managementproduct/RemoveProductUseCase.java

@@ -1,6 +1,5 @@
 
 5
-#instance-init# java.lang.Runtime#instance-init#(=;this ("'java.lang.Runtimejava.lang.Object;this ("'java.lang.Runtimejava.lang.Object"D
+#instance-init# java.lang.Runtime#instance-init#('%this ("java.lang.Runtime%this ("java.lang.Runtime"
 
- ("6
-#unknownÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ ÿÿÿÿÿÿÿÿÿ(ÿÿÿÿÿÿÿÿÿ*Runtime.java
+ (*Runtime.java

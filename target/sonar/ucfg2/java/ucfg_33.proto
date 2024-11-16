@@ -1,9 +1,9 @@
 
 ’br.com.fiap.techchallange.infrastructure.api.ManagementProduct#deleteProductBySkuHTTP(Ljava/lang/String;)Lorg/springframework/http/ResponseEntity;{
-q/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/infrastructure/api/ManagementProduct.javai i(3"startingBlock*¨
-startingBlocki3 i(M­
+q/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/infrastructure/api/ManagementProduct.javas s(3"startingBlock*¨
+startingBlocks3 s(M­
 ª
-i4 i(A
+s4 s(A
 %10"
 __annotate*T
 
@@ -14,28 +14,28 @@ __annotate*T
 
 skujava.lang.StringX
 V
-iI i(L
+sI s(L
 skujava.lang.String"__annotation*#
 
 __unknown_file (
 
 %10*
 6*J
-4l l(W";
-l l(W/
+4v v(W";
+v v(W/
 -
 %3'org.springframework.http.ResponseEntity*´
-5l( l(Fa
+5v( v(Fa
 _
-lH l(U)
+vH v(U)
 %2#org.springframework.http.HttpStatus"__id*"
 
 __unknown_file (
 ""db
-l l('-
+v v('-
 %3'org.springframework.http.ResponseEntity"'org.springframework.http.ResponseEntityÖ
 Ó
-l l(V
+v v(V
 %4"lorg.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatusCode;)V*K
 
 __unknown_file (/
@@ -49,15 +49,15 @@ _
 )
 %2#org.springframework.http.HttpStatus*
 4*ë
-6k k(ñ
+6u u(ñ
 î
-k k((_
+u u((_
 %0Ybr.com.fiap.techchallange.adapters.controllers.managementproduct.IRemoveProductController"__id*{
 
 __unknown_file (_*]@
 >br.com.fiap.techchallange.infrastructure.api.ManagementProduct"
 removeProductControllerâß
-k k(4
+u u(4
 
 %1void"ubr.com.fiap.techchallange.adapters.controllers.managementproduct.IRemoveProductController#invoke(Ljava/lang/String;)V*}
 
@@ -69,6 +69,6 @@ _
 
 skujava.lang.String2invoke(Ljava/lang/String;)*
 5:#
-i4 i(L
+s4 s(L
 skujava.lang.StringBB@
 >br.com.fiap.techchallange.infrastructure.api.ManagementProductH

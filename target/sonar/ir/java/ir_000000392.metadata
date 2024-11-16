@@ -1,5 +1,5 @@
 br.com.fiap.techchallange.infrastructure.bd.MySQLProductRepository#getProducts()Ljava/util/List;
 false
-5657d33d3a84e7b1d6b877ef03d0bccb
+75620476621acb1ec0b98ada26ea3589
 ==
 query org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate#query(Ljava/lang/String;Lorg/springframework/jdbc/core/RowMapper;)Ljava/util/List;

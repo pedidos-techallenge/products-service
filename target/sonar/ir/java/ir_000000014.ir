@@ -1,8 +1,7 @@
 
 -
-	nextShortjava.util.Scanner#nextShort()S(=;this ("'java.util.Scannerjava.lang.Object;this ("'java.util.Scannerjava.lang.Object"¾t
-r
+	nextShortjava.util.Scanner#nextShort()S('%this ("java.util.Scanner%this ("java.util.Scanner"O=
+;
  (#"&
-#dependent-value##dependent-value#2<shortjava.lang.Shortjava.lang.Objectjava.lang.Number
- ($"6
-#unknownÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ ÿÿÿÿÿÿÿÿÿ(ÿÿÿÿÿÿÿÿÿ*Scanner.java
+#dependent-value##dependent-value#2short
+ ($*Scanner.java

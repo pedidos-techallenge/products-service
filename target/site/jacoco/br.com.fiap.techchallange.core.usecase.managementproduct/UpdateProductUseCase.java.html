@@ -7,13 +7,13 @@ import br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IU
 
 public class UpdateProductUseCase implements IUpdateProductUseCase {
     IProductRepository repository;
-<span class="nc" id="L10">    public UpdateProductUseCase(IProductRepository repository) {</span>
-<span class="nc" id="L11">        this.repository = repository;</span>
-<span class="nc" id="L12">    }</span>
+<span class="fc" id="L10">    public UpdateProductUseCase(IProductRepository repository) {</span>
+<span class="fc" id="L11">        this.repository = repository;</span>
+<span class="fc" id="L12">    }</span>
 
     public void invoke(InputDataProductDTO productDTO) {
-<span class="nc" id="L15">        Product product = new Product(productDTO.sku(), productDTO.name(), productDTO.description(), productDTO.monetaryValue(), productDTO.category());</span>
-<span class="nc" id="L16">        this.repository.updateProduct(product.getSku(), product);</span>
-<span class="nc" id="L17">    }</span>
+<span class="fc" id="L15">        Product product = new Product(productDTO.sku(), productDTO.name(), productDTO.description(), productDTO.monetaryValue(), productDTO.category());</span>
+<span class="fc" id="L16">        this.repository.updateProduct(product.getSku(), product);</span>
+<span class="fc" id="L17">    }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>

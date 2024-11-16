@@ -5,13 +5,13 @@ import br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IR
 
 public class RemoveProductUseCase implements IRemoveProductUseCase {
     IProductRepository repository;
-<span class="nc" id="L8">    public RemoveProductUseCase(IProductRepository repository) {</span>
-<span class="nc" id="L9">        this.repository = repository;</span>
-<span class="nc" id="L10">    }</span>
+<span class="fc" id="L8">    public RemoveProductUseCase(IProductRepository repository) {</span>
+<span class="fc" id="L9">        this.repository = repository;</span>
+<span class="fc" id="L10">    }</span>
 
     @Override
     public void invoke(String sku) {
-<span class="nc" id="L14">        repository.deleteProduct(sku);</span>
-<span class="nc" id="L15">    }</span>
+<span class="fc" id="L14">        repository.deleteProduct(sku);</span>
+<span class="fc" id="L15">    }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>

@@ -1,8 +1,7 @@
 
 *
-nextIntjava.util.Scanner#nextInt(I)I(êQradix& &("<intjava.lang.Objectjava.lang.Numberjava.lang.Integer;this& &("'java.util.Scannerjava.lang.Object;this& &("'java.util.Scannerjava.lang.ObjectQradix& &("<intjava.lang.Objectjava.lang.Numberjava.lang.Integer"æt
-r
+nextIntjava.util.Scanner#nextInt(I)I(A%this& &("java.util.Scannerradix& &("int%this& &("java.util.Scannerradix& &("int"M;
+9
 ' '(!"&
-#dependent-value##dependent-value#2<intjava.lang.Objectjava.lang.Numberjava.lang.Integer
-' '(""6
-#unknownˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇ ˇˇˇˇˇˇˇˇˇ(ˇˇˇˇˇˇˇˇˇ*Scanner.java
+#dependent-value##dependent-value#2int
+' '("*Scanner.java

@@ -1,6 +1,6 @@
 br.com.fiap.techchallange.core.entity.Product#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Float;Ljava/lang/String;)V
 false
-b1f6d3db2d45c77dbd3faf09fec4f2f1
+c0dca6830d828a16e31527d85b46f295
 br.com.fiap.techchallange.core.entity.Product#setCategory(Ljava/lang/String;)V
 br.com.fiap.techchallange.core.entity.Product#setDescription(Ljava/lang/String;)V
 br.com.fiap.techchallange.core.entity.Product#setMonetaryValue(F)V

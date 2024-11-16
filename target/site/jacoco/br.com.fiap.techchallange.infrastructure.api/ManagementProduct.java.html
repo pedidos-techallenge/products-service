@@ -2,6 +2,7 @@
 
 import br.com.fiap.techchallange.adapters.controllers.managementproduct.*;
 import br.com.fiap.techchallange.adapters.presenters.viewmodel.ErrorViewModel;
+import br.com.fiap.techchallange.core.entity.Product;
 import br.com.fiap.techchallange.core.usecase.outputboundary.presenters.managementproduct.IProductManagementPresenter;
 import br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO;
 import io.swagger.v3.oas.annotations.Operation;
@@ -33,81 +34,90 @@ public class ManagementProduct {
         IUpdateProductController updateProductController,
         IRemoveProductController removeProductController,
         IProductManagementPresenter productPresenter
-<span class="nc" id="L36">    ) {</span>
-<span class="nc" id="L37">        this.getProductListController = getProductListController;</span>
-<span class="nc" id="L38">        this.getProductBySkuController = getProductBySkuController;</span>
-<span class="nc" id="L39">        this.registerProductController = registerProductController;</span>
-<span class="nc" id="L40">        this.updateProductController = updateProductController;</span>
-<span class="nc" id="L41">        this.removeProductController = removeProductController;</span>
-<span class="nc" id="L42">        this.productPresenter = productPresenter;</span>
-<span class="nc" id="L43">    }</span>
+<span class="fc" id="L37">    ) {</span>
+<span class="fc" id="L38">        this.getProductListController = getProductListController;</span>
+<span class="fc" id="L39">        this.getProductBySkuController = getProductBySkuController;</span>
+<span class="fc" id="L40">        this.registerProductController = registerProductController;</span>
+<span class="fc" id="L41">        this.updateProductController = updateProductController;</span>
+<span class="fc" id="L42">        this.removeProductController = removeProductController;</span>
+<span class="fc" id="L43">        this.productPresenter = productPresenter;</span>
+<span class="fc" id="L44">    }</span>
 
     @Operation(summary = &quot;Busca os produtos para a exibição ao cliente.&quot;)
     @GetMapping(&quot;/&quot;)
     // Este endpoint é duplicado com o /v1/checkout/products, no entanto são contextos diferentes (apresentação do checkout vs gestão de produtos)
     public ResponseEntity&lt;?&gt; getProducts() throws EmptyResultDataAccessException {
         try {
-<span class="nc" id="L50">            List&lt;IProductManagementPresenter.ProductResponseModel&gt; response = productPresenter.presentList(this.getProductListController.getProducts());</span>
-<span class="nc" id="L51">            return new ResponseEntity&lt;&gt;(response, HttpStatus.OK);</span>
-<span class="nc" id="L52">        } catch (EmptyResultDataAccessException e) {</span>
-<span class="nc" id="L53">            return new ResponseEntity&lt;&gt;(new ErrorViewModel(1,&quot;Produtos não encontradoa na base de dados&quot;), HttpStatus.NOT_FOUND);</span>
+<span class="fc" id="L51">            List&lt;IProductManagementPresenter.ProductResponseModel&gt; response = productPresenter.presentList(this.getProductListController.getProducts());</span>
+<span class="fc" id="L52">            return new ResponseEntity&lt;&gt;(response, HttpStatus.OK);</span>
+<span class="fc" id="L53">        } catch (EmptyResultDataAccessException e) {</span>
+<span class="fc" id="L54">            return new ResponseEntity&lt;&gt;(new ErrorViewModel(1,&quot;Produtos não encontradoa na base de dados&quot;), HttpStatus.NOT_FOUND);</span>
         }
     }
 
     @GetMapping(&quot;/{sku}&quot;)
     public ResponseEntity&lt;?&gt; getProductBySkuHTTP(@PathVariable String sku) {
         try {
-<span class="nc" id="L60">            IProductManagementPresenter.ProductResponseModel response = productPresenter.present(this.getProductBySkuController.invoke(sku));</span>
-<span class="nc" id="L61">            return new ResponseEntity&lt;&gt;(response, HttpStatus.OK);</span>
-<span class="nc" id="L62">        } catch (EmptyResultDataAccessException e) {</span>
-<span class="nc" id="L63">            return new ResponseEntity&lt;&gt;(new ErrorViewModel(1,&quot;Produto não encontrado na base de dados&quot;), HttpStatus.NOT_FOUND);</span>
+<span class="nc" id="L61">            IProductManagementPresenter.ProductResponseModel response = productPresenter.present(this.getProductBySkuController.invoke(sku));</span>
+<span class="nc" id="L62">            return new ResponseEntity&lt;&gt;(response, HttpStatus.OK);</span>
+<span class="nc" id="L63">        } catch (EmptyResultDataAccessException e) {</span>
+<span class="nc" id="L64">            return new ResponseEntity&lt;&gt;(new ErrorViewModel(1,&quot;Produto não encontrado na base de dados&quot;), HttpStatus.NOT_FOUND);</span>
         }
     }
 
     @PostMapping(&quot;/create&quot;)
     public ResponseEntity&lt;?&gt; createProductHTTP(@RequestBody ProductRequestDTO productDeserializer) {
         try {
-<span class="nc" id="L70">            this.registerProductController.invoke(</span>
-<span class="nc" id="L71">                    productDeserializer.sku(),</span>
-<span class="nc" id="L72">                    productDeserializer.name(),</span>
-<span class="nc" id="L73">                    productDeserializer.description(),</span>
-<span class="nc" id="L74">                    productDeserializer.monetaryValue(),</span>
-<span class="nc" id="L75">                    productDeserializer.category()</span>
+<span class="fc" id="L71">            this.registerProductController.invoke(</span>
+<span class="fc" id="L72">                    productDeserializer.sku(),</span>
+<span class="fc" id="L73">                    productDeserializer.name(),</span>
+<span class="fc" id="L74">                    productDeserializer.description(),</span>
+<span class="fc" id="L75">                    productDeserializer.monetaryValue(),</span>
+<span class="fc" id="L76">                    productDeserializer.category()</span>
             );
-<span class="nc" id="L77">        } catch (DataAccessException e) {</span>
-<span class="nc" id="L78">            return new ResponseEntity&lt;&gt;(new ErrorViewModel(3, &quot;Erro ao realizar cadastro de produto&quot;), HttpStatus.NOT_FOUND);</span>
-<span class="nc" id="L79">        } catch (IllegalArgumentException e) {</span>
-<span class="nc" id="L80">            return new ResponseEntity&lt;&gt;(new ErrorViewModel(99, e.getMessage()), HttpStatus.NOT_FOUND);</span>
-<span class="nc" id="L81">        }</span>
-<span class="nc" id="L82">        return null;</span>
+
+<span class="fc" id="L79">            Product createdProduct = new Product(</span>
+<span class="fc" id="L80">                    productDeserializer.sku(),</span>
+<span class="fc" id="L81">                    productDeserializer.name(),</span>
+<span class="fc" id="L82">                    productDeserializer.description(),</span>
+<span class="fc" id="L83">                    productDeserializer.monetaryValue(),</span>
+<span class="fc" id="L84">                    productDeserializer.category()</span>
+            );
+
+<span class="fc" id="L87">            return new ResponseEntity&lt;&gt;(createdProduct, HttpStatus.CREATED);</span>
+<span class="nc" id="L88">        } catch (DataAccessException e) {</span>
+<span class="nc" id="L89">            return new ResponseEntity&lt;&gt;(new ErrorViewModel(3, &quot;Erro ao realizar cadastro de produto&quot;), HttpStatus.NOT_FOUND);</span>
+<span class="nc" id="L90">        } catch (IllegalArgumentException e) {</span>
+<span class="nc" id="L91">            return new ResponseEntity&lt;&gt;(new ErrorViewModel(99, e.getMessage()), HttpStatus.NOT_FOUND);</span>
+        }
     }
 
     @PutMapping(&quot;/{sku}/update&quot;)
     public ResponseEntity&lt;?&gt; updateProductHTTP(@PathVariable String sku, @RequestBody ProductRequestDTO productDeserializer) {
         try {
-<span class="nc" id="L88">            this.updateProductController.invoke(</span>
+<span class="fc" id="L98">            this.updateProductController.invoke(</span>
                     sku,
-<span class="nc" id="L90">                    productDeserializer.name(),</span>
-<span class="nc" id="L91">                    productDeserializer.description(),</span>
-<span class="nc" id="L92">                    productDeserializer.monetaryValue(),</span>
-<span class="nc" id="L93">                    productDeserializer.category()</span>
+<span class="fc" id="L100">                    productDeserializer.name(),</span>
+<span class="fc" id="L101">                    productDeserializer.description(),</span>
+<span class="fc" id="L102">                    productDeserializer.monetaryValue(),</span>
+<span class="fc" id="L103">                    productDeserializer.category()</span>
             );
 
-<span class="nc" id="L96">        } catch (DataAccessException e) {</span>
-<span class="nc" id="L97">            return new ResponseEntity&lt;&gt;(new ErrorViewModel(5, &quot;Produto não encontrado&quot;), HttpStatus.NOT_FOUND);</span>
-<span class="nc" id="L98">        } catch (IllegalArgumentException e) {</span>
-<span class="nc" id="L99">            return new ResponseEntity&lt;&gt;(new ErrorViewModel(99, e.getMessage()), HttpStatus.NOT_FOUND);</span>
-<span class="nc" id="L100">        }</span>
-<span class="nc" id="L101">        return new ResponseEntity&lt;&gt;(&quot;Produto atualizado com sucesso&quot;, HttpStatus.OK);</span>
+<span class="nc" id="L106">        } catch (DataAccessException e) {</span>
+<span class="nc" id="L107">            return new ResponseEntity&lt;&gt;(new ErrorViewModel(5, &quot;Produto não encontrado&quot;), HttpStatus.NOT_FOUND);</span>
+<span class="nc" id="L108">        } catch (IllegalArgumentException e) {</span>
+<span class="nc" id="L109">            return new ResponseEntity&lt;&gt;(new ErrorViewModel(99, e.getMessage()), HttpStatus.NOT_FOUND);</span>
+<span class="fc" id="L110">        }</span>
+<span class="fc" id="L111">        return new ResponseEntity&lt;&gt;(&quot;Produto atualizado com sucesso&quot;, HttpStatus.OK);</span>
     }
 
     @PostMapping(&quot;/{sku}/remove&quot;)
     public ResponseEntity&lt;?&gt; deleteProductBySkuHTTP(@PathVariable String sku) {
         try {
-<span class="nc" id="L107">            this.removeProductController.invoke(sku);</span>
-<span class="nc" id="L108">            return new ResponseEntity&lt;&gt;(&quot;Produto excluído com sucesso&quot;, HttpStatus.OK);</span>
-<span class="nc" id="L109">        } catch (EmptyResultDataAccessException e) {</span>
-<span class="nc" id="L110">            return new ResponseEntity&lt;&gt;(new ErrorViewModel(6, &quot;Produto não encontrado&quot;), HttpStatus.NOT_FOUND);</span>
+<span class="nc" id="L117">            this.removeProductController.invoke(sku);</span>
+<span class="nc" id="L118">            return new ResponseEntity&lt;&gt;(&quot;Produto excluído com sucesso&quot;, HttpStatus.OK);</span>
+<span class="nc" id="L119">        } catch (EmptyResultDataAccessException e) {</span>
+<span class="nc" id="L120">            return new ResponseEntity&lt;&gt;(new ErrorViewModel(6, &quot;Produto não encontrado&quot;), HttpStatus.NOT_FOUND);</span>
         }
     }
 

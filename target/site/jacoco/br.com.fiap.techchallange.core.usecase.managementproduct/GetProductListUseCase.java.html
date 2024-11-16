@@ -12,23 +12,23 @@ public class GetProductListUseCase implements IGetProductListUseCase {
 
     IProductRepository repository;
 
-<span class="nc" id="L15">    public GetProductListUseCase(IProductRepository repository) {</span>
-<span class="nc" id="L16">        this.repository = repository;</span>
-<span class="nc" id="L17">    }</span>
+<span class="fc" id="L15">    public GetProductListUseCase(IProductRepository repository) {</span>
+<span class="fc" id="L16">        this.repository = repository;</span>
+<span class="fc" id="L17">    }</span>
 
     @Override
     public List&lt;OutputDataProductDTO&gt; getProducts() {
-<span class="nc" id="L21">        List&lt;Product&gt; products = repository.getProducts();</span>
-<span class="nc" id="L22">        List&lt;OutputDataProductDTO&gt; productsDTO = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L21">        List&lt;Product&gt; products = repository.getProducts();</span>
+<span class="fc" id="L22">        List&lt;OutputDataProductDTO&gt; productsDTO = new ArrayList&lt;&gt;();</span>
 
-<span class="nc bnc" id="L24" title="All 2 branches missed.">        for(Product product: products){</span>
-<span class="nc" id="L25">            productsDTO.add(new OutputDataProductDTO(product.getSku(),</span>
-<span class="nc" id="L26">                                                  product.getName(),</span>
-<span class="nc" id="L27">                                                  product.getDescription(),</span>
-<span class="nc" id="L28">                                                  product.getMonetaryValue(),</span>
-<span class="nc" id="L29">                                                  product.getCategory()));</span>
-<span class="nc" id="L30">        }</span>
-<span class="nc" id="L31">        return productsDTO;</span>
+<span class="fc bfc" id="L24" title="All 2 branches covered.">        for(Product product: products){</span>
+<span class="fc" id="L25">            productsDTO.add(new OutputDataProductDTO(product.getSku(),</span>
+<span class="fc" id="L26">                                                  product.getName(),</span>
+<span class="fc" id="L27">                                                  product.getDescription(),</span>
+<span class="fc" id="L28">                                                  product.getMonetaryValue(),</span>
+<span class="fc" id="L29">                                                  product.getCategory()));</span>
+<span class="fc" id="L30">        }</span>
+<span class="fc" id="L31">        return productsDTO;</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>

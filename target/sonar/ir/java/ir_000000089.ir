@@ -1,11 +1,10 @@
 
 $
-Longjava.lang.Long#<init>()V (:8this
+Longjava.lang.Long#<init>()V ($"this
  
-("$java.lang.Longjava.lang.Object8this
+("java.lang.Long"this
  
-("$java.lang.Longjava.lang.Object"D
+("java.lang.Long"
 
 
- '("6
-#unknownÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ ÿÿÿÿÿÿÿÿÿ(ÿÿÿÿÿÿÿÿÿ*	Long.java
+ '(*	Long.java

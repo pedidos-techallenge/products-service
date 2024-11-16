@@ -1,9 +1,9 @@
 
 ﬁ
-updateProductController¿br.com.fiap.techchallange.infrastructure.config.controller.managementproduct.ManagementProductControlerConfig#updateProductController(Lbr/com/fiap/techchallange/core/usecase/inputboundary/managementproduct/IUpdateProductUseCase;)Lbr/com/fiap/techchallange/adapters/controllers/managementproduct/IUpdateProductController; ¥òthis   (4"Émbr.com.fiap.techchallange.infrastructure.config.controller.managementproduct.ManagementProductControlerConfigjava.lang.ObjectñupdateProductUseCase 5  (_"r\br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IUpdateProductUseCasejava.lang.Objectòthis   (4"Émbr.com.fiap.techchallange.infrastructure.config.controller.managementproduct.ManagementProductControlerConfigjava.lang.ObjectñupdateProductUseCase 5  (_"r\br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IUpdateProductUseCasejava.lang.Object"Ö˘
-ˆ
+updateProductController¿br.com.fiap.techchallange.infrastructure.config.controller.managementproduct.ManagementProductControlerConfig#updateProductController(Lbr/com/fiap/techchallange/core/usecase/inputboundary/managementproduct/IUpdateProductUseCase;)Lbr/com/fiap/techchallange/adapters/controllers/managementproduct/IUpdateProductController; áÅthis   (4"mbr.com.fiap.techchallange.infrastructure.config.controller.managementproduct.ManagementProductControlerConfigÄupdateProductUseCase 5  (_"\br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IUpdateProductUseCaseÅthis   (4"mbr.com.fiap.techchallange.infrastructure.config.controller.managementproduct.ManagementProductControlerConfigÄupdateProductUseCase 5  (_"\br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IUpdateProductUseCase"ìá
+Ñ
 ! !(@"
-#new-object##new-object#2…Xbr.com.fiap.techchallange.adapters.controllers.managementproduct.UpdateProductControllerYbr.com.fiap.techchallange.adapters.controllers.managementproduct.IUpdateProductControllerjava.lang.Objectê
+#new-object##new-object#2Xbr.com.fiap.techchallange.adapters.controllers.managementproduct.UpdateProductControllerê
 ç
 ! !(@"z
 #instance-init#gbr.com.fiap.techchallange.adapters.controllers.managementproduct.UpdateProductController#instance-init#*8„

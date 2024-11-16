@@ -1,11 +1,11 @@
 
 €
-invoketbr.com.fiap.techchallange.adapters.controllers.managementproduct.RemoveProductController#invoke(Ljava/lang/String;)V œÞthis ("ÉXbr.com.fiap.techchallange.adapters.controllers.managementproduct.RemoveProductControllerYbr.com.fiap.techchallange.adapters.controllers.managementproduct.IRemoveProductControllerjava.lang.Object9sku (!"&java.lang.Stringjava.lang.ObjectÞthis ("ÉXbr.com.fiap.techchallange.adapters.controllers.managementproduct.RemoveProductControllerYbr.com.fiap.techchallange.adapters.controllers.managementproduct.IRemoveProductControllerjava.lang.Object9sku (!"&java.lang.Stringjava.lang.Object"„Ì
-É
+invoketbr.com.fiap.techchallange.adapters.controllers.managementproduct.RemoveProductController#invoke(Ljava/lang/String;)V “lthis ("Xbr.com.fiap.techchallange.adapters.controllers.managementproduct.RemoveProductController#sku (!"java.lang.Stringlthis ("Xbr.com.fiap.techchallange.adapters.controllers.managementproduct.RemoveProductController#sku (!"java.lang.String"ì¶
+³
  ("D
- #get-field# removeProductUseCase #get-field# removeProductUseCase*2r\br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IRemoveProductUseCasejava.lang.Object¤
-¡
+ #get-field# removeProductUseCase #get-field# removeProductUseCase*2\br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IRemoveProductUseCase¢
+Ÿ
  (("„
-invokexbr.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IRemoveProductUseCase#invoke(Ljava/lang/String;)V *2void8
+invokexbr.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IRemoveProductUseCase#invoke(Ljava/lang/String;)V *2void8
 
  (*‹/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/adapters/controllers/managementproduct/RemoveProductController.java

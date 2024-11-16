@@ -1,7 +1,7 @@
 
 _
-getQuantityNbr.com.fiap.techchallange.core.entity.vo.Item#getQuantity()Ljava/lang/Integer; omthis ("Y-br.com.fiap.techchallange.core.entity.vo.Itemjava.lang.Objectjava.io.Serializablemthis ("Y-br.com.fiap.techchallange.core.entity.vo.Itemjava.lang.Objectjava.io.Serializable"úç
-ä
+getQuantityNbr.com.fiap.techchallange.core.entity.vo.Item#getQuantity()Ljava/lang/Integer; CAthis ("-br.com.fiap.techchallange.core.entity.vo.ItemAthis ("-br.com.fiap.techchallange.core.entity.vo.Item"dR
+P
  (",
-#get-field# quantity#get-field# quantity*2¤java.lang.Integerjava.lang.constant.Constablejava.lang.constant.ConstantDescjava.lang.Objectjava.lang.Comparablejava.lang.Numberjava.io.Serializable
+#get-field# quantity#get-field# quantity*2java.lang.Integer
  (*`/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/core/entity/vo/Item.java

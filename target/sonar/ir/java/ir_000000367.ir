@@ -1,9 +1,9 @@
 
 ﬁ
-removeProductController¿br.com.fiap.techchallange.infrastructure.config.controller.managementproduct.ManagementProductControlerConfig#removeProductController(Lbr/com/fiap/techchallange/core/usecase/inputboundary/managementproduct/IRemoveProductUseCase;)Lbr/com/fiap/techchallange/adapters/controllers/managementproduct/IRemoveProductController; ¥òthis (4"Émbr.com.fiap.techchallange.infrastructure.config.controller.managementproduct.ManagementProductControlerConfigjava.lang.ObjectñremoveProductUseCase5 (_"r\br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IRemoveProductUseCasejava.lang.Objectòthis (4"Émbr.com.fiap.techchallange.infrastructure.config.controller.managementproduct.ManagementProductControlerConfigjava.lang.ObjectñremoveProductUseCase5 (_"r\br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IRemoveProductUseCasejava.lang.Object"Ö˘
-ˆ
+removeProductController¿br.com.fiap.techchallange.infrastructure.config.controller.managementproduct.ManagementProductControlerConfig#removeProductController(Lbr/com/fiap/techchallange/core/usecase/inputboundary/managementproduct/IRemoveProductUseCase;)Lbr/com/fiap/techchallange/adapters/controllers/managementproduct/IRemoveProductController; áÅthis (4"mbr.com.fiap.techchallange.infrastructure.config.controller.managementproduct.ManagementProductControlerConfigÄremoveProductUseCase5 (_"\br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IRemoveProductUseCaseÅthis (4"mbr.com.fiap.techchallange.infrastructure.config.controller.managementproduct.ManagementProductControlerConfigÄremoveProductUseCase5 (_"\br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IRemoveProductUseCase"ìá
+Ñ
  (@"
-#new-object##new-object#2…Xbr.com.fiap.techchallange.adapters.controllers.managementproduct.RemoveProductControllerYbr.com.fiap.techchallange.adapters.controllers.managementproduct.IRemoveProductControllerjava.lang.Objectê
+#new-object##new-object#2Xbr.com.fiap.techchallange.adapters.controllers.managementproduct.RemoveProductControllerê
 ç
  (@"z
 #instance-init#gbr.com.fiap.techchallange.adapters.controllers.managementproduct.RemoveProductController#instance-init#*8„

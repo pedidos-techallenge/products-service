@@ -7,14 +7,14 @@ import br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IR
 
 public class RegisterProductUseCase implements IRegisterProductUseCase {
     IProductRepository repository;
-<span class="nc" id="L10">    public RegisterProductUseCase(IProductRepository repository) {</span>
-<span class="nc" id="L11">        this.repository = repository;</span>
-<span class="nc" id="L12">    }</span>
+<span class="fc" id="L10">    public RegisterProductUseCase(IProductRepository repository) {</span>
+<span class="fc" id="L11">        this.repository = repository;</span>
+<span class="fc" id="L12">    }</span>
 
     @Override
     public void invoke(InputDataProductDTO inputDataProductDTO) {
-<span class="nc" id="L16">        Product product = new Product(inputDataProductDTO.sku(), inputDataProductDTO.name(), inputDataProductDTO.description(), inputDataProductDTO.monetaryValue(), inputDataProductDTO.category());</span>
-<span class="nc" id="L17">        this.repository.createProduct(product);</span>
-<span class="nc" id="L18">    }</span>
+<span class="fc" id="L16">        Product product = new Product(inputDataProductDTO.sku(), inputDataProductDTO.name(), inputDataProductDTO.description(), inputDataProductDTO.monetaryValue(), inputDataProductDTO.category());</span>
+<span class="fc" id="L17">        this.repository.createProduct(product);</span>
+<span class="fc" id="L18">    }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>

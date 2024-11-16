@@ -1,11 +1,10 @@
 
 (
-Randomjava.util.Random#<init>()V (<:this
+Randomjava.util.Random#<init>()V (&$this
  
-("&java.util.Randomjava.lang.Object:this
+("java.util.Random$this
  
-("&java.util.Randomjava.lang.Object"D
+("java.util.Random"
 
 
- !("6
-#unknownÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ ÿÿÿÿÿÿÿÿÿ(ÿÿÿÿÿÿÿÿÿ*Random.java
+ !(*Random.java

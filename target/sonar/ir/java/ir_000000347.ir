@@ -1,10 +1,10 @@
 
 €
-getProductsobr.com.fiap.techchallange.adapters.controllers.checkout.ProductsDisplayController#getProducts()Ljava/util/List; ÓÐthis& (1"»Qbr.com.fiap.techchallange.adapters.controllers.checkout.ProductsDisplayControllerjava.lang.ObjectRbr.com.fiap.techchallange.adapters.controllers.checkout.IProductsDisplayControllerÐthis& (1"»Qbr.com.fiap.techchallange.adapters.controllers.checkout.ProductsDisplayControllerjava.lang.ObjectRbr.com.fiap.techchallange.adapters.controllers.checkout.IProductsDisplayController"ÊÉ
-Æ
+getProductsobr.com.fiap.techchallange.adapters.controllers.checkout.ProductsDisplayController#getProducts()Ljava/util/List; gethis& (1"Qbr.com.fiap.techchallange.adapters.controllers.checkout.ProductsDisplayControllerethis& (1"Qbr.com.fiap.techchallange.adapters.controllers.checkout.ProductsDisplayController"ô³
+°
  (*"H
-"#get-field# productsDisplayUseCase"#get-field# productsDisplayUseCase*2kUbr.com.fiap.techchallange.core.usecase.inputboundary.checkout.IProductsDisplayUseCasejava.lang.Objectë
-è
+"#get-field# productsDisplayUseCase"#get-field# productsDisplayUseCase*2Ubr.com.fiap.techchallange.core.usecase.inputboundary.checkout.IProductsDisplayUseCase«
+¨
  (8"„
-getProductssbr.com.fiap.techchallange.core.usecase.inputboundary.checkout.IProductsDisplayUseCase#getProducts()Ljava/util/List; *2Njava.util.Listjava.util.Collectionjava.lang.Objectjava.lang.Iterable8
+getProductssbr.com.fiap.techchallange.core.usecase.inputboundary.checkout.IProductsDisplayUseCase#getProducts()Ljava/util/List; *2java.util.List8
  (9*„/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/adapters/controllers/checkout/ProductsDisplayController.java

@@ -5,30 +5,26 @@ import java.util.InputMismatchException;
 public class Name {
     private String nameValue;
 
-<span class="nc" id="L8">    public Name(String name) {</span>
-<span class="nc" id="L9">        this.checkNameValue(name);</span>
-<span class="nc" id="L10">    }</span>
+<span class="fc" id="L8">    public Name(String name) {</span>
+<span class="fc" id="L9">        this.checkNameValue(name);</span>
+<span class="fc" id="L10">    }</span>
 
     public void checkNameValue(String name) throws InputMismatchException {
-//        if (name.matches(&quot;.*\\d.*&quot;)) {
-//            name = null;
-//        }
+<span class="fc bfc" id="L13" title="All 4 branches covered.">        if (name == null || name.trim().isEmpty()) {</span>
+<span class="fc" id="L14">            throw new IllegalArgumentException(&quot;Nome é inválido!&quot;);</span>
+        }
 
-<span class="nc bnc" id="L17" title="All 2 branches missed.">        for (char c : name.toCharArray()) {</span>
-<span class="nc bnc" id="L18" title="All 6 branches missed.">            if (Character.isDigit(c) || ((!Character.isLetter(c) &amp;&amp; c != ' '))){</span>
-<span class="nc" id="L19">                name = null;</span>
+<span class="fc bfc" id="L17" title="All 2 branches covered.">        for (char c : name.toCharArray()) {</span>
+<span class="fc bfc" id="L18" title="All 6 branches covered.">            if (Character.isDigit(c) || (!Character.isLetter(c) &amp;&amp; c != ' ')) {</span>
+<span class="fc" id="L19">                throw new IllegalArgumentException(&quot;Nome é inválido!&quot;);</span>
             }
         }
 
-<span class="nc bnc" id="L23" title="All 2 branches missed.">        if (name == null) {</span>
-<span class="nc" id="L24">            throw new IllegalArgumentException(&quot;Nome é inválido!&quot;);</span>
-        } else {
-<span class="nc" id="L26">            this.nameValue = name;</span>
-        }
-<span class="nc" id="L28">    }</span>
+<span class="fc" id="L23">        this.nameValue = name.trim();</span>
+<span class="fc" id="L24">    }</span>
 
     public String getNameValue() {
-<span class="nc" id="L31">        return this.nameValue;</span>
+<span class="fc" id="L27">        return this.nameValue;</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>

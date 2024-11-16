@@ -5,13 +5,13 @@ import br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IR
 
 public class RegisterProductController implements IRegisterProductController {
     IRegisterProductUseCase registerProductUseCase;
-<span class="nc" id="L8">    public RegisterProductController(IRegisterProductUseCase registerProductUseCase) {</span>
-<span class="nc" id="L9">        this.registerProductUseCase = registerProductUseCase;</span>
-<span class="nc" id="L10">    }</span>
+<span class="fc" id="L8">    public RegisterProductController(IRegisterProductUseCase registerProductUseCase) {</span>
+<span class="fc" id="L9">        this.registerProductUseCase = registerProductUseCase;</span>
+<span class="fc" id="L10">    }</span>
 
     @Override
     public void invoke(String sku, String name, String description, float monetaryValue, String category) {
-<span class="nc" id="L14">        registerProductUseCase.invoke(new InputDataProductDTO(sku, name, description, monetaryValue, category));</span>
-<span class="nc" id="L15">    }</span>
+<span class="fc" id="L14">        registerProductUseCase.invoke(new InputDataProductDTO(sku, name, description, monetaryValue, category));</span>
+<span class="fc" id="L15">    }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>

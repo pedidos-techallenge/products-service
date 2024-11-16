@@ -1,24 +1,23 @@
 
 (
-readjava.io.BufferedReader#read()I(¢G65535<intjava.lang.Objectjava.lang.Numberjava.lang.IntegerD-1<intjava.lang.Objectjava.lang.Numberjava.lang.Integerthis' '("|java.io.BufferedReaderjava.io.Closeablejava.lang.Readablejava.lang.Objectjava.io.Readerjava.lang.AutoCloseablethis' '("|java.io.BufferedReaderjava.io.Closeablejava.lang.Readablejava.lang.Objectjava.io.Readerjava.lang.AutoCloseable"ä|
-z
+readjava.io.BufferedReader#read()I(I-1int65535int*this' '("java.io.BufferedReader*this' '("java.io.BufferedReader"¡C
+A
 ) )('result"&
-#dependent-value##dependent-value#2<intjava.lang.Objectjava.lang.Numberjava.lang.Integer\
-Z
+#dependent-value##dependent-value#2int5
+3
 * *(%"
 
 #binop >=#
-#binop >=#*2.booleanjava.lang.Booleanjava.lang.Object/
--
+#binop >=#*2boolean-
++
 * *(&"
-#assume##assume#*2void\
-Z
+#assume##assume#*2void5
+3
 + +(("
 
 #binop <=#
-#binop <=#*2.booleanjava.lang.Booleanjava.lang.Object/
--
+#binop <=#*2boolean-
++
 + +()"
-#assume##assume#*2void
-, ,("6
-#unknownÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ ÿÿÿÿÿÿÿÿÿ(ÿÿÿÿÿÿÿÿÿ*BufferedReader.java
+#assume##assume#*2void
+, ,(*BufferedReader.java

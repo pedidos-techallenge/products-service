@@ -1,9 +1,9 @@
 
 Ê
-registerProductController∆br.com.fiap.techchallange.infrastructure.config.controller.managementproduct.ManagementProductControlerConfig#registerProductController(Lbr/com/fiap/techchallange/core/usecase/inputboundary/managementproduct/IRegisterProductUseCase;)Lbr/com/fiap/techchallange/adapters/controllers/managementproduct/IRegisterProductController; ∏òthis (8"Émbr.com.fiap.techchallange.infrastructure.config.controller.managementproduct.ManagementProductControlerConfigjava.lang.ObjectöregisterProductUseCase9 (g"t^br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IRegisterProductUseCasejava.lang.Objectòthis (8"Émbr.com.fiap.techchallange.infrastructure.config.controller.managementproduct.ManagementProductControlerConfigjava.lang.ObjectöregisterProductUseCase9 (g"t^br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IRegisterProductUseCasejava.lang.Object"è˝
-˙
+registerProductController∆br.com.fiap.techchallange.infrastructure.config.controller.managementproduct.ManagementProductControlerConfig#registerProductController(Lbr/com/fiap/techchallange/core/usecase/inputboundary/managementproduct/IRegisterProductUseCase;)Lbr/com/fiap/techchallange/adapters/controllers/managementproduct/IRegisterProductController; ãÅthis (8"mbr.com.fiap.techchallange.infrastructure.config.controller.managementproduct.ManagementProductControlerConfigÑregisterProductUseCase9 (g"^br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IRegisterProductUseCaseÅthis (8"mbr.com.fiap.techchallange.infrastructure.config.controller.managementproduct.ManagementProductControlerConfigÑregisterProductUseCase9 (g"^br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IRegisterProductUseCase"õâ
+Ü
  (D"
-#new-object##new-object#2ÕZbr.com.fiap.techchallange.adapters.controllers.managementproduct.RegisterProductControllerjava.lang.Object[br.com.fiap.techchallange.adapters.controllers.managementproduct.IRegisterProductControllerí
+#new-object##new-object#2Zbr.com.fiap.techchallange.adapters.controllers.managementproduct.RegisterProductControllerí
 è
  (D"|
 #instance-init#ibr.com.fiap.techchallange.adapters.controllers.managementproduct.RegisterProductController#instance-init#*8Á

@@ -7,20 +7,20 @@ import br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IG
 
 public class GetProductBySkuUseCase implements IGetProductBySkuUseCase {
     IProductRepository repository;
-<span class="nc" id="L10">    public GetProductBySkuUseCase(IProductRepository repository) {</span>
-<span class="nc" id="L11">        this.repository = repository;</span>
-<span class="nc" id="L12">    }</span>
+<span class="fc" id="L10">    public GetProductBySkuUseCase(IProductRepository repository) {</span>
+<span class="fc" id="L11">        this.repository = repository;</span>
+<span class="fc" id="L12">    }</span>
 
 
     @Override
     public OutputDataProductDTO get(String sku) {
-<span class="nc" id="L17">        Product product = this.repository.getProductBySku(sku);</span>
-<span class="nc" id="L18">        return new OutputDataProductDTO(</span>
-<span class="nc" id="L19">                product.getSku(),</span>
-<span class="nc" id="L20">                product.getName(),</span>
-<span class="nc" id="L21">                product.getDescription(),</span>
-<span class="nc" id="L22">                product.getMonetaryValue(),</span>
-<span class="nc" id="L23">                product.getCategory()</span>
+<span class="fc" id="L17">        Product product = this.repository.getProductBySku(sku);</span>
+<span class="fc" id="L18">        return new OutputDataProductDTO(</span>
+<span class="fc" id="L19">                product.getSku(),</span>
+<span class="fc" id="L20">                product.getName(),</span>
+<span class="fc" id="L21">                product.getDescription(),</span>
+<span class="fc" id="L22">                product.getMonetaryValue(),</span>
+<span class="fc" id="L23">                product.getCategory()</span>
         );
     }
 }

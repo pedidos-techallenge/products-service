@@ -1,10 +1,9 @@
 
 V
-parseUnsignedInt@java.lang.Integer#parseUnsignedInt(Ljava/lang/CharSequence;III)I(ÀTendIndexE (Q"<intjava.lang.Objectjava.lang.Numberjava.lang.IntegerV
-beginIndex5 (C"<intjava.lang.Objectjava.lang.Numberjava.lang.Integer=s% (3",java.lang.CharSequencejava.lang.ObjectQradixS (\"<intjava.lang.Objectjava.lang.Numberjava.lang.Integer=s% (3",java.lang.CharSequencejava.lang.ObjectV
-beginIndex5 (C"<intjava.lang.Objectjava.lang.Numberjava.lang.IntegerTendIndexE (Q"<intjava.lang.Objectjava.lang.Numberjava.lang.IntegerQradixS (\"<intjava.lang.Objectjava.lang.Numberjava.lang.Integer"Äz
-x
+parseUnsignedInt@java.lang.Integer#parseUnsignedInt(Ljava/lang/CharSequence;III)I('s% (3"java.lang.CharSequence
+beginIndex5 (C"intendIndexE (Q"intradixS (\"int's% (3"java.lang.CharSequence
+beginIndex5 (C"intendIndexE (Q"intradixS (\"int"SA
+?
  (E"&
-#dependent-value##dependent-value#*2<intjava.lang.Objectjava.lang.Numberjava.lang.Integer
- (F"6
-#unknownÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ ÿÿÿÿÿÿÿÿÿ(ÿÿÿÿÿÿÿÿÿ*Integer.java
+#dependent-value##dependent-value#*2int
+ (F*Integer.java

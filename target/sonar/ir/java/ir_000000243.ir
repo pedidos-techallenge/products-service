@@ -1,21 +1,21 @@
 
 ∫
-invoke≠br.com.fiap.techchallange.adapters.controllers.managementproduct.RegisterProductController#invoke(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;FLjava/lang/String;)V ∫:name# (."&java.lang.Stringjava.lang.ObjectAdescription0 (B"&java.lang.Stringjava.lang.Object‚this ("ÕZbr.com.fiap.techchallange.adapters.controllers.managementproduct.RegisterProductControllerjava.lang.Object[br.com.fiap.techchallange.adapters.controllers.managementproduct.IRegisterProductControllerYmonetaryValueD (W"<floatjava.lang.Objectjava.lang.Floatjava.lang.Number9sku (!"&java.lang.Stringjava.lang.Object>categoryY (h"&java.lang.Stringjava.lang.Object‚this ("ÕZbr.com.fiap.techchallange.adapters.controllers.managementproduct.RegisterProductControllerjava.lang.Object[br.com.fiap.techchallange.adapters.controllers.managementproduct.IRegisterProductController9sku (!"&java.lang.Stringjava.lang.Object:name# (."&java.lang.Stringjava.lang.ObjectAdescription0 (B"&java.lang.Stringjava.lang.ObjectYmonetaryValueD (W"<floatjava.lang.Objectjava.lang.Floatjava.lang.Number>categoryY (h"&java.lang.Stringjava.lang.Object"•“
-œ
+invoke≠br.com.fiap.techchallange.adapters.controllers.managementproduct.RegisterProductController#invoke(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;FLjava/lang/String;)V ∂nthis ("Zbr.com.fiap.techchallange.adapters.controllers.managementproduct.RegisterProductController#sku (!"java.lang.String$name# (."java.lang.String+description0 (B"java.lang.String"monetaryValueD (W"float(categoryY (h"java.lang.Stringnthis ("Zbr.com.fiap.techchallange.adapters.controllers.managementproduct.RegisterProductController#sku (!"java.lang.String$name# (."java.lang.String+description0 (B"java.lang.String"monetaryValueD (W"float(categoryY (h"java.lang.String"„º
+π
  ("H
-"#get-field# registerProductUseCase"#get-field# registerProductUseCase*2t^br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IRegisterProductUseCasejava.lang.Objectù
-ö
+"#get-field# registerProductUseCase"#get-field# registerProductUseCase*2^br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IRegisterProductUseCaset
+r
 & (n"
-#new-object##new-object#2nFbr.com.fiap.techchallange.core.usecase.dto.product.InputDataProductDTOjava.lang.Recordjava.lang.Object}
+#new-object##new-object#2Fbr.com.fiap.techchallange.core.usecase.dto.product.InputDataProductDTO}
 {
 & (n	"h
 #instance-init#Ubr.com.fiap.techchallange.core.usecase.dto.product.InputDataProductDTO#instance-init#*8¿
 Ω
 & (n
 "§
-<init>ôbr.com.fiap.techchallange.core.usecase.dto.product.InputDataProductDTO#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;FLjava/lang/String;)V*8›
-⁄
+<init>ôbr.com.fiap.techchallange.core.usecase.dto.product.InputDataProductDTO#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;FLjava/lang/String;)V*8€
+ÿ
  (o"Ω
-invoke∞br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IRegisterProductUseCase#invoke(Lbr/com/fiap/techchallange/core/usecase/dto/product/InputDataProductDTO;)V *2void8
+invoke∞br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IRegisterProductUseCase#invoke(Lbr/com/fiap/techchallange/core/usecase/dto/product/InputDataProductDTO;)V *2void8
 
  (*ç/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/adapters/controllers/managementproduct/RegisterProductController.java

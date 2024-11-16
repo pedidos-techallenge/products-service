@@ -1,5 +1,5 @@
 br.com.fiap.techchallange.core.entity.Product#toString()Ljava/lang/String;
 false
-c827e092b3638c74244a060c8a20a697
+cacf78b1fad566a5579a7cf6ec66641a
 ==
 getValue br.com.fiap.techchallange.core.entity.vo.MonetaryValue#getValue()F

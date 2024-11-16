@@ -1,11 +1,11 @@
 
 √
-updateProductUseCase®br.com.fiap.techchallange.infrastructure.config.usecase.managementproduct.ManagementProductUseCaseConfig#updateProductUseCase(Lbr/com/fiap/techchallange/adapters/gateways/repository/IProductRepository;)Lbr/com/fiap/techchallange/core/usecase/inputboundary/managementproduct/IUpdateProductUseCase; êíthis! (5"~hbr.com.fiap.techchallange.infrastructure.config.usecase.managementproduct.ManagementProductUseCaseConfigjava.lang.Objecty
-repository6 (S"_Ibr.com.fiap.techchallange.adapters.gateways.repository.IProductRepositoryjava.lang.Objectíthis! (5"~hbr.com.fiap.techchallange.infrastructure.config.usecase.managementproduct.ManagementProductUseCaseConfigjava.lang.Objecty
-repository6 (S"_Ibr.com.fiap.techchallange.adapters.gateways.repository.IProductRepositoryjava.lang.Object"‘Ò
-Ó
+updateProductUseCase®br.com.fiap.techchallange.infrastructure.config.usecase.managementproduct.ManagementProductUseCaseConfig#updateProductUseCase(Lbr/com/fiap/techchallange/adapters/gateways/repository/IProductRepository;)Lbr/com/fiap/techchallange/core/usecase/inputboundary/managementproduct/IUpdateProductUseCase; „|this! (5"hbr.com.fiap.techchallange.infrastructure.config.usecase.managementproduct.ManagementProductUseCaseConfigc
+repository6 (S"Ibr.com.fiap.techchallange.adapters.gateways.repository.IProductRepository|this! (5"hbr.com.fiap.techchallange.infrastructure.config.usecase.managementproduct.ManagementProductUseCaseConfigc
+repository6 (S"Ibr.com.fiap.techchallange.adapters.gateways.repository.IProductRepository"›{
+y
    (3"
-#new-object##new-object#2¡Mbr.com.fiap.techchallange.core.usecase.managementproduct.UpdateProductUseCase\br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IUpdateProductUseCasejava.lang.ObjectÖ
+#new-object##new-object#2Mbr.com.fiap.techchallange.core.usecase.managementproduct.UpdateProductUseCaseÖ
 Ç
    (3"o
 #instance-init#\br.com.fiap.techchallange.core.usecase.managementproduct.UpdateProductUseCase#instance-init#*8≈

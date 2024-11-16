@@ -1,5 +1,5 @@
 br.com.fiap.techchallange.core.entity.vo.Item#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;F)V
 false
-5a6cfcfc46b58c55a9478c1a4be8ae9b
+e62dcf5644ea3ad42e4f9dca89fbcc60
 br.com.fiap.techchallange.core.entity.vo.Item#setAmount()V
 br.com.fiap.techchallange.core.entity.vo.Item#setQuantity(Ljava/lang/Integer;)V

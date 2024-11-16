@@ -2,6 +2,7 @@ package br.com.fiap.techchallange.infrastructure.api;
 
 import br.com.fiap.techchallange.adapters.controllers.managementproduct.*;
 import br.com.fiap.techchallange.adapters.presenters.viewmodel.ErrorViewModel;
+import br.com.fiap.techchallange.core.entity.Product;
 import br.com.fiap.techchallange.core.usecase.outputboundary.presenters.managementproduct.IProductManagementPresenter;
 import br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO;
 import io.swagger.v3.oas.annotations.Operation;
@@ -74,12 +75,21 @@ public class ManagementProduct {
                     productDeserializer.monetaryValue(),
                     productDeserializer.category()
             );
+
+            Product createdProduct = new Product(
+                    productDeserializer.sku(),
+                    productDeserializer.name(),
+                    productDeserializer.description(),
+                    productDeserializer.monetaryValue(),
+                    productDeserializer.category()
+            );
+
+            return new ResponseEntity<>(createdProduct, HttpStatus.CREATED);
         } catch (DataAccessException e) {
             return new ResponseEntity<>(new ErrorViewModel(3, "Erro ao realizar cadastro de produto"), HttpStatus.NOT_FOUND);
         } catch (IllegalArgumentException e) {
             return new ResponseEntity<>(new ErrorViewModel(99, e.getMessage()), HttpStatus.NOT_FOUND);
         }
-        return null;
     }
 
     @PutMapping("/{sku}/update")

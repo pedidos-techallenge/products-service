@@ -1,8 +1,7 @@
 
 (
-nextIntjava.util.Random#nextInt()I(<:this ("&java.util.Randomjava.lang.Object:this ("&java.util.Randomjava.lang.Object"¾t
-r
+nextIntjava.util.Random#nextInt()I(&$this ("java.util.Random$this ("java.util.Random"M;
+9
  (!"&
-#dependent-value##dependent-value#2<intjava.lang.Objectjava.lang.Numberjava.lang.Integer
- (""6
-#unknownÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ ÿÿÿÿÿÿÿÿÿ(ÿÿÿÿÿÿÿÿÿ*Random.java
+#dependent-value##dependent-value#2int
+ ("*Random.java

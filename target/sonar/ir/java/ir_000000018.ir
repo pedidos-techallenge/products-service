@@ -1,11 +1,10 @@
 
 5
-#instance-init# java.util.Scanner#instance-init#(=;this
+#instance-init# java.util.Scanner#instance-init#('%this
  
-("'java.util.Scannerjava.lang.Object;this
+("java.util.Scanner%this
  
-("'java.util.Scannerjava.lang.Object"D
+("java.util.Scanner"
 
 
- 9("6
-#unknownÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ ÿÿÿÿÿÿÿÿÿ(ÿÿÿÿÿÿÿÿÿ*Scanner.java
+ 9(*Scanner.java

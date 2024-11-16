@@ -1,11 +1,11 @@
 
 P
-getValueBbr.com.fiap.techchallange.core.entity.vo.MonetaryValue#getValue()F xvthis ("b6br.com.fiap.techchallange.core.entity.vo.MonetaryValuejava.lang.Objectjava.io.Serializablevthis ("b6br.com.fiap.techchallange.core.entity.vo.MonetaryValuejava.lang.Objectjava.io.Serializable"Â¤
-¡
+getValueBbr.com.fiap.techchallange.core.entity.vo.MonetaryValue#getValue()F LJthis ("6br.com.fiap.techchallange.core.entity.vo.MonetaryValueJthis ("6br.com.fiap.techchallange.core.entity.vo.MonetaryValue"³O
+M
  ("&
-#get-field# value#get-field# value*2hjava.math.BigDecimaljava.lang.Objectjava.lang.Comparablejava.lang.Numberjava.io.Serializableˆ
-…
+#get-field# value#get-field# value*2java.math.BigDecimalP
+N
  (!"4
 
-floatValue"java.math.BigDecimal#floatValue()F (*2<floatjava.lang.Objectjava.lang.Floatjava.lang.Number8
+floatValue"java.math.BigDecimal#floatValue()F (*2float8
  ("*i/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/core/entity/vo/MonetaryValue.java

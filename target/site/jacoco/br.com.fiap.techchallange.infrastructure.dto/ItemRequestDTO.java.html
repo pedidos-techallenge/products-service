@@ -12,22 +12,22 @@ public class ItemRequestDTO implements Serializable {
     @Schema(name = &quot;quantity&quot;, example = &quot;1&quot;, required = true)
     private Integer quantity;
 
-<span class="nc" id="L15">    public ItemRequestDTO(String sku, float amount, Integer quantity) {</span>
-<span class="nc" id="L16">        this.sku = sku;</span>
-<span class="nc" id="L17">        this.amount = amount;</span>
-<span class="nc" id="L18">        this.quantity = quantity;</span>
-<span class="nc" id="L19">    }</span>
+<span class="fc" id="L15">    public ItemRequestDTO(String sku, float amount, Integer quantity) {</span>
+<span class="fc" id="L16">        this.sku = sku;</span>
+<span class="fc" id="L17">        this.amount = amount;</span>
+<span class="fc" id="L18">        this.quantity = quantity;</span>
+<span class="fc" id="L19">    }</span>
 
     public String sku() {
-<span class="nc" id="L22">        return sku;</span>
+<span class="fc" id="L22">        return sku;</span>
     }
 
     public float amount() {
-<span class="nc" id="L26">        return amount;</span>
+<span class="fc" id="L26">        return amount;</span>
     }
 
     public Integer quantity() {
-<span class="nc" id="L30">        return quantity;</span>
+<span class="fc" id="L30">        return quantity;</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>

@@ -1,24 +1,24 @@
 
 Íbr.com.fiap.techchallange.infrastructure.api.ManagementProduct#updateProductHTTP(Ljava/lang/String;Lbr/com/fiap/techchallange/infrastructure/dto/ProductRequestDTO;)Lorg/springframework/http/ResponseEntity;{
-q/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/infrastructure/api/ManagementProduct.javaV V(."startingBlock*†
-13X X(ñ
+q/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/infrastructure/api/ManagementProduct.java` `(."startingBlock*†
+13b b(ñ
 î
-X X((_
+b b((_
 %0Ybr.com.fiap.techchallange.adapters.controllers.managementproduct.IUpdateProductController"__id*{
 
 __unknown_file (_*]@
 >br.com.fiap.techchallange.infrastructure.api.ManagementProduct"
 updateProductControllerûø
-Z Z(.
+d d(.
 %1java.lang.String"Wbr.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO#name()Ljava/lang/String;*s
 
 __unknown_file (W
 U
 productDeserializer>br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO2name()*
 12*ó
-startingBlockV. V(|­
+startingBlock`. `(|­
 ª
-V/ V(<
+`/ `(<
 %20"
 __annotate*T
 
@@ -29,7 +29,7 @@ __annotate*T
 
 skujava.lang.StringX
 V
-VD V(G
+`D `(G
 skujava.lang.String"__annotation*#
 
 __unknown_file (
@@ -73,7 +73,7 @@ U
 productDeserializer>br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO"
 skuš
 —
-VI V(U
+`I `(U
 %25"
 __annotate*S
 
@@ -84,7 +84,7 @@ __annotate*S
 
 %24 
 
-Vh V({^
+`h `({^
 U
 productDeserializer>br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO"
 sku"__annotation*#
@@ -93,7 +93,7 @@ U
 
 %25š
 —
-VI V(U
+`I `(U
 %26"
 __annotate*S
 
@@ -104,7 +104,7 @@ __annotate*S
 
 %22¨
 ¥
-Vh V({f
+`h `({f
 U
 productDeserializer>br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO"
 description"__annotation*#
@@ -113,7 +113,7 @@ U
 
 %26š
 —
-VI V(U
+`I `(U
 %27"
 __annotate*S
 
@@ -124,7 +124,7 @@ __annotate*S
 
 %23¡
 ž
-Vh V({_
+`h `({_
 U
 productDeserializer>br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO"
 name"__annotation*#
@@ -133,7 +133,7 @@ U
 
 %27š
 —
-VI V(U
+`I `(U
 %28"
 __annotate*S
 
@@ -144,7 +144,7 @@ __annotate*S
 
 %21¥
 ¢
-Vh V({c
+`h `({c
 U
 productDeserializer>br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO"
 
@@ -154,8 +154,8 @@ U
 
 %28*
 13*³
-9X ^(ž›
-X ^(
+9b h(ž›
+b h(
 
 %5void"¬br.com.fiap.techchallange.adapters.controllers.managementproduct.IUpdateProductController#invoke(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;FLjava/lang/String;)V*}
 
@@ -183,8 +183,8 @@ _
 
 %4java.lang.String2Qinvoke(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;FLjava/lang/String;)*
 1*™
-10] ]('ƒ€
-] ](2
+10g g('ƒ€
+g g(2
 %4java.lang.String"[br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO#category()Ljava/lang/String;*s
 
 __unknown_file (W
@@ -192,33 +192,33 @@ U
 productDeserializer>br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO2
 category()*
 9*ˆ
-11\ \('ñî
-\ \(7
+11f f('ñî
+f f(7
 %3float"Obr.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO#monetaryValue()F*s
 
 __unknown_file (W
 U
 productDeserializer>br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO2monetaryValue()*
 10* 
-12[ [('‰†
-[ [(5
+12e e('‰†
+e e(5
 %2java.lang.String"^br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO#description()Ljava/lang/String;*s
 
 __unknown_file (W
 U
 productDeserializer>br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO2description()*
 11*ó
-1e$ e(Db
+1o$ o(Db
 `
-eF e(S*
+oF o(S*
 %17#org.springframework.http.HttpStatus"__id*"
 
 __unknown_file (
 ""ec
-e e(#.
+o o(#.
 %18'org.springframework.http.ResponseEntity"'org.springframework.http.ResponseEntityÚ
 ×
-e e(T
+o o(T
 %19"lorg.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatusCode;)V*L
 
 __unknown_file (0
@@ -231,11 +231,11 @@ U
 __unknown_file (,
 *
 %17#org.springframework.http.HttpStatus"<
-e e(U0
+o o(U0
 .
 %18'org.springframework.http.ResponseEntity:#
-V/ V(H
+`/ `(H
 skujava.lang.String:a
-VI V({U
+`I `({U
 productDeserializer>br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTOBB@
 >br.com.fiap.techchallange.infrastructure.api.ManagementProductH

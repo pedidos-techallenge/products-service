@@ -6,20 +6,20 @@ import br.com.fiap.techchallange.core.usecase.outputboundary.presenters.manageme
 import java.util.ArrayList;
 import java.util.List;
 
-<span class="nc" id="L9">public class ProductManagementPresenter implements IProductManagementPresenter {</span>
+<span class="fc" id="L9">public class ProductManagementPresenter implements IProductManagementPresenter {</span>
     @Override
     public List&lt;ProductResponseModel&gt; presentList(List&lt;OutputDataProductDTO&gt; productDTO) {
-<span class="nc" id="L12">        List&lt;ProductResponseModel&gt; viewProducts = new ArrayList();</span>
+<span class="fc" id="L12">        List&lt;ProductResponseModel&gt; viewProducts = new ArrayList();</span>
 
-<span class="nc bnc" id="L14" title="All 2 branches missed.">        for(OutputDataProductDTO product: productDTO){</span>
-<span class="nc" id="L15">            viewProducts.add(new ProductResponseModel(product));</span>
-<span class="nc" id="L16">        }</span>
-<span class="nc" id="L17">        return viewProducts;</span>
+<span class="fc bfc" id="L14" title="All 2 branches covered.">        for(OutputDataProductDTO product: productDTO){</span>
+<span class="fc" id="L15">            viewProducts.add(new ProductResponseModel(product));</span>
+<span class="fc" id="L16">        }</span>
+<span class="fc" id="L17">        return viewProducts;</span>
     }
 
     @Override
     public ProductResponseModel present(OutputDataProductDTO productDTO) {
-<span class="nc" id="L22">        return new ProductResponseModel(productDTO);</span>
+<span class="fc" id="L22">        return new ProductResponseModel(productDTO);</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>

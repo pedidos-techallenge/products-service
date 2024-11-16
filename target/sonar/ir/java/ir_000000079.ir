@@ -1,6 +1,5 @@
 
 4
-#instance-init#java.lang.System#instance-init#(<:this ("&java.lang.Systemjava.lang.Object:this ("&java.lang.Systemjava.lang.Object"D
+#instance-init#java.lang.System#instance-init#(&$this ("java.lang.System$this ("java.lang.System"
 
- ("6
-#unknownÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ ÿÿÿÿÿÿÿÿÿ(ÿÿÿÿÿÿÿÿÿ*System.java
+ (*System.java

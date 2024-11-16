@@ -1,8 +1,7 @@
 
 +
-nextLongjava.util.Scanner#nextLong()J(=;this* *("'java.util.Scannerjava.lang.Object;this* *("'java.util.Scannerjava.lang.Object"¼r
-p
+nextLongjava.util.Scanner#nextLong()J('%this* *("java.util.Scanner%this* *("java.util.Scanner"N<
+:
 + +(""&
-#dependent-value##dependent-value#2:longjava.lang.Longjava.lang.Objectjava.lang.Number
-+ +(#"6
-#unknownÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ ÿÿÿÿÿÿÿÿÿ(ÿÿÿÿÿÿÿÿÿ*Scanner.java
+#dependent-value##dependent-value#2long
++ +(#*Scanner.java

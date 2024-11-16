@@ -6,19 +6,19 @@ import br.com.fiap.techchallange.core.usecase.outputboundary.presenters.checkout
 import java.util.ArrayList;
 import java.util.List;
 
-<span class="nc" id="L9">public class ProductPresenter implements IProductPresenter {</span>
+<span class="fc" id="L9">public class ProductPresenter implements IProductPresenter {</span>
 
 
     @Override
     public List&lt;ProductResponseModel&gt; present(List&lt;OutputDataProductDTO&gt; productsDTO) {
 
-<span class="nc" id="L15">        List&lt;ProductResponseModel&gt; viewProducts = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L15">        List&lt;ProductResponseModel&gt; viewProducts = new ArrayList&lt;&gt;();</span>
 
-<span class="nc bnc" id="L17" title="All 2 branches missed.">        for(OutputDataProductDTO product: productsDTO){</span>
-<span class="nc" id="L18">            viewProducts.add(new ProductResponseModel(product));</span>
-<span class="nc" id="L19">        }</span>
+<span class="fc bfc" id="L17" title="All 2 branches covered.">        for(OutputDataProductDTO product: productsDTO){</span>
+<span class="fc" id="L18">            viewProducts.add(new ProductResponseModel(product));</span>
+<span class="fc" id="L19">        }</span>
 
-<span class="nc" id="L21">        return viewProducts;</span>
+<span class="fc" id="L21">        return viewProducts;</span>
     }
 }
 

@@ -1,6 +1,6 @@
 br.com.fiap.techchallange.core.entity.enums.Category#fromValue(Ljava/lang/String;)Lbr/com/fiap/techchallange/core/entity/enums/Category;
 false
-a4e8fc86dfc5406e3b737af75e47766c
+67fcde46a39aee10ce8e5e7fc084b176
 br.com.fiap.techchallange.core.entity.enums.Category#getValue()Ljava/lang/String;
 java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V
 java.lang.IllegalArgumentException#instance-init#
