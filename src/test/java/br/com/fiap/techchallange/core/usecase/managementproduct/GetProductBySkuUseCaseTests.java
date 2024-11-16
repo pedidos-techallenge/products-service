@@ -24,7 +24,6 @@ class GetProductBySkuUseCaseTests {
 
     @Test
     void testGetProductBySku() {
-        // Arrange
         String sku = "ABC123";
         Product mockProduct = new Product("ABC123", "Produto Teste", "Descrição Teste", 100.50f, Category.Drink.getValue());
         when(repositoryMock.getProductBySku(sku)).thenReturn(mockProduct);

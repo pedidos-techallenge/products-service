@@ -1,0 +1,5 @@
+br.com.fiap.techchallange.adapters.controllers.checkout.ProductsDisplayController#getProducts()Ljava/util/List;
+false
+b33445f7413cf84998f4b36d9a1504c3
+==
+getProducts br.com.fiap.techchallange.core.usecase.inputboundary.checkout.IProductsDisplayUseCase#getProducts()Ljava/util/List;

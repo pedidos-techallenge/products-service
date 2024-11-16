@@ -1,0 +1,20 @@
+
+Bbr.com.fiap.techchallange.core.entity.vo.MonetaryValue#getValue()Fs
+i/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/core/entity/vo/MonetaryValue.java ("1*ø
+1 (í
+è
+ (
+%0java.math.BigDecimal"__id*a
+
+__unknown_file (E*C8
+6br.com.fiap.techchallange.core.entity.vo.MonetaryValue"
+valueÜÉ
+ (!
+%1float""java.math.BigDecimal#floatValue()F*8
+
+__unknown_file (
+
+%0java.math.BigDecimal2floatValue()"
+ ("
+""B:8
+6br.com.fiap.techchallange.core.entity.vo.MonetaryValueHX

@@ -1,0 +1,23 @@
+
+br.com.fiap.techchallange.infrastructure.config.EndpointConfigLogger#logEndpoints()Lorg/springframework/boot/CommandLineRunner;
+w/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/infrastructure/config/EndpointConfigLogger.java ()"1*ö
+1 (OÉ
+Æ
+ (O0
+%0*org.springframework.boot.CommandLineRunner"__declareFunction*u
+
+__unknown_file (YW
+U__sonar_lambda_0$br.com.fiap.techchallange.infrastructure.config.EndpointConfigLoggerÚ
+×
+
+__unknown_file (O
+0
+%0*org.springframework.boot.CommandLineRunner"
+EndpointConfigLogger.this"__id*d
+
+__unknown_file (HF
+Dbr.com.fiap.techchallange.infrastructure.config.EndpointConfigLogger">
+ (P2
+0
+%0*org.springframework.boot.CommandLineRunnerBHF
+Dbr.com.fiap.techchallange.infrastructure.config.EndpointConfigLoggerH

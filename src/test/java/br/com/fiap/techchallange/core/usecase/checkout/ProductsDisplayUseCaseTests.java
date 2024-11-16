@@ -19,7 +19,6 @@ class ProductsDisplayUseCaseTests {
 
     @Test
     void shouldReturnProductsAsDTOs() {
-        // Arrange
         IProductRepository mockProductRepository = mock(IProductRepository.class);
 
         List<Product> mockProducts = Arrays.asList(

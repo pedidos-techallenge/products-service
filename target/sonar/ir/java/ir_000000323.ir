@@ -1,0 +1,17 @@
+
+G
+	setAmount:br.com.fiap.techchallange.core.entity.vo.Item#setAmount()VCAthis7 7("-br.com.fiap.techchallange.core.entity.vo.ItemAthis7 7("-br.com.fiap.techchallange.core.entity.vo.Item"ùH
+F
+8 8($".
+#get-field# unitValue#get-field# unitValue*2floatR
+P
+8' 8(4",
+#get-field# quantity#get-field# quantity*2java.lang.Integer1
+/
+8 8(4"
+	#binop *#	#binop *#*2float<
+:
+8 8(4"(
+#set-field# amount#set-field# amount*
+
+9 9(*`/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/core/entity/vo/Item.java

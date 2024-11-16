@@ -1,0 +1,5 @@
+br.com.fiap.techchallange.infrastructure.config.controller.managementproduct.ManagementProductControlerConfig#updateProductController(Lbr/com/fiap/techchallange/core/usecase/inputboundary/managementproduct/IUpdateProductUseCase;)Lbr/com/fiap/techchallange/adapters/controllers/managementproduct/IUpdateProductController;
+false
+be43fd5a85a9159b4a0e8f724f031536
+br.com.fiap.techchallange.adapters.controllers.managementproduct.UpdateProductController#<init>(Lbr/com/fiap/techchallange/core/usecase/inputboundary/managementproduct/IUpdateProductUseCase;)V
+br.com.fiap.techchallange.adapters.controllers.managementproduct.UpdateProductController#instance-init#

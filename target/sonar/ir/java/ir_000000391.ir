@@ -1,0 +1,8 @@
+
+®
+MySQLProductRepository‘br.com.fiap.techchallange.infrastructure.bd.MySQLProductRepository#<init>(Lorg/springframework/jdbc/core/namedparam/NamedParameterJdbcTemplate;)V ÇVthis (!"Bbr.com.fiap.techchallange.infrastructure.bd.MySQLProductRepositorymnamedParameterJdbcTemplate" (W"Corg.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplateVthis (!"Bbr.com.fiap.techchallange.infrastructure.bd.MySQLProductRepositorymnamedParameterJdbcTemplate" (W"Corg.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate"td
+b
+ (D"P
+&#set-field# namedParameterJdbcTemplate&#set-field# namedParameterJdbcTemplate*
+
+ (*u/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/infrastructure/bd/MySQLProductRepository.java

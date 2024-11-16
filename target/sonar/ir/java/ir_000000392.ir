@@ -1,0 +1,16 @@
+
+q
+getProducts`br.com.fiap.techchallange.infrastructure.bd.MySQLProductRepository#getProducts()Ljava/util/List; —='"SELECT * FROM dbtechchallange.product"java.lang.StringVthis ($"Bbr.com.fiap.techchallange.infrastructure.bd.MySQLProductRepositoryVthis ($"Bbr.com.fiap.techchallange.infrastructure.bd.MySQLProductRepository"ó$
+"
+ (<sql"
+#id##id#*A
+?
+. )(	"1
+/?create:org.springframework.jdbc.core.RowMapper©
+¦
+* *()"P
+&#get-field# namedParameterJdbcTemplate&#get-field# namedParameterJdbcTemplate*2Corg.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplateË
+È
+* *(F"¢
+query–org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate#query(Ljava/lang/String;Lorg/springframework/jdbc/core/RowMapper;)Ljava/util/List; *2java.util.List8
+* *(G*u/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/infrastructure/bd/MySQLProductRepository.java

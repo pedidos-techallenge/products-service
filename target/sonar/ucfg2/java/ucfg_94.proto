@@ -1,0 +1,21 @@
+
+obr.com.fiap.techchallange.adapters.controllers.checkout.ProductsDisplayController#getProducts()Ljava/util/List;è
+Ñ/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/adapters/controllers/checkout/ProductsDisplayController.java& (1"1*Ÿ
+1 (Ä
+˝
+ (*[
+%0Ubr.com.fiap.techchallange.core.usecase.inputboundary.checkout.IProductsDisplayUseCase"__id*ç
+
+__unknown_file (q*oS
+Qbr.com.fiap.techchallange.adapters.controllers.checkout.ProductsDisplayController"
+productsDisplayUseCase¢ü
+ (8
+%1java.util.List"sbr.com.fiap.techchallange.core.usecase.inputboundary.checkout.IProductsDisplayUseCase#getProducts()Ljava/util/List;*y
+
+__unknown_file (]
+[
+%0Ubr.com.fiap.techchallange.core.usecase.inputboundary.checkout.IProductsDisplayUseCase2getProducts()""
+ (9
+
+%1java.util.ListBUS
+Qbr.com.fiap.techchallange.adapters.controllers.checkout.ProductsDisplayControllerH
