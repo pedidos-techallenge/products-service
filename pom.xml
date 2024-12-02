@@ -188,6 +188,10 @@
 					<testFailureIgnore>false</testFailureIgnore>
 					<includes>
 						<include>**/*Tests.java</include>
+						<include>**/*Test.java</include>
+						<include>**/*Tests.java</include>
+						<include>**/*IT.java</include>
+						<include>**/*CucumberTests.java</include>
 					</includes>
 				</configuration>
 			</plugin>
