@@ -11,6 +11,7 @@
 /home/axel/pos/products-service/src/test/java/br/com/fiap/techchallange/core/usecase/managementproduct/RegisterProductUseCaseTests.java
 /home/axel/pos/products-service/src/test/java/br/com/fiap/techchallange/adapters/presenters/checkout/ProductPresenterTests.java
 /home/axel/pos/products-service/src/test/java/br/com/fiap/techchallange/core/entity/vo/ItemTests.java
+/home/axel/pos/products-service/src/test/java/br/com/fiap/techchallange/CucumberSpringConfiguration.java
 /home/axel/pos/products-service/src/test/java/br/com/fiap/techchallange/core/usecase/managementproduct/GetProductBySkuUseCaseTests.java
 /home/axel/pos/products-service/src/test/java/br/com/fiap/techchallange/core/entity/enums/CategoryTests.java
 /home/axel/pos/products-service/src/test/java/br/com/fiap/techchallange/core/usecase/managementproduct/GetProductListUseCaseTests.java
