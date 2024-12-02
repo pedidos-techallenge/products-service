@@ -7,6 +7,7 @@ br/com/fiap/techchallange/adapters/controllers/managementproduct/UpdateProductCo
 br/com/fiap/techchallange/core/usecase/managementproduct/GetProductListUseCaseTests.class
 br/com/fiap/techchallange/core/entity/vo/ItemTests.class
 br/com/fiap/techchallange/steps/ProductSteps.class
+br/com/fiap/techchallange/CucumberSpringConfiguration.class
 br/com/fiap/techchallange/core/entity/vo/MonetaryValueTests.class
 br/com/fiap/techchallange/RunCucumberTests.class
 br/com/fiap/techchallange/adapters/controllers/managementproduct/GetProductBySkuControllerTests.class
