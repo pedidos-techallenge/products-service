@@ -1,3 +1,0 @@
-br.com.fiap.techchallange.infrastructure.api.ManagementProduct#<init>(Lbr/com/fiap/techchallange/adapters/controllers/managementproduct/IGetProductListController;Lbr/com/fiap/techchallange/adapters/controllers/managementproduct/IGetProductBySkuController;Lbr/com/fiap/techchallange/adapters/controllers/managementproduct/IRegisterProductController;Lbr/com/fiap/techchallange/adapters/controllers/managementproduct/IUpdateProductController;Lbr/com/fiap/techchallange/adapters/controllers/managementproduct/IRemoveProductController;Lbr/com/fiap/techchallange/core/usecase/outputboundary/presenters/managementproduct/IProductManagementPresenter;)V
-false
-4fafae3b23a02a70e442676f6f91081e

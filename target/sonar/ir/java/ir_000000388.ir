@@ -1,10 +1,0 @@
-
-^
-getCategoryMbr.com.fiap.techchallange.core.entity.Product#getCategory()Ljava/lang/String; CAthisJ J("-br.com.fiap.techchallange.core.entity.ProductAthisJ J("-br.com.fiap.techchallange.core.entity.Product"èu
-s
-K K(",
-#get-field# category#get-field# category*24br.com.fiap.techchallange.core.entity.enums.CategoryÖ
-Ç
-K K(""]
-getValueQbr.com.fiap.techchallange.core.entity.enums.Category#getValue()Ljava/lang/String;*2java.lang.String8
-K K(#*`/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/core/entity/Product.java

@@ -1,12 +1,0 @@
-
-c
-setDescriptionQbr.com.fiap.techchallange.core.entity.Product#setDescription(Ljava/lang/String;)V•#"description"java.lang.StringAthis$ $("-br.com.fiap.techchallange.core.entity.Product+description$  $(2"java.lang.StringAthis$ $("-br.com.fiap.techchallange.core.entity.Product+description$  $(2"java.lang.String"ä‹
-ˆ
-% %(."m
-
-checkValue_br.com.fiap.techchallange.core.entity.Product#checkValue(Ljava/lang/String;Ljava/lang/String;)V*2void8F
-D
-& &(&"2
-#set-field# description#set-field# description*
-
-' '(*`/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/core/entity/Product.java

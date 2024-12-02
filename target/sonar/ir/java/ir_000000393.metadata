@@ -1,8 +1,0 @@
-br.com.fiap.techchallange.infrastructure.bd.MySQLProductRepository#getProductsByCategory(Ljava/lang/String;)Ljava/util/List;
-false
-137b000d08b43773ff9e62d722fe66d2
-org.springframework.jdbc.core.namedparam.MapSqlParameterSource#<init>()V
-org.springframework.jdbc.core.namedparam.MapSqlParameterSource#instance-init#
-==
-addValue org.springframework.jdbc.core.namedparam.MapSqlParameterSource#addValue(Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/jdbc/core/namedparam/MapSqlParameterSource;
-query org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate#query(Ljava/lang/String;Lorg/springframework/jdbc/core/namedparam/SqlParameterSource;Lorg/springframework/jdbc/core/RowMapper;)Ljava/util/List;
