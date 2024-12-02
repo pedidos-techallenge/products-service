@@ -1,8 +1,0 @@
-
-«
-webMvcConfigurer”br.com.fiap.techchallange.infrastructure.config.OpenApiConfig#webMvcConfigurer()Lorg/springframework/web/servlet/config/annotation/WebMvcConfigurer; igthis (,"S=br.com.fiap.techchallange.infrastructure.config.OpenApiConfigjava.lang.Objectgthis (,"S=br.com.fiap.techchallange.infrastructure.config.OpenApiConfigjava.lang.Object"n\
-Z
- (	"L
-J?create:org.springframework.web.servlet.config.annotation.WebMvcConfigurer
- (
-*p/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/infrastructure/config/OpenApiConfig.java

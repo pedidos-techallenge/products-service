@@ -1,25 +1,0 @@
-
-§
-ProductRequestDTO‘br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;FLjava/lang/String;)VÑ>category (5"&java.lang.Stringjava.lang.ObjectYmonetaryValue (>"<floatjava.lang.Objectjava.lang.Floatjava.lang.Numberzthis	 	("f>br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTOjava.lang.Recordjava.lang.Object:name (-"&java.lang.Stringjava.lang.ObjectAdescription (;"&java.lang.Stringjava.lang.Object9sku
- 
-(+"&java.lang.Stringjava.lang.Objectzthis	 	("f>br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTOjava.lang.Recordjava.lang.Object9sku
- 
-(+"&java.lang.Stringjava.lang.Object:name (-"&java.lang.Stringjava.lang.ObjectAdescription (;"&java.lang.Stringjava.lang.ObjectYmonetaryValue (>"<floatjava.lang.Objectjava.lang.Floatjava.lang.Number>category (5"&java.lang.Stringjava.lang.Object"Ö8
-6
- ("$
-#set-field# name#set-field# name*J
-H
- (*"6
-#set-field# monetaryValue#set-field# monetaryValue*6
-4
- (	""
-#set-field# sku#set-field# sku*F
-D
- (&
-"2
-#set-field# description#set-field# description*@
->
- ( ",
-#set-field# category#set-field# category*
-
- (*q/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/infrastructure/dto/ProductRequestDTO.java

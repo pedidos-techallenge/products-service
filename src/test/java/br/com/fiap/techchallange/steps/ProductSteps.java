@@ -1,33 +1,53 @@
 package br.com.fiap.techchallange.steps;
 
-import io.cucumber.java.en.Given;
-import io.cucumber.java.en.When;
-import io.cucumber.java.en.Then;
-import org.junit.Assert;
+import io.cucumber.java.en.*;
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
 
-import java.util.List;
-import java.util.ArrayList;
+import static org.hamcrest.Matchers.*;
 
 public class ProductSteps {
 
-    private List<String> products;
-    private List<String> result;
+    private Response response;
 
-    @Given("I have a list of products")
-    public void i_have_a_list_of_products() {
-        products = new ArrayList<>();
-        products.add("Product A");
-        products.add("Product B");
+    @Given("existem produtos cadastrados no sistema")
+    public void existemProdutosCadastrados() {
+        // Garantir que há ao menos um produto cadastrado
+        RestAssured.given()
+                .contentType("application/json")
+                .body("{\"sku\":\"ABC123\",\"name\":\"Produto Teste\",\"description\":\"Descrição\",\"monetaryValue\":10.0,\"category\":\"Categoria\"}")
+                .post("/v1/products/create")
+                .then()
+                .statusCode(201);
     }
 
-    @When("I request all products")
-    public void i_request_all_products() {
-        result = products; // Simulando a chamada para buscar produtos
+    @Given("existe um produto com SKU {string} no sistema")
+    public void existeUmProdutoComSku(String sku) {
+        RestAssured.given()
+                .contentType("application/json")
+                .body("{\"sku\":\"" + sku + "\",\"name\":\"Produto Teste\",\"description\":\"Descrição\",\"monetaryValue\":10.0,\"category\":\"Categoria\"}")
+                .post("/v1/products/create")
+                .then()
+                .statusCode(201);
     }
 
-    @Then("I should get a non-empty list")
-    public void i_should_get_a_non_empty_list() {
-        Assert.assertFalse(result.isEmpty());
+    @When("eu faço uma requisição GET para {string}")
+    public void euFacoUmaRequisicaoGetPara(String endpoint) {
+        response = RestAssured.get(endpoint);
+    }
+
+    @Then("a resposta deve ter o status {int}")
+    public void aRespostaDeveTerOStatus(int statusCode) {
+        response.then().statusCode(statusCode);
+    }
+
+    @Then("o corpo da resposta deve conter uma lista de produtos")
+    public void oCorpoDaRespostaDeveConterUmaListaDeProdutos() {
+        response.then().body("size()", greaterThan(0));
+    }
+
+    @Then("o corpo da resposta deve conter {string} no campo {string}")
+    public void oCorpoDaRespostaDeveConterNoCampo(String valorEsperado, String campo) {
+        response.then().body(campo, equalTo(valorEsperado));
     }
 }
-

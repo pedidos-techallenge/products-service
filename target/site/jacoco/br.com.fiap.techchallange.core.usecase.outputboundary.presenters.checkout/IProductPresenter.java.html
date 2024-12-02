@@ -13,43 +13,43 @@ public interface IProductPresenter {
         private String description;
         private float value;
 
-<span class="nc" id="L16">        public ProductResponseModel(OutputDataProductDTO productDTO) {</span>
-<span class="nc" id="L17">            this.setSku(productDTO.getSku());</span>
-<span class="nc" id="L18">            this.setName(productDTO.getName());</span>
-<span class="nc" id="L19">            this.setDescription(productDTO.getDescription());</span>
-<span class="nc" id="L20">            this.setValue(productDTO.getValue());</span>
-<span class="nc" id="L21">        }</span>
+<span class="fc" id="L16">        public ProductResponseModel(OutputDataProductDTO productDTO) {</span>
+<span class="fc" id="L17">            this.setSku(productDTO.getSku());</span>
+<span class="fc" id="L18">            this.setName(productDTO.getName());</span>
+<span class="fc" id="L19">            this.setDescription(productDTO.getDescription());</span>
+<span class="fc" id="L20">            this.setValue(productDTO.getValue());</span>
+<span class="fc" id="L21">        }</span>
 
         private void setSku(String sku) {
-<span class="nc" id="L24">            this.sku = sku;</span>
-<span class="nc" id="L25">        }</span>
+<span class="fc" id="L24">            this.sku = sku;</span>
+<span class="fc" id="L25">        }</span>
 
         private void setName(String name) {
-<span class="nc" id="L28">            this.name = name;</span>
-<span class="nc" id="L29">        }</span>
+<span class="fc" id="L28">            this.name = name;</span>
+<span class="fc" id="L29">        }</span>
 
         private void setDescription(String description) {
-<span class="nc" id="L32">            this.description = description;</span>
-<span class="nc" id="L33">        }</span>
+<span class="fc" id="L32">            this.description = description;</span>
+<span class="fc" id="L33">        }</span>
 
         private void setValue(float value) {
-<span class="nc" id="L36">            this.value = value;</span>
-<span class="nc" id="L37">        }</span>
+<span class="fc" id="L36">            this.value = value;</span>
+<span class="fc" id="L37">        }</span>
 
         public String getSku() {
-<span class="nc" id="L40">            return sku;</span>
+<span class="fc" id="L40">            return sku;</span>
         }
 
         public String getName() {
-<span class="nc" id="L44">            return name;</span>
+<span class="fc" id="L44">            return name;</span>
         }
 
         public String getDescription() {
-<span class="nc" id="L48">            return description;</span>
+<span class="fc" id="L48">            return description;</span>
         }
 
         public float getValue() {
-<span class="nc" id="L52">            return value;</span>
+<span class="fc" id="L52">            return value;</span>
         }
 
     }

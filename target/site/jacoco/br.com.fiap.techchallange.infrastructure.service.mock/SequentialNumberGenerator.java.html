@@ -4,32 +4,32 @@ public class SequentialNumberGenerator {
     private static SequentialNumberGenerator instance;
     private int currentNumber;
 
-<span class="nc" id="L7">    private SequentialNumberGenerator() {</span>
-<span class="nc" id="L8">        currentNumber = 0;</span>
-<span class="nc" id="L9">    }</span>
+<span class="fc" id="L7">    private SequentialNumberGenerator() {</span>
+<span class="fc" id="L8">        currentNumber = 0;</span>
+<span class="fc" id="L9">    }</span>
 
     public static synchronized SequentialNumberGenerator getInstance() {
-<span class="nc bnc" id="L12" title="All 2 branches missed.">        if (instance == null) {</span>
-<span class="nc" id="L13">            instance = new SequentialNumberGenerator();</span>
+<span class="fc bfc" id="L12" title="All 2 branches covered.">        if (instance == null) {</span>
+<span class="fc" id="L13">            instance = new SequentialNumberGenerator();</span>
         }
-<span class="nc" id="L15">        return instance;</span>
+<span class="fc" id="L15">        return instance;</span>
     }
 
     public synchronized Integer generateNextNumber() {
-<span class="nc bnc" id="L19" title="All 2 branches missed.">        if (currentNumber &lt; 10000) {</span>
-<span class="nc" id="L20">            currentNumber++;</span>
-<span class="nc" id="L21">            return  currentNumber;</span>
+<span class="fc bfc" id="L19" title="All 2 branches covered.">        if (currentNumber &lt; 10000) {</span>
+<span class="fc" id="L20">            currentNumber++;</span>
+<span class="fc" id="L21">            return  currentNumber;</span>
         } else {
-<span class="nc" id="L23">            throw new IllegalStateException(&quot;Limite máximo de números atingido&quot;);</span>
+<span class="fc" id="L23">            throw new IllegalStateException(&quot;Limite máximo de números atingido&quot;);</span>
         }
     }
 
     public String getFormattedCurrentNumber(){
-<span class="nc" id="L28">        return String.format(&quot;%05d&quot;, currentNumber);</span>
+<span class="fc" id="L28">        return String.format(&quot;%05d&quot;, currentNumber);</span>
     }
 
     public synchronized void reset() {
-<span class="nc" id="L32">        currentNumber = 0;</span>
-<span class="nc" id="L33">    }</span>
+<span class="fc" id="L32">        currentNumber = 0;</span>
+<span class="fc" id="L33">    }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>

@@ -1,5 +1,0 @@
-java.io.BufferedReader#read([CII)I
-true
-012f63130be3e27e6006e2dc3ebfb907
-java.lang.IndexOutOfBoundsException#<init>()V
-java.lang.IndexOutOfBoundsException#instance-init#

@@ -1,8 +1,0 @@
-
-f
-setCurrencyWbr.com.fiap.techchallange.core.entity.vo.MonetaryValue#setCurrency(Ljava/lang/String;)V¸>currency% %(,"&java.lang.Stringjava.lang.Objectvthis% %("b6br.com.fiap.techchallange.core.entity.vo.MonetaryValuejava.lang.Objectjava.io.Serializablevthis% %("b6br.com.fiap.techchallange.core.entity.vo.MonetaryValuejava.lang.Objectjava.io.Serializable>currency% %(,"&java.lang.Stringjava.lang.Object"P@
->
-& &( ",
-#set-field# currency#set-field# currency*
-
-' '(*i/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/core/entity/vo/MonetaryValue.java

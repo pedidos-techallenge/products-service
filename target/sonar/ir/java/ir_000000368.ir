@@ -1,13 +1,0 @@
-
-ﬁ
-updateProductController¿br.com.fiap.techchallange.infrastructure.config.controller.managementproduct.ManagementProductControlerConfig#updateProductController(Lbr/com/fiap/techchallange/core/usecase/inputboundary/managementproduct/IUpdateProductUseCase;)Lbr/com/fiap/techchallange/adapters/controllers/managementproduct/IUpdateProductController; ¥òthis   (4"Émbr.com.fiap.techchallange.infrastructure.config.controller.managementproduct.ManagementProductControlerConfigjava.lang.ObjectñupdateProductUseCase 5  (_"r\br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IUpdateProductUseCasejava.lang.Objectòthis   (4"Émbr.com.fiap.techchallange.infrastructure.config.controller.managementproduct.ManagementProductControlerConfigjava.lang.ObjectñupdateProductUseCase 5  (_"r\br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IUpdateProductUseCasejava.lang.Object"Ö˘
-ˆ
-! !(@"
-#new-object##new-object#2…Xbr.com.fiap.techchallange.adapters.controllers.managementproduct.UpdateProductControllerYbr.com.fiap.techchallange.adapters.controllers.managementproduct.IUpdateProductControllerjava.lang.Objectê
-ç
-! !(@"z
-#instance-init#gbr.com.fiap.techchallange.adapters.controllers.managementproduct.UpdateProductController#instance-init#*8„
-‡
-! !(@"À
-<init>¿br.com.fiap.techchallange.adapters.controllers.managementproduct.UpdateProductController#<init>(Lbr/com/fiap/techchallange/core/usecase/inputboundary/managementproduct/IUpdateProductUseCase;)V*8
-! !(A*†/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/infrastructure/config/controller/managementproduct/ManagementProductControlerConfig.java

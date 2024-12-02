@@ -1,74 +1,0 @@
-
-’br.com.fiap.techchallange.infrastructure.api.ManagementProduct#deleteProductBySkuHTTP(Ljava/lang/String;)Lorg/springframework/http/ResponseEntity;{
-q/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/infrastructure/api/ManagementProduct.javai i(3"startingBlock*¨
-startingBlocki3 i(M­
-ª
-i4 i(A
-%10"
-__annotate*T
-
-__unknown_file (86
-4org.springframework.web.bind.annotation.PathVariable*5
-
-__unknown_file (
-
-skujava.lang.StringX
-V
-iI i(L
-skujava.lang.String"__annotation*#
-
-__unknown_file (
-
-%10*
-6*J
-4l l(W";
-l l(W/
--
-%3'org.springframework.http.ResponseEntity*´
-5l( l(Fa
-_
-lH l(U)
-%2#org.springframework.http.HttpStatus"__id*"
-
-__unknown_file (
-""db
-l l('-
-%3'org.springframework.http.ResponseEntity"'org.springframework.http.ResponseEntityÖ
-Ó
-l l(V
-%4"lorg.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatusCode;)V*K
-
-__unknown_file (/
--
-%3'org.springframework.http.ResponseEntity*=
-
-__unknown_file (!
-Produto excluÃ­do com sucesso*G
-
-__unknown_file (+
-)
-%2#org.springframework.http.HttpStatus*
-4*ë
-6k k(ñ
-î
-k k((_
-%0Ybr.com.fiap.techchallange.adapters.controllers.managementproduct.IRemoveProductController"__id*{
-
-__unknown_file (_*]@
->br.com.fiap.techchallange.infrastructure.api.ManagementProduct"
-removeProductControllerâß
-k k(4
-
-%1void"ubr.com.fiap.techchallange.adapters.controllers.managementproduct.IRemoveProductController#invoke(Ljava/lang/String;)V*}
-
-__unknown_file (a
-_
-%0Ybr.com.fiap.techchallange.adapters.controllers.managementproduct.IRemoveProductController*5
-
-__unknown_file (
-
-skujava.lang.String2invoke(Ljava/lang/String;)*
-5:#
-i4 i(L
-skujava.lang.StringBB@
->br.com.fiap.techchallange.infrastructure.api.ManagementProductH
