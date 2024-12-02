@@ -1,9 +1,8 @@
-package br.com.fiap.techchallange.steps;
+package br.com.fiap.techchallange.cucumber.steps;
 
 import io.cucumber.java.en.*;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-
 import static org.hamcrest.Matchers.*;
 
 public class ProductSteps {
@@ -12,7 +11,6 @@ public class ProductSteps {
 
     @Given("existem produtos cadastrados no sistema")
     public void existemProdutosCadastrados() {
-        // Garantir que há ao menos um produto cadastrado
         RestAssured.given()
                 .contentType("application/json")
                 .body("{\"sku\":\"ABC123\",\"name\":\"Produto Teste\",\"description\":\"Descrição\",\"monetaryValue\":10.0,\"category\":\"Categoria\"}")

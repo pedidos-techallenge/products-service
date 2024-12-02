@@ -7,9 +7,8 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/resources/features",
-        glue = "br.com.fiap.techchallange.steps",
-        plugin = {"pretty", "html:target/cucumber-reports.html"},
-        tags = "not @Ignore"
+        glue = "br.com.fiap.techchallange.cucumber.steps",
+        plugin = {"pretty", "html:target/cucumber-report.html"}
 )
 public class RunCucumberTests {
 }
