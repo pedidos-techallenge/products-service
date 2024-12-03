@@ -32,7 +32,7 @@ resource "aws_apigatewayv2_vpc_link" "eks" {
 
 data "aws_lb" "k8-payment-service-lb" {
     tags = {
-        "kubernetes.io/service-name": "default/customer-service-lb"
+        "kubernetes.io/service-name": "default/products-service-lb"
     }
 }
 

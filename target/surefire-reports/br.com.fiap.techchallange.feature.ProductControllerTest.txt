@@ -1,7 +1,0 @@
--------------------------------------------------------------------------------
-Test set: br.com.fiap.techchallange.feature.ProductControllerTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.233 s <<< FAILURE! - in br.com.fiap.techchallange.feature.ProductControllerTest
-br.com.fiap.techchallange.feature.ProductControllerTest  Time elapsed: 0.233 s  <<< ERROR!
-java.lang.NoSuchMethodError: 'org.junit.jupiter.api.extension.ExecutableInvoker org.junit.jupiter.api.extension.ExtensionContext.getExecutableInvoker()'
-

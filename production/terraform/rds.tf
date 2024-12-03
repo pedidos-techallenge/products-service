@@ -21,7 +21,7 @@ resource "aws_db_subnet_group" "rds_subnets" {
 # Creating RDS instance
 resource "aws_db_instance" "rds_db" {
   engine               = "mysql"
-  identifier           = "techchallenge-customers-service"
+  identifier           = "techchallenge-products-service"
   allocated_storage    = 20
   engine_version       = "8.0.35"
   instance_class       = "db.t3.small"

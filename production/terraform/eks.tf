@@ -4,8 +4,8 @@ resource "aws_security_group" "eks_security_group" {
   vpc_id = data.aws_vpc.techchallenge-vpc.id
 }
 
-resource "aws_eks_cluster" "customers-eks" {
-  name     = "customers-eks"
+resource "aws_eks_cluster" "products-eks" {
+  name     = "products-eks"
   role_arn = data.aws_iam_role.LabRole.arn
   version  = "1.30"
   tags = {
@@ -34,7 +34,7 @@ resource "aws_eks_cluster" "customers-eks" {
 }
 
 resource "aws_eks_node_group" "nodegroup" {
-  cluster_name    = aws_eks_cluster.customers-eks.name
+  cluster_name    = aws_eks_cluster.products-eks.name
   node_group_name = "nodegroup"
   node_role_arn   = data.aws_iam_role.LabRole.arn
   subnet_ids = data.aws_subnets.private-subnets.ids

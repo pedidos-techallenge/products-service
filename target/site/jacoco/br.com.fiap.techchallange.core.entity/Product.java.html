@@ -51,7 +51,7 @@ public class Product implements Serializable {
     private void checkValue(String string, String nameVariable){
 <span class="pc bpc" id="L52" title="1 of 4 branches missed.">        if(string == null || string.isEmpty())</span>
 <span class="fc" id="L53">            throw new IllegalArgumentException(</span>
-<span class="fc" id="L54">                    nameVariable + &quot; cannot be empty&quot;</span>
+                    nameVariable + &quot; cannot be empty&quot;
             );
 <span class="fc" id="L56">    }</span>
 
@@ -80,11 +80,11 @@ public class Product implements Serializable {
     @Override
     public String toString() {
 <span class="nc" id="L82">        return &quot;Product{&quot; +</span>
-<span class="nc" id="L83">                &quot;sku='&quot; + sku + '\'' +</span>
-<span class="nc" id="L84">                &quot;, name='&quot; + name + '\'' +</span>
-<span class="nc" id="L85">                &quot;, description='&quot; + description + '\'' +</span>
+                &quot;sku='&quot; + sku + '\'' +
+                &quot;, name='&quot; + name + '\'' +
+                &quot;, description='&quot; + description + '\'' +
 <span class="nc" id="L86">                &quot;, monetaryValue=&quot; + monetaryValue.getValue() +</span>
-<span class="nc" id="L87">                &quot;, category='&quot; + category + '\'' +</span>
+                &quot;, category='&quot; + category + '\'' +
                 '}';
     }
 }

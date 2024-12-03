@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "techchallenge-customers-bucket"
+    bucket = "techchallenge-products-bucket"
     region = "us-east-1"
     key    = "apigateway.tfstate"
   }

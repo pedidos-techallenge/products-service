@@ -24,7 +24,7 @@ public class MonetaryValue implements Serializable {
     private void setValue(BigDecimal amount) {
 <span class="fc bfc" id="L25" title="All 2 branches covered.">        if(amount.floatValue() &lt; 0){</span>
 <span class="fc" id="L26">            throw new IllegalArgumentException(</span>
-<span class="fc" id="L27">                    &quot;amount of MonetaryValue cannot be less than to zero&quot;</span>
+                    &quot;amount of MonetaryValue cannot be less than to zero&quot;
             );
         }
 <span class="fc" id="L30">        this.value = amount;</span>
