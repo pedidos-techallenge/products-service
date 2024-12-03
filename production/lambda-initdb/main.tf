@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "techchallenge-customers-bucket"
+    bucket = "techchallenge-products-bucket"
     region = "us-east-1"
     key    = "lambda-initdb.tfstate"
   }
@@ -36,7 +36,7 @@ data "aws_subnets" "private-subnets" {
 
 # RDS instance
 data "aws_db_instance" "rds_db" {
-  db_instance_identifier = "techchallenge-customers-service"
+  db_instance_identifier = "techchallenge-products-service"
 }
 
 data "aws_security_group" "lambda-rds-sg" {

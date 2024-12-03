@@ -14,7 +14,7 @@ resource "aws_security_group_rule" "rds-eks-sgr" {
   to_port                  = 3306
   protocol                 = "tcp"
   security_group_id        = aws_security_group.rds-eks-sg.id
-  source_security_group_id = aws_eks_cluster.customers-eks.vpc_config[0].cluster_security_group_id
+  source_security_group_id = aws_eks_cluster.products-eks.vpc_config[0].cluster_security_group_id
 }
 
 ### Lambda (initdb) Security Group
