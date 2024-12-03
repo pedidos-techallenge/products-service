@@ -14,12 +14,17 @@ public enum Category {
     }
 
     public static Category fromValue(String value) {
+        if (value == null) {
+            throw new IllegalArgumentException("Valor não pode ser nulo.");
+        }
+
         for (Category status : Category.values()) {
-            if (status.getValue().equals(value)) {
+            if (status.getValue().equalsIgnoreCase(value)) {
                 return status;
             }
         }
-        throw new IllegalArgumentException("Valor inválido para campo de Category: " + value + "Esperado: " +
+        throw new IllegalArgumentException("Valor inválido para campo de Category: " + value + " Esperado: " +
                 Meal.getValue() + " " + Sides.getValue() + " " + Drink.getValue() + " " + Dessert.getValue());
     }
+
 }
