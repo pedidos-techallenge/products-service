@@ -1,6 +1,6 @@
 br.com.fiap.techchallange.core.entity.Product#checkValue(Ljava/lang/String;Ljava/lang/String;)V
 false
-eac74f5805006fd749d6663fd44c472c
+d442c525a3221a130da4687b69117315
 java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V
 java.lang.IllegalArgumentException#instance-init#
 java.lang.String#isEmpty()Z

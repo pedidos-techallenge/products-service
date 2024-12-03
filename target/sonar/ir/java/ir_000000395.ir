@@ -1,7 +1,7 @@
 
 ¨
-updateProduct”br.com.fiap.techchallange.infrastructure.bd.MySQLProductRepository#updateProduct(Ljava/lang/String;Lbr/com/fiap/techchallange/core/entity/Product;)V Å 
-"category"java.lang.String"sku"java.lang.String'" WHERE sku=:sku"java.lang.String7!" UPDATE dbtechchallange.product"java.lang.String"name"java.lang.String#"description"java.lang.String""java.lang.StringcM" SET name=:name, description=:description, price=:price, category=:category"java.lang.String"price"java.lang.StringVthism m("Bbr.com.fiap.techchallange.infrastructure.bd.MySQLProductRepository#skum m(("java.lang.StringDproductm* m(9"-br.com.fiap.techchallange.core.entity.ProductVthism m("Bbr.com.fiap.techchallange.infrastructure.bd.MySQLProductRepository#skum m(("java.lang.StringDproductm* m(9"-br.com.fiap.techchallange.core.entity.Product"‘1
+updateProduct”br.com.fiap.techchallange.infrastructure.bd.MySQLProductRepository#updateProduct(Ljava/lang/String;Lbr/com/fiap/techchallange/core/entity/Product;)V Å"name"java.lang.String"price"java.lang.String7!" UPDATE dbtechchallange.product"java.lang.String""java.lang.String"sku"java.lang.String#"description"java.lang.String 
+"category"java.lang.String'" WHERE sku=:sku"java.lang.StringcM" SET name=:name, description=:description, price=:price, category=:category"java.lang.StringVthism m("Bbr.com.fiap.techchallange.infrastructure.bd.MySQLProductRepository#skum m(("java.lang.StringDproductm* m(9"-br.com.fiap.techchallange.core.entity.ProductVthism m("Bbr.com.fiap.techchallange.infrastructure.bd.MySQLProductRepository#skum m(("java.lang.StringDproductm* m(9"-br.com.fiap.techchallange.core.entity.Product"‘1
 /
 n q(!sql"
 	#binop +#	#binop +#*t

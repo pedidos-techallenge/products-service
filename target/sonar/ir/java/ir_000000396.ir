@@ -1,6 +1,6 @@
 
 x
-deleteProductebr.com.fiap.techchallange.infrastructure.bd.MySQLProductRepository#deleteProduct(Ljava/lang/String;)V æ"sku"java.lang.StringJ4"DELETE FROM dbtechchallange.product WHERE sku=:sku"java.lang.StringVthis} }("Bbr.com.fiap.techchallange.infrastructure.bd.MySQLProductRepository#sku} }(("java.lang.StringVthis} }("Bbr.com.fiap.techchallange.infrastructure.bd.MySQLProductRepository#sku} }(("java.lang.String" $
+deleteProductebr.com.fiap.techchallange.infrastructure.bd.MySQLProductRepository#deleteProduct(Ljava/lang/String;)V æJ4"DELETE FROM dbtechchallange.product WHERE sku=:sku"java.lang.String"sku"java.lang.StringVthis} }("Bbr.com.fiap.techchallange.infrastructure.bd.MySQLProductRepository#sku} }(("java.lang.StringVthis} }("Bbr.com.fiap.techchallange.infrastructure.bd.MySQLProductRepository#sku} }(("java.lang.String" $
 "
 ~ ~(Isql"
 #id##id#*t

@@ -1,7 +1,7 @@
 
 —
-getProductsByCategory|br.com.fiap.techchallange.infrastructure.bd.MySQLProductRepository#getProductsByCategory(Ljava/lang/String;)Ljava/util/List; þ 
-"category"java.lang.StringXB"SELECT * FROM dbtechchallange.product WHERE category = :category"java.lang.StringVthisI I(."Bbr.com.fiap.techchallange.infrastructure.bd.MySQLProductRepository(categoryI/ I(>"java.lang.StringVthisI I(."Bbr.com.fiap.techchallange.infrastructure.bd.MySQLProductRepository(categoryI/ I(>"java.lang.String"Ÿ	$
+getProductsByCategory|br.com.fiap.techchallange.infrastructure.bd.MySQLProductRepository#getProductsByCategory(Ljava/lang/String;)Ljava/util/List; þXB"SELECT * FROM dbtechchallange.product WHERE category = :category"java.lang.String 
+"category"java.lang.StringVthisI I(."Bbr.com.fiap.techchallange.infrastructure.bd.MySQLProductRepository(categoryI/ I(>"java.lang.StringVthisI I(."Bbr.com.fiap.techchallange.infrastructure.bd.MySQLProductRepository(categoryI/ I(>"java.lang.String"Ÿ	$
 "
 J J(Wsql"
 #id##id#*t

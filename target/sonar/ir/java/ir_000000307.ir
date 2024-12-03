@@ -1,6 +1,6 @@
 
 è
-generateNextNumberwbr.com.fiap.techchallange.infrastructure.service.mock.SequentialNumberGenerator#generateNextNumber()Ljava/lang/Integer; æ10000int;%"Limite m√°ximo de n√∫meros atingido"java.lang.String
+generateNextNumberwbr.com.fiap.techchallange.infrastructure.service.mock.SequentialNumberGenerator#generateNextNumber()Ljava/lang/Integer; æ;%"Limite m√°ximo de n√∫meros atingido"java.lang.String10000int
 1intcthis  (2"Obr.com.fiap.techchallange.infrastructure.service.mock.SequentialNumberGeneratorcthis  (2"Obr.com.fiap.techchallange.infrastructure.service.mock.SequentialNumberGenerator"≠N
 L
  ("6

@@ -1,5 +1,5 @@
 br.com.fiap.techchallange.infrastructure.service.mock.SequentialNumberGenerator#generateNextNumber()Ljava/lang/Integer;
 false
-4a2ebb60407267aa05e0d05c475bdf34
+16f8819ec289d7b446ae1891ca5c4f5c
 java.lang.IllegalStateException#<init>(Ljava/lang/String;)V
 java.lang.IllegalStateException#instance-init#
