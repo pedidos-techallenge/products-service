@@ -7,8 +7,8 @@
 		<version>3.2.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>br.com.fiap.techchallange.pedidos</groupId>
-	<artifactId>pedidos</artifactId>
+	<groupId>br.com.fiap.techchallange</groupId>
+	<artifactId>products-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Products Service</name>
 	<description>Project for Spring Boot</description>
@@ -19,6 +19,7 @@
 		<sonar.organization>pedidos-techallenge</sonar.organization>
 		<sonar.projectKey>pedidos-techallenge_products-service</sonar.projectKey>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		<sonar.junit.reportsPath>target/surefire-reports</sonar.junit.reportsPath>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -57,14 +58,24 @@
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-engine</artifactId>
-			<version>5.7.0</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-api</artifactId>
+			<scope>test</scope>
+		</dependency>
+<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>spring-mock-mvc</artifactId>
+			<version>5.3.0</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.assertj</groupId>
 			<artifactId>assertj-core</artifactId>
-			<version>3.18.1</version>
-			<scope>test</scope>
+			<version>3.24.2</version>
 		</dependency>
 		<!-- Documentantio Swagger -->
 		<dependency>
@@ -137,26 +148,48 @@
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-java</artifactId>
-			<version>7.11.0</version>
+			<version>7.13.0</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-junit-platform-engine</artifactId>
+			<version>7.13.0</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-spring</artifactId>
-			<version>7.14.0</version>
+			<version>7.18.1</version>
 			<scope>test</scope>
 		</dependency>
-
 		<dependency>
-			<groupId>io.cucumber</groupId>
-			<artifactId>cucumber-junit</artifactId>
-			<version>7.11.0</version>
+			<groupId>org.junit.platform</groupId>
+			<artifactId>junit-platform-suite</artifactId>
+			<version>1.9.3</version>
+			<scope>test</scope>
+		</dependency>
+	<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>json-schema-validator</artifactId>
+			<version>5.3.1</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>io.rest-assured</groupId>
 			<artifactId>rest-assured</artifactId>
 			<version>5.3.0</version>
+			<scope>test</scope>
+			<exclusions>
+				<exclusion>
+					<groupId>org.codehaus.groovy</groupId>
+					<artifactId>groovy</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.codehaus.groovy</groupId>
+					<artifactId>groovy-xml</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 		<!--	banco de testes	-->
 		<dependency>
@@ -167,6 +200,18 @@
 	</dependencies>
 	<build>
 		<plugins>
+			<plugin>
+				<groupId>org.sonarsource.scanner.maven</groupId>
+				<artifactId>sonar-maven-plugin</artifactId>
+				<version>3.9.0.2155</version> <!-- Versão atual do plugin -->
+				<executions>
+					<execution>
+						<goals>
+							<goal>sonar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
@@ -198,13 +243,50 @@
 			<plugin>
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
-				<version>0.8.8</version>
+				<version>0.8.12</version>
 				<executions>
+					<!-- Prepara o agente -->
 					<execution>
+						<id>prepare-agent</id>
 						<goals>
 							<goal>prepare-agent</goal>
+						</goals>
+					</execution>
+
+					<!-- Gera o relatório -->
+					<execution>
+						<id>report</id>
+						<phase>prepare-package</phase>
+						<goals>
 							<goal>report</goal>
 						</goals>
+					</execution>
+
+					<!-- Verifica a cobertura -->
+					<execution>
+						<id>check</id>
+						<phase>verify</phase>
+						<goals>
+							<goal>check</goal>
+						</goals>
+						<configuration>
+							<rules>
+								<rule>
+									<element>BUNDLE</element>
+									<limits>
+										<limit>
+											<counter>LINE</counter>
+											<value>COVEREDRATIO</value>
+											<minimum>0.70</minimum>
+										</limit>
+									</limits>
+								</rule>
+							</rules>
+							<haltOnFailure>true</haltOnFailure>
+							<excludes>
+								<exclude>**/*MainApplication.*</exclude>
+							</excludes>
+						</configuration>
 					</execution>
 				</executions>
 			</plugin>

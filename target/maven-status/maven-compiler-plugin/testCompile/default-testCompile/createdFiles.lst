@@ -6,10 +6,7 @@ br/com/fiap/techchallange/core/usecase/checkout/ProductsDisplayUseCaseTests.clas
 br/com/fiap/techchallange/adapters/controllers/managementproduct/UpdateProductControllerTests.class
 br/com/fiap/techchallange/core/usecase/managementproduct/GetProductListUseCaseTests.class
 br/com/fiap/techchallange/core/entity/vo/ItemTests.class
-br/com/fiap/techchallange/steps/ProductSteps.class
-br/com/fiap/techchallange/CucumberSpringConfiguration.class
 br/com/fiap/techchallange/core/entity/vo/MonetaryValueTests.class
-br/com/fiap/techchallange/RunCucumberTests.class
 br/com/fiap/techchallange/adapters/controllers/managementproduct/GetProductBySkuControllerTests.class
 br/com/fiap/techchallange/core/usecase/managementproduct/RemoveProductUseCaseTests.class
 br/com/fiap/techchallange/adapters/controllers/managementproduct/RegisterProductControllerTests.class
