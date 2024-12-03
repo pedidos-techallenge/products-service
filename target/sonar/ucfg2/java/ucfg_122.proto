@@ -1,0 +1,177 @@
+
+Jbr.com.fiap.techchallange.core.entity.Product#toString()Ljava/lang/String;j
+`/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/core/entity/Product.javaQ Q("1*ﬁ
+1R R(_
+]
+R S(
+%0java.lang.String"__concat*
+R R(
+
+Product{*
+S S(	
+sku='É
+Ä
+S S(
+%1java.lang.String"__id*V
+
+__unknown_file (:*8/
+-br.com.fiap.techchallange.core.entity.Product"
+skuz
+x
+R S(
+%2java.lang.String"__concat*$
+R S(
+
+%0java.lang.String*$
+S S(
+
+%1java.lang.Stringh
+f
+R S($
+%3java.lang.String"__concat*$
+R S(
+
+%2java.lang.String*
+S  S($
+\'n
+l
+R T(
+%4java.lang.String"__concat*$
+R S($
+
+%3java.lang.String*
+T T(
+
+, name='Ñ
+Å
+T T(!
+%5java.lang.String"__id*W
+
+__unknown_file (;*9/
+-br.com.fiap.techchallange.core.entity.Product"
+namez
+x
+R T(!
+%6java.lang.String"__concat*$
+R T(
+
+%4java.lang.String*$
+T T(!
+
+%5java.lang.Stringh
+f
+R T((
+%7java.lang.String"__concat*$
+R T(!
+
+%6java.lang.String*
+T$ T((
+\'u
+s
+R U(!
+%8java.lang.String"__concat*$
+R T((
+
+%7java.lang.String*
+U U(!
+, description='ã
+à
+U$ U(/
+%9java.lang.String"__id*^
+
+__unknown_file (B*@/
+-br.com.fiap.techchallange.core.entity.Product"
+description{
+y
+R U(/
+%10java.lang.String"__concat*$
+R U(!
+
+%8java.lang.String*$
+U$ U(/
+
+%9java.lang.Stringj
+h
+R U(6
+%11java.lang.String"__concat*%
+R U(/
+
+%10java.lang.String*
+U2 U(6
+\'x
+v
+R V("
+%12java.lang.String"__concat*%
+R U(6
+
+%11java.lang.String* 
+V V("
+, monetaryValue=¥
+±
+V% V(2=
+%136br.com.fiap.techchallange.core.entity.vo.MonetaryValue"__id*`
+
+__unknown_file (D*B/
+-br.com.fiap.techchallange.core.entity.Product"
+monetaryValue»≈
+V% V(=
+%14float"Bbr.com.fiap.techchallange.core.entity.vo.MonetaryValue#getValue()F*[
+
+__unknown_file (?
+=
+%136br.com.fiap.techchallange.core.entity.vo.MonetaryValue2
+getValue()r
+p
+R V(=
+%15java.lang.String"__concat*%
+R V("
+
+%12java.lang.String*
+V% V(=
+
+%14floatt
+r
+R W(
+%16java.lang.String"__concat*%
+R V(=
+
+%15java.lang.String*
+W W(
+, category='≠
+™
+W! W();
+%174br.com.fiap.techchallange.core.entity.enums.Category"__id*[
+
+__unknown_file (?*=/
+-br.com.fiap.techchallange.core.entity.Product"
+
+category¢
+ü
+R W()
+%18java.lang.String"__concat*%
+R W(
+
+%16java.lang.String*I
+W! W()=
+;
+%174br.com.fiap.techchallange.core.entity.enums.Categoryj
+h
+R W(0
+%19java.lang.String"__concat*%
+R W()
+
+%18java.lang.String*
+W, W(0
+\'i
+g
+R X(
+%20java.lang.String"__concat*%
+R W(0
+
+%19java.lang.String*
+X X(
+}"%
+R X(
+
+%20java.lang.StringB1/
+-br.com.fiap.techchallange.core.entity.ProductH

@@ -1,0 +1,12 @@
+br.com.fiap.techchallange.infrastructure.bd.MySQLProductRepository#updateProduct(Ljava/lang/String;Lbr/com/fiap/techchallange/core/entity/Product;)V
+false
+b9480c8b049c1977867f48c89c1eed4c
+org.springframework.jdbc.core.namedparam.MapSqlParameterSource#<init>()V
+org.springframework.jdbc.core.namedparam.MapSqlParameterSource#instance-init#
+==
+addValue org.springframework.jdbc.core.namedparam.MapSqlParameterSource#addValue(Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/jdbc/core/namedparam/MapSqlParameterSource;
+getCategory br.com.fiap.techchallange.core.entity.Product#getCategory()Ljava/lang/String;
+getDescription br.com.fiap.techchallange.core.entity.Product#getDescription()Ljava/lang/String;
+getMonetaryValue br.com.fiap.techchallange.core.entity.Product#getMonetaryValue()F
+getName br.com.fiap.techchallange.core.entity.Product#getName()Ljava/lang/String;
+update org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate#update(Ljava/lang/String;Lorg/springframework/jdbc/core/namedparam/SqlParameterSource;)I

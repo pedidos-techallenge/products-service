@@ -1,0 +1,8 @@
+br.com.fiap.techchallange.infrastructure.bd.MySQLProductRepository#deleteProduct(Ljava/lang/String;)V
+false
+d2d0fcf8c4346a792c60eecae7887d91
+org.springframework.jdbc.core.namedparam.MapSqlParameterSource#<init>()V
+org.springframework.jdbc.core.namedparam.MapSqlParameterSource#instance-init#
+==
+addValue org.springframework.jdbc.core.namedparam.MapSqlParameterSource#addValue(Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/jdbc/core/namedparam/MapSqlParameterSource;
+update org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate#update(Ljava/lang/String;Lorg/springframework/jdbc/core/namedparam/SqlParameterSource;)I

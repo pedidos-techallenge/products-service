@@ -1,0 +1,311 @@
+
+ªbr.com.fiap.techchallange.infrastructure.api.ManagementProduct#createProductHTTP(Lbr/com/fiap/techchallange/infrastructure/dto/ProductRequestDTO;)Lorg/springframework/http/ResponseEntity;{
+q/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/infrastructure/api/ManagementProduct.javaE E(."startingBlock*†
+13R R('âÜ
+R R(5
+%9java.lang.String"^br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO#description()Ljava/lang/String;*s
+
+__unknown_file (W
+U
+productDeserializer>br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO2description()*
+12*í
+14Q Q('˚¯
+Q Q(.
+%8java.lang.String"Wbr.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO#name()Ljava/lang/String;*s
+
+__unknown_file (W
+U
+productDeserializer>br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO2name()*
+13*ê
+15P P('˘ˆ
+P P(-
+%7java.lang.String"Vbr.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO#sku()Ljava/lang/String;*s
+
+__unknown_file (W
+U
+productDeserializer>br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO2sku()*
+14*∏
+16G M(°û
+G M(
+
+%6void"Æbr.com.fiap.techchallange.adapters.controllers.managementproduct.IRegisterProductController#invoke(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;FLjava/lang/String;)V*
+
+__unknown_file (c
+a
+%0[br.com.fiap.techchallange.adapters.controllers.managementproduct.IRegisterProductController*4
+
+__unknown_file (
+
+%1java.lang.String*4
+
+__unknown_file (
+
+%2java.lang.String*4
+
+__unknown_file (
+
+%3java.lang.String*)
+
+__unknown_file (
+
+%4float*4
+
+__unknown_file (
+
+%5java.lang.String2Qinvoke(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;FLjava/lang/String;)*
+15*ö
+17L L('ÉÄ
+L L(2
+%5java.lang.String"[br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO#category()Ljava/lang/String;*s
+
+__unknown_file (W
+U
+productDeserializer>br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO2
+category()*
+16*à
+18K K('ÒÓ
+K K(7
+%4float"Obr.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO#monetaryValue()F*s
+
+__unknown_file (W
+U
+productDeserializer>br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO2monetaryValue()*
+17*†
+19J J('âÜ
+J J(5
+%3java.lang.String"^br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO#description()Ljava/lang/String;*s
+
+__unknown_file (W
+U
+productDeserializer>br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO2description()*
+18*È
+startingBlockE. E(bÆ
+´
+
+__unknown_file (
+%28"__id*Å
+
+__unknown_file (e*c
+U
+productDeserializer>br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO"
+
+category±
+Æ
+
+__unknown_file (
+%29"__id*Ñ
+
+__unknown_file (h*f
+U
+productDeserializer>br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO"
+description©
+¶
+
+__unknown_file (
+%30"__id*}
+
+__unknown_file (a*_
+U
+productDeserializer>br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO"
+name®
+•
+
+__unknown_file (
+%31"__id*|
+
+__unknown_file (`*^
+U
+productDeserializer>br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO"
+skuö
+ó
+E/ E(;
+%32"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.RequestBody*#
+
+__unknown_file (
+
+%31†
+ù
+EN E(a^
+U
+productDeserializer>br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO"
+sku"__annotation*#
+
+__unknown_file (
+
+%32ö
+ó
+E/ E(;
+%33"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.RequestBody*#
+
+__unknown_file (
+
+%29®
+•
+EN E(af
+U
+productDeserializer>br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO"
+description"__annotation*#
+
+__unknown_file (
+
+%33ö
+ó
+E/ E(;
+%34"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.RequestBody*#
+
+__unknown_file (
+
+%30°
+û
+EN E(a_
+U
+productDeserializer>br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO"
+name"__annotation*#
+
+__unknown_file (
+
+%34ö
+ó
+E/ E(;
+%35"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.RequestBody*#
+
+__unknown_file (
+
+%28•
+¢
+EN E(ac
+U
+productDeserializer>br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO"
+
+category"__annotation*#
+
+__unknown_file (
+
+%35*
+21*K
+8W W(L"<
+W W(L0
+.
+%15'org.springframework.http.ResponseEntity*Ñ
+9O U(®
+•
+O U(?
+createdProduct-br.com.fiap.techchallange.core.entity.Product"__id*R
+
+__unknown_file (6
+4
+%12-br.com.fiap.techchallange.core.entity.Productb
+`
+W8 W(J*
+%14#org.springframework.http.HttpStatus"__id*"
+
+__unknown_file (
+""ec
+W W('.
+%15'org.springframework.http.ResponseEntity"'org.springframework.http.ResponseEntity˘
+ˆ
+W W(K
+%16"lorg.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatusCode;)V*L
+
+__unknown_file (0
+.
+%15'org.springframework.http.ResponseEntity*]
+
+__unknown_file (A
+?
+createdProduct-br.com.fiap.techchallange.core.entity.Product*H
+
+__unknown_file (,
+*
+%14#org.springframework.http.HttpStatus*
+8*í
+20I I('˚¯
+I I(.
+%2java.lang.String"Wbr.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO#name()Ljava/lang/String;*s
+
+__unknown_file (W
+U
+productDeserializer>br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO2name()*
+19*à
+21G G(ı
+Ú
+G G(*a
+%0[br.com.fiap.techchallange.adapters.controllers.managementproduct.IRegisterProductController"__id*}
+
+__unknown_file (a*_@
+>br.com.fiap.techchallange.infrastructure.api.ManagementProduct"
+registerProductController˘ˆ
+H H(-
+%1java.lang.String"Vbr.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO#sku()Ljava/lang/String;*s
+
+__unknown_file (W
+U
+productDeserializer>br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO2sku()*
+20*â
+10O% U(qo
+O) O(04
+%12-br.com.fiap.techchallange.core.entity.Product"-br.com.fiap.techchallange.core.entity.ProductÄ
+˝
+O% U(
+%13"êbr.com.fiap.techchallange.core.entity.Product#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Float;Ljava/lang/String;)V*R
+
+__unknown_file (6
+4
+%12-br.com.fiap.techchallange.core.entity.Product*4
+
+__unknown_file (
+
+%7java.lang.String*4
+
+__unknown_file (
+
+%8java.lang.String*4
+
+__unknown_file (
+
+%9java.lang.String**
+
+__unknown_file (
+
+%10float*5
+
+__unknown_file (
+
+%11java.lang.String*
+9*õ
+11T T('ÑÅ
+T T(2
+%11java.lang.String"[br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO#category()Ljava/lang/String;*s
+
+__unknown_file (W
+U
+productDeserializer>br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO2
+category()*
+10*â
+12S S('ÚÔ
+S S(7
+%10float"Obr.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO#monetaryValue()F*s
+
+__unknown_file (W
+U
+productDeserializer>br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO2monetaryValue()*
+11:a
+E/ E(aU
+productDeserializer>br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTOBB@
+>br.com.fiap.techchallange.infrastructure.api.ManagementProductH
