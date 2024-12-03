@@ -1,11 +1,0 @@
-
-u
-invokeibr.com.fiap.techchallange.core.usecase.managementproduct.RemoveProductUseCase#invoke(Ljava/lang/String;)V ”Öthis ("ÁMbr.com.fiap.techchallange.core.usecase.managementproduct.RemoveProductUseCasejava.lang.Object\br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IRemoveProductUseCase9sku (!"&java.lang.Stringjava.lang.ObjectÖthis ("ÁMbr.com.fiap.techchallange.core.usecase.managementproduct.RemoveProductUseCasejava.lang.Object\br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IRemoveProductUseCase9sku (!"&java.lang.Stringjava.lang.Object"×¥
-¢
- ("0
-#get-field# repository#get-field# repository*2_Ibr.com.fiap.techchallange.adapters.gateways.repository.IProductRepositoryjava.lang.Objectž
-›
- (%"
-deleteProductlbr.com.fiap.techchallange.adapters.gateways.repository.IProductRepository#deleteProduct(Ljava/lang/String;)V *2void8
-
- (*€/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/core/usecase/managementproduct/RemoveProductUseCase.java

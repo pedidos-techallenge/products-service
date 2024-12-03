@@ -1,4 +1,0 @@
-java.util.Optional#orElse(Ljava/lang/Object;)Ljava/lang/Object;
-true
-e98a08c7137d50160591c027f65c7cdd
-java.util.Optional#isPresent()Z

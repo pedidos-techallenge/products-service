@@ -1,13 +1,0 @@
-
-ﬁ
-removeProductController¿br.com.fiap.techchallange.infrastructure.config.controller.managementproduct.ManagementProductControlerConfig#removeProductController(Lbr/com/fiap/techchallange/core/usecase/inputboundary/managementproduct/IRemoveProductUseCase;)Lbr/com/fiap/techchallange/adapters/controllers/managementproduct/IRemoveProductController; ¥òthis (4"Émbr.com.fiap.techchallange.infrastructure.config.controller.managementproduct.ManagementProductControlerConfigjava.lang.ObjectñremoveProductUseCase5 (_"r\br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IRemoveProductUseCasejava.lang.Objectòthis (4"Émbr.com.fiap.techchallange.infrastructure.config.controller.managementproduct.ManagementProductControlerConfigjava.lang.ObjectñremoveProductUseCase5 (_"r\br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IRemoveProductUseCasejava.lang.Object"Ö˘
-ˆ
- (@"
-#new-object##new-object#2…Xbr.com.fiap.techchallange.adapters.controllers.managementproduct.RemoveProductControllerYbr.com.fiap.techchallange.adapters.controllers.managementproduct.IRemoveProductControllerjava.lang.Objectê
-ç
- (@"z
-#instance-init#gbr.com.fiap.techchallange.adapters.controllers.managementproduct.RemoveProductController#instance-init#*8„
-‡
- (@"À
-<init>¿br.com.fiap.techchallange.adapters.controllers.managementproduct.RemoveProductController#<init>(Lbr/com/fiap/techchallange/core/usecase/inputboundary/managementproduct/IRemoveProductUseCase;)V*8
- (A*†/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/infrastructure/config/controller/managementproduct/ManagementProductControlerConfig.java

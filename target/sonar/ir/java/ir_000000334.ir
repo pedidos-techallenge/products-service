@@ -1,10 +1,0 @@
-
-ø
-GetProductListUseCase£br.com.fiap.techchallange.core.usecase.managementproduct.GetProductListUseCase#<init>(Lbr/com/fiap/techchallange/adapters/gateways/repository/IProductRepository;)V ÷ÿthis ( "√Nbr.com.fiap.techchallange.core.usecase.managementproduct.GetProductListUseCase]br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IGetProductListUseCasejava.lang.Objecty
-repository! (>"_Ibr.com.fiap.techchallange.adapters.gateways.repository.IProductRepositoryjava.lang.Objectÿthis ( "√Nbr.com.fiap.techchallange.core.usecase.managementproduct.GetProductListUseCase]br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IGetProductListUseCasejava.lang.Objecty
-repository! (>"_Ibr.com.fiap.techchallange.adapters.gateways.repository.IProductRepositoryjava.lang.Object"TD
-B
- ($"0
-#set-field# repository#set-field# repository*
-
- (*Å/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/core/usecase/managementproduct/GetProductListUseCase.java

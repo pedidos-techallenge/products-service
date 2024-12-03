@@ -1,5 +1,0 @@
-com.google.common.base.Preconditions#checkElementIndex(IILjava/lang/String;)I
-true
-092437cd0d4ce5508feadb81d9efaac7
-java.lang.IndexOutOfBoundsException#<init>()V
-java.lang.IndexOutOfBoundsException#instance-init#

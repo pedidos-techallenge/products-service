@@ -1,7 +1,0 @@
-java.util.Objects#requireNonNullElseGet(Ljava/lang/Object;Ljava/util/function/Supplier;)Ljava/lang/Object;
-true
-f30b1a294f9ec41bfc8792feeb24d2c3
-java.lang.NullPointerException#<init>()V
-java.lang.NullPointerException#instance-init#
-==
-get java.util.function.Supplier#get()Ljava/lang/Object;
