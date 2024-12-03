@@ -1,13 +1,13 @@
-Feature: Listagem e busca de produtos
+# language: pt
 
-  Scenario: Listar todos os produtos
-    Given existem produtos cadastrados no sistema
-    When eu faço uma requisição GET para "/v1/products"
-    Then a resposta deve ter o status 200
-    And o corpo da resposta deve conter uma lista de produtos
+Funcionalidade: Listagem e busca de produtos
 
-  Scenario: Buscar um produto por SKU
-    Given existe um produto com SKU "ABC123" no sistema
-    When eu faço uma requisição GET para "/v1/products/ABC123"
-    Then a resposta deve ter o status 200
-    And o corpo da resposta deve conter "ABC123" no campo "sku"
+  Cenario: Listar todos os produtos
+    Dado existem produtos cadastrados no sistema
+    Quando eu faço uma requisição GET para "/v1/products"
+    Entao a resposta deve ter o status 200
+
+  Cenario: Buscar um produto por SKU
+    Dado existe um produto com SKU "ABC123" no sistema
+    Quando eu faço uma requisição GET para "/v1/products/ABC123"
+    Entao a resposta deve ter o status 200

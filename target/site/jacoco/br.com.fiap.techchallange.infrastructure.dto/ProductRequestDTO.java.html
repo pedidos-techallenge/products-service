@@ -5,14 +5,14 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import org.jetbrains.annotations.NotNull;
 
 
-<span class="fc" id="L8">public record ProductRequestDTO(String sku, String name, String description, float monetaryValue, String category) {</span>
-    public ProductRequestDTO(
+public record ProductRequestDTO(String sku, String name, String description, float monetaryValue, String category) {
+<span class="fc" id="L9">    public ProductRequestDTO(</span>
             @JsonProperty(&quot;sku&quot;) String sku,
             @JsonProperty(&quot;name&quot;) String name,
             @JsonProperty(&quot;description&quot;) String description,
             @JsonProperty(&quot;monetaryValue&quot;) float monetaryValue,
             @JsonProperty(&quot;category&quot;) String category
-<span class="fc" id="L15">    ) {</span>
+    ) {
 <span class="fc" id="L16">        this.name = name;</span>
 <span class="fc" id="L17">        this.monetaryValue = monetaryValue;</span>
 <span class="fc" id="L18">        this.sku = sku;</span>
@@ -24,4 +24,4 @@ import org.jetbrains.annotations.NotNull;
 <span class="fc" id="L24">        this(product.getSku(), product.getName(), product.getDescription(), product.getMonetaryValue(), product.getCategory());</span>
 <span class="fc" id="L25">    }</span>
 }
-</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>
