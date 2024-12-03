@@ -1,5 +1,0 @@
-br.com.fiap.techchallange.infrastructure.config.controller.managementproduct.ManagementProductControlerConfig#getProductListController(Lbr/com/fiap/techchallange/core/usecase/inputboundary/managementproduct/IGetProductListUseCase;)Lbr/com/fiap/techchallange/adapters/controllers/managementproduct/IGetProductListController;
-false
-52e62ba8f6bf68bf300b183a510d514b
-br.com.fiap.techchallange.adapters.controllers.managementproduct.GetProductListController#<init>(Lbr/com/fiap/techchallange/core/usecase/inputboundary/managementproduct/IGetProductListUseCase;)V
-br.com.fiap.techchallange.adapters.controllers.managementproduct.GetProductListController#instance-init#

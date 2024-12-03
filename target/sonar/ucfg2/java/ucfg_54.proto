@@ -1,20 +1,0 @@
-
-}br.com.fiap.techchallange.infrastructure.service.mock.SequentialNumberGenerator#getFormattedCurrentNumber()Ljava/lang/String;ç
-Ç/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/infrastructure/service/mock/SequentialNumberGenerator.java (+"1*©
-1 (Û
-
- (3
-%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*0
-
-__unknown_file ("
-java.lang.String*$
-
-__unknown_file (
-%05d*"
-
-__unknown_file (
-"""$
- (4
-
-%0java.lang.StringBSQ
-Obr.com.fiap.techchallange.infrastructure.service.mock.SequentialNumberGeneratorH

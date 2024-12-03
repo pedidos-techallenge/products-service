@@ -1,7 +1,0 @@
-organization=pedidos-techallenge
-projectKey=pedidos-techallenge_products-service
-serverUrl=https://sonarcloud.io
-serverVersion=8.0.0.58332
-dashboardUrl=https://sonarcloud.io/dashboard?id=pedidos-techallenge_products-service
-ceTaskId=AZOO02dYsxL83M1l4j40
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZOO02dYsxL83M1l4j40

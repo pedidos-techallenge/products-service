@@ -1,5 +1,0 @@
-br.com.fiap.techchallange.infrastructure.config.usecase.managementproduct.ManagementProductUseCaseConfig#getProductListUseCase(Lbr/com/fiap/techchallange/adapters/gateways/repository/IProductRepository;)Lbr/com/fiap/techchallange/core/usecase/inputboundary/managementproduct/IGetProductListUseCase;
-false
-519e031f5f38f7bce39906cd66b6f20c
-br.com.fiap.techchallange.core.usecase.managementproduct.GetProductListUseCase#<init>(Lbr/com/fiap/techchallange/adapters/gateways/repository/IProductRepository;)V
-br.com.fiap.techchallange.core.usecase.managementproduct.GetProductListUseCase#instance-init#

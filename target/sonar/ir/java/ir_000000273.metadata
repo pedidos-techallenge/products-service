@@ -1,7 +1,0 @@
-br.com.fiap.techchallange.MainApplication#main([Ljava/lang/String;)V
-false
-d1f1afde989ad5617f62525df37a054e
-java.lang.System#getenv(Ljava/lang/String;)Ljava/lang/String;
-org.springframework.boot.SpringApplication#run(Ljava/lang/Class;[Ljava/lang/String;)Lorg/springframework/context/ConfigurableApplicationContext;
-==
-println java.io.PrintStream#println(Ljava/lang/String;)V
