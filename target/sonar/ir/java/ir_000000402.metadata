@@ -1,0 +1,5 @@
+br.com.fiap.techchallange.adapters.controllers.managementproduct.GetProductListController#getProducts()Ljava/util/List;
+false
+5f9a7fb263a8294524c60b032805e3cb
+==
+getProducts br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IGetProductListUseCase#getProducts()Ljava/util/List;

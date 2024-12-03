@@ -1,0 +1,10 @@
+
+ˆ
+getProductswbr.com.fiap.techchallange.adapters.controllers.managementproduct.GetProductListController#getProducts()Ljava/util/List; omthis& (1"Ybr.com.fiap.techchallange.adapters.controllers.managementproduct.GetProductListControllermthis& (1"Ybr.com.fiap.techchallange.adapters.controllers.managementproduct.GetProductListController"‚¹
+¶
+ ()"F
+!#get-field# getProductListUseCase!#get-field# getProductListUseCase*2]br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IGetProductListUseCase³
+°
+ (7"Œ
+getProducts{br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IGetProductListUseCase#getProducts()Ljava/util/List; *2java.util.List8
+ (8*Œ/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/adapters/controllers/managementproduct/GetProductListController.java
