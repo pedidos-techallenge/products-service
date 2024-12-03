@@ -1,52 +1,0 @@
-
-`br.com.fiap.techchallange.infrastructure.bd.MySQLProductRepository#getProducts()Ljava/util/List;
-u/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/infrastructure/bd/MySQLProductRepository.java ($"1*„
-1 (<r
-p
- (=
-sqljava.lang.String"__id*E
-
-__unknown_file ()'
-%SELECT * FROM dbtechchallange.productŸœ
-2 (DJ
-%0Dbr.com.fiap.techchallange.infrastructure.bd.MySQLProductRepository$1"Dbr.com.fiap.techchallange.infrastructure.bd.MySQLProductRepository$1™
-–
-. )(	
-%1"java.lang.Object#<init>()V*h
-
-__unknown_file (L
-J
-%0Dbr.com.fiap.techchallange.infrastructure.bd.MySQLProductRepository$1º
-·
- )(
-;
-productRowMapper'org.springframework.jdbc.core.RowMapper"__id*h
-
-__unknown_file (L
-J
-%0Dbr.com.fiap.techchallange.infrastructure.bd.MySQLProductRepository$1ã
-à
-* *()I
-%2Corg.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate"__id*‚
-
-__unknown_file (f*dD
-Bbr.com.fiap.techchallange.infrastructure.bd.MySQLProductRepository"
-namedParameterJdbcTemplateûø
-* *(F
-%3java.util.List"–org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate#query(Ljava/lang/String;Lorg/springframework/jdbc/core/RowMapper;)Ljava/util/List;*g
-
-__unknown_file (K
-I
-%2Corg.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate*5
-
-__unknown_file (
-
-sqljava.lang.String*Y
-
-__unknown_file (=
-;
-productRowMapper'org.springframework.jdbc.core.RowMapper2Bquery(Ljava/lang/String;Lorg/springframework/jdbc/core/RowMapper;)""
-* *(G
-
-%3java.util.ListBFD
-Bbr.com.fiap.techchallange.infrastructure.bd.MySQLProductRepositoryH
