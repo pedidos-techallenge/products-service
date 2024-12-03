@@ -14,13 +14,18 @@
     }
 
     public static Category fromValue(String value) {
-<span class="fc bfc" id="L17" title="All 2 branches covered.">        for (Category status : Category.values()) {</span>
-<span class="fc bfc" id="L18" title="All 2 branches covered.">            if (status.getValue().equals(value)) {</span>
-<span class="fc" id="L19">                return status;</span>
+<span class="fc bfc" id="L17" title="All 2 branches covered.">        if (value == null) {</span>
+<span class="fc" id="L18">            throw new IllegalArgumentException(&quot;Valor não pode ser nulo.&quot;);</span>
+        }
+
+<span class="fc bfc" id="L21" title="All 2 branches covered.">        for (Category status : Category.values()) {</span>
+<span class="fc bfc" id="L22" title="All 2 branches covered.">            if (status.getValue().equalsIgnoreCase(value)) {</span>
+<span class="fc" id="L23">                return status;</span>
             }
         }
-<span class="fc" id="L22">        throw new IllegalArgumentException(&quot;Valor inválido para campo de Category: &quot; + value + &quot;Esperado: &quot; +</span>
-<span class="fc" id="L23">                Meal.getValue() + &quot; &quot; + Sides.getValue() + &quot; &quot; + Drink.getValue() + &quot; &quot; + Dessert.getValue());</span>
+<span class="fc" id="L26">        throw new IllegalArgumentException(&quot;Valor inválido para campo de Category: &quot; + value + &quot; Esperado: &quot; +</span>
+<span class="fc" id="L27">                Meal.getValue() + &quot; &quot; + Sides.getValue() + &quot; &quot; + Drink.getValue() + &quot; &quot; + Dessert.getValue());</span>
     }
+
 }
-</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>

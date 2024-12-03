@@ -1,9 +1,9 @@
 
 X
-toStringJbr.com.fiap.techchallange.core.entity.Product#toString()Ljava/lang/String; ¾(
-", monetaryValue="java.lang.String"sku='"java.lang.String'}'char$", category='"java.lang.String'", description='"java.lang.String'\''char 
-", name='"java.lang.String 
-"Product{"java.lang.StringAthisQ Q("-br.com.fiap.techchallange.core.entity.ProductAthisQ Q("-br.com.fiap.techchallange.core.entity.Product" G
+toStringJbr.com.fiap.techchallange.core.entity.Product#toString()Ljava/lang/String; ¾'}'char$", category='"java.lang.String 
+", name='"java.lang.String"sku='"java.lang.String'", description='"java.lang.String(
+", monetaryValue="java.lang.String 
+"Product{"java.lang.String'\''charAthisQ Q("-br.com.fiap.techchallange.core.entity.ProductAthisQ Q("-br.com.fiap.techchallange.core.entity.Product" G
 E
 S S(""
 #get-field# sku#get-field# sku*2java.lang.StringI

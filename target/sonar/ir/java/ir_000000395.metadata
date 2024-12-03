@@ -1,6 +1,6 @@
 br.com.fiap.techchallange.infrastructure.bd.MySQLProductRepository#updateProduct(Ljava/lang/String;Lbr/com/fiap/techchallange/core/entity/Product;)V
 false
-2e52e2b2bef2d8c97a7f0cdf78a24301
+b9480c8b049c1977867f48c89c1eed4c
 org.springframework.jdbc.core.namedparam.MapSqlParameterSource#<init>()V
 org.springframework.jdbc.core.namedparam.MapSqlParameterSource#instance-init#
 ==

@@ -1,24 +1,33 @@
-# dockerfile do kubernets
-# Build stage
-FROM maven:3.9.2 AS builder
+# syntax=docker/dockerfile:1
+FROM maven:3.9.9-amazoncorretto-21 AS builder
 WORKDIR /tmp/app
 
-COPY pom.xml .
-RUN mvn dependency:go-offline
+RUN ls
 
-COPY src src
+COPY ./pom.xml ./pom.xml
+COPY ./src ./src
+
+
 RUN --mount=type=cache,target=/root/.m2 mvn install -DskipTests
 
-# Final stage
-FROM openjdk:17-jdk-slim
-
-RUN apt-get update && apt-get install -y curl \
-    && curl -sSL https://github.com/jwilder/dockerize/releases/download/v0.6.1/dockerize-linux-amd64-v0.6.1.tar.gz | tar -xz -C /usr/local/bin \
-    && apt-get clean && rm -rf /var/lib/apt/lists/*
+FROM amazoncorretto:21
 
 WORKDIR /workspace
-EXPOSE 8080
+EXPOSE 8080 8000
 
-COPY --from=builder /tmp/app/target/pedidos-0.0.1-SNAPSHOT.jar app.jar
+COPY --from=builder /tmp/app/target/*.jar app.jar
+RUN chmod +x app.jar
 
-ENTRYPOINT ["dockerize", "-wait", "tcp://mysql-service:3306", "-timeout", "90s", "java", "-jar", "/workspace/app.jar"]
+ENV SPRING_PROFILE=$SPRING_PROFILE
+ENV MYSQL_HOST=$MYSQL_HOST
+ENV MYSQL_PORT=$MYSQL_PORT
+ENV MYSQL_DATABSE=$MYSQL_DATABSE
+ENV MYSQL_USER=$MYSQL_USER
+ENV MYSQL_PASSWORD=$MYSQL_PASSWORD
+ENV AWS_REGION=$AWS_REGION
+ENV AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID
+ENV AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY
+ENV AWS_SESSION_TOKEN=$AWS_SESSION_TOKEN
+ENV AWS_SQS_URL=$AWS_SQS_URL
+
+ENTRYPOINT java -jar -Dspring.profiles.active=$SPRING_PROFILE /workspace/app.jar

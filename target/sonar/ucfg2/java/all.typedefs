@@ -1530,6 +1530,4 @@ L<init>(Lbr/com/fiap/techchallange/infrastructure/bd/MySQLProductRepository;)’
 mapRow(Ljava/sql/ResultSet;I)‘br.com.fiap.techchallange.infrastructure.bd.MySQLProductRepository$3#mapRow(Ljava/sql/ResultSet;I)Lbr/com/fiap/techchallange/core/entity/Product;¨
 Gbr.com.fiap.techchallange.adapters.presenters.checkout.ProductPresenter[br.com.fiap.techchallange.core.usecase.outputboundary.presenters.checkout.IProductPresenterjava.lang.Object]
 <init>()Qbr.com.fiap.techchallange.adapters.presenters.checkout.ProductPresenter#<init>()VŽ
-present(Ljava/util/List;)qbr.com.fiap.techchallange.adapters.presenters.checkout.ProductPresenter#present(Ljava/util/List;)Ljava/util/List;
-	RowMapperjava.lang.Object$
-WebMvcConfigurerjava.lang.Object
+present(Ljava/util/List;)qbr.com.fiap.techchallange.adapters.presenters.checkout.ProductPresenter#present(Ljava/util/List;)Ljava/util/List;
