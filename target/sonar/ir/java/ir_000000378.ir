@@ -1,0 +1,12 @@
+
+S
+setSkuIbr.com.fiap.techchallange.core.entity.Product#setSku(Ljava/lang/String;)V…"sku"java.lang.StringAthis ("-br.com.fiap.techchallange.core.entity.Product#sku (""java.lang.StringAthis ("-br.com.fiap.techchallange.core.entity.Product#sku (""java.lang.String"Ô‹
+ˆ
+ ("m
+
+checkValue_br.com.fiap.techchallange.core.entity.Product#checkValue(Ljava/lang/String;Ljava/lang/String;)V*2void86
+4
+ (""
+#set-field# sku#set-field# sku*
+
+ (*`/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/core/entity/Product.java

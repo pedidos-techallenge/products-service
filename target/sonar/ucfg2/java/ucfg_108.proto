@@ -1,0 +1,43 @@
+
+¿br.com.fiap.techchallange.infrastructure.config.controller.managementproduct.ManagementProductControlerConfig#updateProductController(Lbr/com/fiap/techchallange/core/usecase/inputboundary/managementproduct/IUpdateProductUseCase;)Lbr/com/fiap/techchallange/adapters/controllers/managementproduct/IUpdateProductController;´
+†/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/infrastructure/config/controller/managementproduct/ManagementProductControlerConfig.java   (4"startingBlock*⁄
+startingBlock 4  (`Å
+˛
+ (	
+%2"
+__annotate*K
+
+__unknown_file (/-
++org.springframework.context.annotation.Bean*í
+
+__unknown_file (v
+t
+updateProductUseCase\br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IUpdateProductUseCaseµ
+≤
+ K  (_t
+updateProductUseCase\br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IUpdateProductUseCase"__annotation*"
+
+__unknown_file (
+
+%2*
+1*±
+1!+ !(?«ƒ
+! !(*^
+%0Xbr.com.fiap.techchallange.adapters.controllers.managementproduct.UpdateProductController"Xbr.com.fiap.techchallange.adapters.controllers.managementproduct.UpdateProductControllerÈ
+Ê
+! !(@
+%1"¿br.com.fiap.techchallange.adapters.controllers.managementproduct.UpdateProductController#<init>(Lbr/com/fiap/techchallange/core/usecase/inputboundary/managementproduct/IUpdateProductUseCase;)V*|
+
+__unknown_file (`
+^
+%0Xbr.com.fiap.techchallange.adapters.controllers.managementproduct.UpdateProductController*í
+
+__unknown_file (v
+t
+updateProductUseCase\br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IUpdateProductUseCase"l
+! !(A`
+^
+%0Xbr.com.fiap.techchallange.adapters.controllers.managementproduct.UpdateProductController:Ä
+ 5  (_t
+updateProductUseCase\br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IUpdateProductUseCaseBqo
+mbr.com.fiap.techchallange.infrastructure.config.controller.managementproduct.ManagementProductControlerConfig
