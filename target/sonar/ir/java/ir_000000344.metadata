@@ -1,0 +1,5 @@
+br.com.fiap.techchallange.infrastructure.config.usecase.managementproduct.ManagementProductUseCaseConfig#getProductBySkuUseCase(Lbr/com/fiap/techchallange/adapters/gateways/repository/IProductRepository;)Lbr/com/fiap/techchallange/core/usecase/inputboundary/managementproduct/IGetProductBySkuUseCase;
+false
+c8a504b0061242141014393f27462cf4
+br.com.fiap.techchallange.core.usecase.managementproduct.GetProductBySkuUseCase#<init>(Lbr/com/fiap/techchallange/adapters/gateways/repository/IProductRepository;)V
+br.com.fiap.techchallange.core.usecase.managementproduct.GetProductBySkuUseCase#instance-init#

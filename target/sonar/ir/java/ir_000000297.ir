@@ -1,0 +1,8 @@
+
+¸
+ProductsDisplayUseCase›br.com.fiap.techchallange.core.usecase.checkout.ProductsDisplayUseCase#<init>(Lbr/com/fiap/techchallange/adapters/gateways/repository/IProductRepository;)V ÈZthis (!"Fbr.com.fiap.techchallange.core.usecase.checkout.ProductsDisplayUseCasejproductRepository" (F"Ibr.com.fiap.techchallange.adapters.gateways.repository.IProductRepositoryZthis (!"Fbr.com.fiap.techchallange.core.usecase.checkout.ProductsDisplayUseCasejproductRepository" (F"Ibr.com.fiap.techchallange.adapters.gateways.repository.IProductRepository"bR
+P
+ (2">
+#set-field# productRepository#set-field# productRepository*
+
+ (*y/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/core/usecase/checkout/ProductsDisplayUseCase.java

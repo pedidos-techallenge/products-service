@@ -1,60 +1,92 @@
 package br.com.fiap.techchallange.core.entity.vo;
 
-import br.com.fiap.techchallange.core.entity.vo.Item;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.BeforeEach;
+
+import java.lang.reflect.Method;
+
 import static org.junit.jupiter.api.Assertions.*;
 
-class ItemTests {
+public class ItemTests {
 
-    private Item item;
+    @Test
+    public void testItemCreationWithValidData() {
+        String orderId = "order123";
+        String sku = "sku123";
+        Integer quantity = 5;
+        float unitValue = 10.0f;
 
-    @BeforeEach
-    void setUp() {
-        item = new Item("order123", "SKU123", 2, 10.0f);
+        Item item = new Item(orderId, sku, quantity, unitValue);
+
+        assertNotNull(item, "Item should be created successfully");
+        assertEquals(orderId, item.getOrder_id(), "Order ID should match");
+        assertEquals(sku, item.getSku(), "SKU should match");
+        assertEquals(quantity, item.getQuantity(), "Quantity should match");
+        assertEquals(unitValue, item.getUnitValue(), "Unit value should match");
+        assertEquals(unitValue * quantity, item.getAmount(), "Amount should be calculated correctly");
     }
 
     @Test
-    void testValidItemCreation() {
-        assertEquals("order123", item.getOrder_id());
-        assertEquals("SKU123", item.getSku());
-        assertEquals(2, item.getQuantity());
-        assertEquals(10.0f, item.getUnitValue());
-        assertEquals(20.0f, item.getAmount()); // 2 * 10.0f
-    }
+    public void testItemCreationWithInvalidQuantity() {
+        String orderId = "order123";
+        String sku = "sku123";
+        Integer quantity = 0;
+        float unitValue = 10.0f;
 
-    @Test
-    void testSetAmountCalculation() {
-        Item newItem = new Item("order456", "SKU456", 3, 15.0f);
-        assertEquals(45.0f, newItem.getAmount()); // 3 * 15.0f
-    }
+        IllegalArgumentException exception = assertThrows(IllegalArgumentException.class, () -> {
+            new Item(orderId, sku, quantity, unitValue);
+        });
 
-    @Test
-    void testInvalidQuantityThrowsException() {
-        IllegalArgumentException exception = assertThrows(
-                IllegalArgumentException.class,
-                () -> new Item("order789", "SKU789", 0, 20.0f)
-        );
         assertEquals("quantity of item cannot be less than or equal to zero", exception.getMessage());
     }
 
     @Test
-    void testNegativeQuantityThrowsException() {
-        IllegalArgumentException exception = assertThrows(
-                IllegalArgumentException.class,
-                () -> new Item("order789", "SKU789", -1, 20.0f)
-        );
+    public void testItemCreationWithNegativeQuantity() {
+        String orderId = "order123";
+        String sku = "sku123";
+        Integer quantity = -5;
+        float unitValue = 10.0f;
+
+        IllegalArgumentException exception = assertThrows(IllegalArgumentException.class, () -> {
+            new Item(orderId, sku, quantity, unitValue);
+        });
+
         assertEquals("quantity of item cannot be less than or equal to zero", exception.getMessage());
     }
 
     @Test
-    void testValidUnitValue() {
-        assertEquals(10.0f, item.getUnitValue());
+    public void testAmountCalculation() {
+        String orderId = "order123";
+        String sku = "sku123";
+        Integer quantity = 5;
+        float unitValue = 10.0f;
+
+        Item item = new Item(orderId, sku, quantity, unitValue);
+
+        float expectedAmount = unitValue * quantity;
+        assertEquals(expectedAmount, item.getAmount(), "Amount should be the product of unitValue and quantity");
     }
 
     @Test
-    void testAmountUpdatesWithQuantityChange() {
-        Item dynamicItem = new Item("orderDynamic", "SKUdynamic", 5, 8.0f);
-        assertEquals(40.0f, dynamicItem.getAmount()); // 5 * 8.0f
+    public void testValidQuantity() {
+        String orderId = "order123";
+        String sku = "sku123";
+        Integer quantity = 1;
+        float unitValue = 10.0f;
+
+        Item item = new Item(orderId, sku, quantity, unitValue);
+        assertNotNull(item, "Item should be created successfully with valid quantity");
+    }
+
+    @Test
+    public void testAmountWithSingleItem() {
+        String orderId = "order123";
+        String sku = "sku123";
+        Integer quantity = 1;
+        float unitValue = 10.0f;
+
+        Item item = new Item(orderId, sku, quantity, unitValue);
+
+        float expectedAmount = unitValue * quantity;
+        assertEquals(expectedAmount, item.getAmount(), "Amount should be unitValue since quantity is 1");
     }
 }

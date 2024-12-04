@@ -1,0 +1,25 @@
+
+§
+ProductRequestDTO‘br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;FLjava/lang/String;)VšRthis	 	(">br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO#sku
+ 
+(+"java.lang.String$name (-"java.lang.String+description (;"java.lang.String"monetaryValue (>"float(category (5"java.lang.StringRthis	 	(">br.com.fiap.techchallange.infrastructure.dto.ProductRequestDTO#sku
+ 
+(+"java.lang.String$name (-"java.lang.String+description (;"java.lang.String"monetaryValue (>"float(category (5"java.lang.String"Ö8
+6
+ ("$
+#set-field# name#set-field# name*J
+H
+ (*"6
+#set-field# monetaryValue#set-field# monetaryValue*6
+4
+ (	""
+#set-field# sku#set-field# sku*F
+D
+ (&
+"2
+#set-field# description#set-field# description*@
+>
+ ( ",
+#set-field# category#set-field# category*
+
+ (*q/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/infrastructure/dto/ProductRequestDTO.java
