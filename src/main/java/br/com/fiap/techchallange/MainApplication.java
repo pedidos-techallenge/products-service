@@ -9,7 +9,7 @@ import org.springframework.context.annotation.ComponentScan;
         basePackages = {"br.com.fiap.techchallange.infrastructure.config",
                 "br.com.fiap.techchallange.adapters.gateways.repository",
                 "br.com.fiap.techchallange.infrastructure.bd",
-                "br.com.fiap.techchallange.infrastructure.api"
+                "br.com.fiap.techchallange.infrastructure.api",
         }
 )
 public class MainApplication {
