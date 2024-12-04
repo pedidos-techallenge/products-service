@@ -1,3 +1,5 @@
-br.com.fiap.techchallange.adapters.gateways.repository.IProductRepository#<init>()V
+br.com.fiap.techchallange.core.entity.Product#getMonetaryValue()F
 false
-de8d915bb2064b3c7cabb81bb54c9c3d
+7d57d873e913c93902f2681120a661a3
+==
+getValue br.com.fiap.techchallange.core.entity.vo.MonetaryValue#getValue()F

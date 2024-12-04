@@ -1,7 +1,5 @@
-br.com.fiap.techchallange.core.entity.vo.MonetaryValue#setValue(Ljava/math/BigDecimal;)V
+br.com.fiap.techchallange.adapters.controllers.managementproduct.RemoveProductController#invoke(Ljava/lang/String;)V
 false
-4ce748856199179c2a0ad70e229c7494
-java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V
-java.lang.IllegalArgumentException#instance-init#
+e4dd5fcfb3c36c2b444dced9dc9bd447
 ==
-floatValue java.math.BigDecimal#floatValue()F
+invoke br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IRemoveProductUseCase#invoke(Ljava/lang/String;)V

@@ -1,10 +1,5 @@
 
-À
-invokeæbr.com.fiap.techchallange.adapters.controllers.managementproduct.GetProductBySkuController#invoke(Ljava/lang/String;)Lbr/com/fiap/techchallange/core/usecase/dto/product/OutputDataProductDTO; ïnthis  (&"Zbr.com.fiap.techchallange.adapters.controllers.managementproduct.GetProductBySkuController#sku' (1"java.lang.Stringnthis  (&"Zbr.com.fiap.techchallange.adapters.controllers.managementproduct.GetProductBySkuController#sku' (1"java.lang.String"¸º
-π
- (%"H
-"#get-field# getProductBySkuUseCase"#get-field# getProductBySkuUseCase*2^br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IGetProductBySkuUseCase™
-ß
- (."…
-getøbr.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IGetProductBySkuUseCase#get(Ljava/lang/String;)Lbr/com/fiap/techchallange/core/usecase/dto/product/OutputDataProductDTO; *2Gbr.com.fiap.techchallange.core.usecase.dto.product.OutputDataProductDTO8
- (/*ç/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/adapters/controllers/managementproduct/GetProductBySkuController.java
+o
+#instance-init#\br.com.fiap.techchallange.core.usecase.managementproduct.RemoveProductUseCase#instance-init#cathis (!"Mbr.com.fiap.techchallange.core.usecase.managementproduct.RemoveProductUseCaseathis (!"Mbr.com.fiap.techchallange.core.usecase.managementproduct.RemoveProductUseCase"
+
+ (*Ä/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/core/usecase/managementproduct/RemoveProductUseCase.java

@@ -1,7 +1,7 @@
 
-^
-getOrder_idMbr.com.fiap.techchallange.core.entity.vo.Item#getOrder_id()Ljava/lang/String; CAthis ("-br.com.fiap.techchallange.core.entity.vo.ItemAthis ("-br.com.fiap.techchallange.core.entity.vo.Item"cQ
 O
- (",
-#get-field# order_id#get-field# order_id*2java.lang.String
- (*`/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/core/entity/vo/Item.java
+getUnitValue=br.com.fiap.techchallange.core.entity.vo.Item#getUnitValue()F CAthis" "("-br.com.fiap.techchallange.core.entity.vo.ItemAthis" "("-br.com.fiap.techchallange.core.entity.vo.Item"ZH
+F
+# #(".
+#get-field# unitValue#get-field# unitValue*2float
+# #(*`/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/core/entity/vo/Item.java

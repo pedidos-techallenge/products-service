@@ -1,3 +1,5 @@
-br.com.fiap.techchallange.infrastructure.dto.ItemRequestDTO#amount()F
+br.com.fiap.techchallange.infrastructure.config.controller.managementproduct.ManagementProductControlerConfig#getProductBySkuController(Lbr/com/fiap/techchallange/core/usecase/inputboundary/managementproduct/IGetProductBySkuUseCase;)Lbr/com/fiap/techchallange/adapters/controllers/managementproduct/IGetProductBySkuController;
 false
-feaf2e5c28060036d6425380478c02d7
+89112888562d28d2ca7136b5242bbe33
+br.com.fiap.techchallange.adapters.controllers.managementproduct.GetProductBySkuController#<init>(Lbr/com/fiap/techchallange/core/usecase/inputboundary/managementproduct/IGetProductBySkuUseCase;)V
+br.com.fiap.techchallange.adapters.controllers.managementproduct.GetProductBySkuController#instance-init#

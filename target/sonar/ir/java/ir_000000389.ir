@@ -1,29 +1,5 @@
 
-X
-toStringJbr.com.fiap.techchallange.core.entity.Product#toString()Ljava/lang/String; æ 
-"Product{"java.lang.String$", category='"java.lang.String"sku='"java.lang.String'", description='"java.lang.String(
-", monetaryValue="java.lang.String'\''char'}'char 
-", name='"java.lang.StringAthisQ Q("-br.com.fiap.techchallange.core.entity.ProductAthisQ Q("-br.com.fiap.techchallange.core.entity.Product"†G
-E
-S S(""
-#get-field# sku#get-field# sku*2java.lang.StringI
-G
-T T(!"$
-#get-field# name#get-field# name*2java.lang.StringW
-U
-U$ U(/	"2
-#get-field# description#get-field# description*2java.lang.StringÅ
-
-V% V(2"6
-#get-field# monetaryValue#get-field# monetaryValue*26br.com.fiap.techchallange.core.entity.vo.MonetaryValuel
-j
-V% V(="P
-getValueBbr.com.fiap.techchallange.core.entity.vo.MonetaryValue#getValue()F *2float8u
-s
-W! W()",
-#get-field# category#get-field# category*24br.com.fiap.techchallange.core.entity.enums.Category8
-6
-R X("
-	#binop +#	#binop +#*	
-
-R X(*`/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/core/entity/Product.java
+g
+ProductPresenterQbr.com.fiap.techchallange.adapters.presenters.checkout.ProductPresenter#<init>()V ][this	 	("Gbr.com.fiap.techchallange.adapters.presenters.checkout.ProductPresenter[this	 	("Gbr.com.fiap.techchallange.adapters.presenters.checkout.ProductPresenter"
+
+	 (*z/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/adapters/presenters/checkout/ProductPresenter.java

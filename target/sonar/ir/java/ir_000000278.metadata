@@ -1,3 +1,5 @@
-br.com.fiap.techchallange.infrastructure.api.ManagementProduct#<init>(Lbr/com/fiap/techchallange/adapters/controllers/managementproduct/IGetProductListController;Lbr/com/fiap/techchallange/adapters/controllers/managementproduct/IGetProductBySkuController;Lbr/com/fiap/techchallange/adapters/controllers/managementproduct/IRegisterProductController;Lbr/com/fiap/techchallange/adapters/controllers/managementproduct/IUpdateProductController;Lbr/com/fiap/techchallange/adapters/controllers/managementproduct/IRemoveProductController;Lbr/com/fiap/techchallange/core/usecase/outputboundary/presenters/managementproduct/IProductManagementPresenter;)V
+br.com.fiap.techchallange.core.usecase.managementproduct.RemoveProductUseCase#invoke(Ljava/lang/String;)V
 false
-4fafae3b23a02a70e442676f6f91081e
+f272c7f4c1064c37e418f5c3b727691a
+==
+deleteProduct br.com.fiap.techchallange.adapters.gateways.repository.IProductRepository#deleteProduct(Ljava/lang/String;)V

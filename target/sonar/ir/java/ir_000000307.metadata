@@ -1,5 +1,3 @@
-br.com.fiap.techchallange.infrastructure.service.mock.SequentialNumberGenerator#generateNextNumber()Ljava/lang/Integer;
+br.com.fiap.techchallange.core.usecase.dto.product.InputDataProductDTO#instance-init#
 false
-16f8819ec289d7b446ae1891ca5c4f5c
-java.lang.IllegalStateException#<init>(Ljava/lang/String;)V
-java.lang.IllegalStateException#instance-init#
+93a0cb08c7f41aa43bf487425951ac3e

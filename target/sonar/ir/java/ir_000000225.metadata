@@ -1,5 +1,5 @@
-br.com.fiap.techchallange.adapters.presenters.managementproduct.ProductManagementPresenter#present(Lbr/com/fiap/techchallange/core/usecase/dto/product/OutputDataProductDTO;)Lbr/com/fiap/techchallange/core/usecase/outputboundary/presenters/managementproduct/IProductManagementPresenter$ProductResponseModel;
+br.com.fiap.techchallange.core.entity.exceptions.ChangeNotAllowedOrderException#<init>(Ljava/lang/String;)V
 false
-13189f52dbf6843a309d002dcfba9e56
-br.com.fiap.techchallange.core.usecase.outputboundary.presenters.managementproduct.IProductManagementPresenter$ProductResponseModel#<init>(Lbr/com/fiap/techchallange/core/usecase/dto/product/OutputDataProductDTO;)V
-br.com.fiap.techchallange.core.usecase.outputboundary.presenters.managementproduct.IProductManagementPresenter$ProductResponseModel#instance-init#
+d515775be328461d445feccc1764f8a2
+==
+<init> java.lang.RuntimeException#<init>(Ljava/lang/String;)V

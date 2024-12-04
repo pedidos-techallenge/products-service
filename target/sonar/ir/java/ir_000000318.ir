@@ -1,7 +1,8 @@
 
-_
-getQuantityNbr.com.fiap.techchallange.core.entity.vo.Item#getQuantity()Ljava/lang/Integer; CAthis ("-br.com.fiap.techchallange.core.entity.vo.ItemAthis ("-br.com.fiap.techchallange.core.entity.vo.Item"dR
-P
- (",
-#get-field# quantity#get-field# quantity*2java.lang.Integer
- (*`/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/core/entity/vo/Item.java
+S
+setSKUIbr.com.fiap.techchallange.core.entity.vo.Item#setSKU(Ljava/lang/String;)VhAthis/ /("-br.com.fiap.techchallange.core.entity.vo.Item#sku/ /(""java.lang.StringAthis/ /("-br.com.fiap.techchallange.core.entity.vo.Item#sku/ /(""java.lang.String"F6
+4
+0 0(""
+#set-field# sku#set-field# sku*
+
+1 1(*`/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/core/entity/vo/Item.java

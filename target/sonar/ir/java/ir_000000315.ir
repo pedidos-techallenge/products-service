@@ -1,21 +1,7 @@
 
-y
-Itemobr.com.fiap.techchallange.core.entity.vo.Item#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;F)V ÝAthis ("-br.com.fiap.techchallange.core.entity.vo.Item(order_id ("java.lang.String#sku! (+"java.lang.String)quantity- (="java.lang.Integer	unitValue? (N"floatAthis ("-br.com.fiap.techchallange.core.entity.vo.Item(order_id ("java.lang.String#sku! (+"java.lang.String)quantity- (="java.lang.Integer	unitValue? (N"float"¬@
->
- ( ",
-#set-field# order_id#set-field# order_id*6
-4
- (""
-#set-field# sku#set-field# sku*B
-@
- ("".
-#set-field# unitValue#set-field# unitValue*z
-x
- ("	"^
-setQuantityObr.com.fiap.techchallange.core.entity.vo.Item#setQuantity(Ljava/lang/Integer;)V*2void8b
-`
- (
-"G
-	setAmount:br.com.fiap.techchallange.core.entity.vo.Item#setAmount()V*2void8
-
- (*`/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/core/entity/vo/Item.java
+_
+getQuantityNbr.com.fiap.techchallange.core.entity.vo.Item#getQuantity()Ljava/lang/Integer; CAthis ("-br.com.fiap.techchallange.core.entity.vo.ItemAthis ("-br.com.fiap.techchallange.core.entity.vo.Item"dR
+P
+ (",
+#get-field# quantity#get-field# quantity*2java.lang.Integer
+ (*`/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/core/entity/vo/Item.java

@@ -1,3 +1,3 @@
-br.com.fiap.techchallange.adapters.presenters.viewmodel.ErrorViewModel#instance-init#
+br.com.fiap.techchallange.core.usecase.managementproduct.GetProductBySkuUseCase#<init>(Lbr/com/fiap/techchallange/adapters/gateways/repository/IProductRepository;)V
 false
-e34985319cdaacdcf13ece5a5d86a878
+3193effc9ec142e4bbc6e0c313e84db0

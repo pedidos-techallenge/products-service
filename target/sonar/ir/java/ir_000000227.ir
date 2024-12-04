@@ -1,8 +1,19 @@
 
-è
-ChangeNotAllowedOrderExceptionkbr.com.fiap.techchallange.core.entity.exceptions.ChangeNotAllowedOrderException#<init>(Ljava/lang/String;)V écthis (-"Obr.com.fiap.techchallange.core.entity.exceptions.ChangeNotAllowedOrderException'message. (<"java.lang.Stringcthis (-"Obr.com.fiap.techchallange.core.entity.exceptions.ChangeNotAllowedOrderException'message. (<"java.lang.String"Öu
-s
- ("C
-super6java.lang.RuntimeException#<init>(Ljava/lang/String;)V (*2java.lang.RuntimeException8
+i
+MonetaryValueVbr.com.fiap.techchallange.core.entity.vo.MonetaryValue#<init>(Ljava/math/BigDecimal;)V ï"BRL"java.lang.StringJthis
+ 
+("6br.com.fiap.techchallange.core.entity.vo.MonetaryValue*amount
+ 
+(*"java.math.BigDecimalJthis
+ 
+("6br.com.fiap.techchallange.core.entity.vo.MonetaryValue*amount
+ 
+(*"java.math.BigDecimal"óÄ
+~
+ ("d
+setValueXbr.com.fiap.techchallange.core.entity.vo.MonetaryValue#setValue(Ljava/math/BigDecimal;)V*2void8É
+Ä
+ ("f
+setCurrencyWbr.com.fiap.techchallange.core.entity.vo.MonetaryValue#setCurrency(Ljava/lang/String;)V*2void8
 
- (	*Ç/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/core/entity/exceptions/ChangeNotAllowedOrderException.java
+ (*i/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/core/entity/vo/MonetaryValue.java

@@ -1,5 +1,3 @@
-br.com.fiap.techchallange.infrastructure.config.presenters.managementproduct.ProductPresenterConfig#getProductManagementPresenter()Lbr/com/fiap/techchallange/core/usecase/outputboundary/presenters/managementproduct/IProductManagementPresenter;
+br.com.fiap.techchallange.core.usecase.managementproduct.GetProductBySkuUseCase#instance-init#
 false
-38cb24a59c21b63480371e82322dc75e
-br.com.fiap.techchallange.adapters.presenters.managementproduct.ProductManagementPresenter#<init>()V
-br.com.fiap.techchallange.adapters.presenters.managementproduct.ProductManagementPresenter#instance-init#
+4e5a834be21225bf0940cc95adfa528c

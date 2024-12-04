@@ -1,12 +1,10 @@
 
-v
-SequentialNumberGeneratorYbr.com.fiap.techchallange.infrastructure.service.mock.SequentialNumberGenerator#<init>()Vq
-0intcthis (%"Obr.com.fiap.techchallange.infrastructure.service.mock.SequentialNumberGeneratorcthis (%"Obr.com.fiap.techchallange.infrastructure.service.mock.SequentialNumberGenerator"Š.
-,
- (currentNumber"
-#id##id#*J
-H
- ("6
-#set-field# currentNumber#set-field# currentNumber*
-
-	 	(*‚/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/infrastructure/service/mock/SequentialNumberGenerator.java
+œ
+getFormattedCurrentNumber}br.com.fiap.techchallange.infrastructure.service.mock.SequentialNumberGenerator#getFormattedCurrentNumber()Ljava/lang/String; ƒ"%05d"java.lang.Stringcthis (+"Obr.com.fiap.techchallange.infrastructure.service.mock.SequentialNumberGeneratorcthis (+"Obr.com.fiap.techchallange.infrastructure.service.mock.SequentialNumberGenerator"æN
+L
+% (2"6
+#get-field# currentNumber#get-field# currentNumber*2intƒ
+€
+ (3"\
+formatPjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;(*2java.lang.String
+ (4*‚/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/infrastructure/service/mock/SequentialNumberGenerator.java

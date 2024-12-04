@@ -1,10 +1,5 @@
 
-Þ
-UpdateProductControllerÀbr.com.fiap.techchallange.adapters.controllers.managementproduct.UpdateProductController#<init>(Lbr/com/fiap/techchallange/core/usecase/inputboundary/managementproduct/IUpdateProductUseCase;)V ñlthis (""Xbr.com.fiap.techchallange.adapters.controllers.managementproduct.UpdateProductController€updateProductUseCase# (M"\br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IUpdateProductUseCaselthis (""Xbr.com.fiap.techchallange.adapters.controllers.managementproduct.UpdateProductController€updateProductUseCase# (M"\br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IUpdateProductUseCase"hX
-V
-	 	(8"D
- #set-field# updateProductUseCase #set-field# updateProductUseCase*
-
-
- 
-(*‹/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/adapters/controllers/managementproduct/UpdateProductController.java
+h
+#instance-init#Ubr.com.fiap.techchallange.adapters.presenters.viewmodel.ErrorViewModel#instance-init#\Zthis ("Fbr.com.fiap.techchallange.adapters.presenters.viewmodel.ErrorViewModelZthis ("Fbr.com.fiap.techchallange.adapters.presenters.viewmodel.ErrorViewModel"
+
+ (*y/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/adapters/presenters/viewmodel/ErrorViewModel.java

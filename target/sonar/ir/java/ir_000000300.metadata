@@ -1,3 +1,3 @@
-br.com.fiap.techchallange.core.usecase.checkout.ProductsDisplayUseCase#<init>(Lbr/com/fiap/techchallange/adapters/gateways/repository/IProductRepository;)V
+br.com.fiap.techchallange.adapters.controllers.managementproduct.IGetProductBySkuController#<init>()V
 false
-0404f4a6618bf84c5b2a19086a4ae24d
+8306fd5e3bd7ae77ce0e7965f1bdc655

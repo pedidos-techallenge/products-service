@@ -1,21 +1,5 @@
 
-¸
-invoke«br.com.fiap.techchallange.adapters.controllers.managementproduct.UpdateProductController#invoke(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;FLjava/lang/String;)V ´lthis ("Xbr.com.fiap.techchallange.adapters.controllers.managementproduct.UpdateProductController#sku (!"java.lang.String$name# (."java.lang.String+description0 (B"java.lang.String"monetaryValueD (W"float(categoryY (h"java.lang.Stringlthis ("Xbr.com.fiap.techchallange.adapters.controllers.managementproduct.UpdateProductController#sku (!"java.lang.String$name# (."java.lang.String+description0 (B"java.lang.String"monetaryValueD (W"float(categoryY (h"java.lang.String"Û¶
-³
- ("D
- #get-field# updateProductUseCase #get-field# updateProductUseCase*2\br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IUpdateProductUseCaset
-r
-$ (l"
-#new-object##new-object#2Fbr.com.fiap.techchallange.core.usecase.dto.product.InputDataProductDTO}
-{
-$ (l	"h
-#instance-init#Ubr.com.fiap.techchallange.core.usecase.dto.product.InputDataProductDTO#instance-init#*8À
-½
-$ (l
-"¤
-<init>™br.com.fiap.techchallange.core.usecase.dto.product.InputDataProductDTO#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;FLjava/lang/String;)V*8Ù
-Ö
- (m"»
-invoke®br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IUpdateProductUseCase#invoke(Lbr/com/fiap/techchallange/core/usecase/dto/product/InputDataProductDTO;)V *2void8
-
- (*‹/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/adapters/controllers/managementproduct/UpdateProductController.java
+d
+ErrorViewModelPbr.com.fiap.techchallange.adapters.presenters.viewmodel.ErrorViewModel#<init>()V \Zthis ("Fbr.com.fiap.techchallange.adapters.presenters.viewmodel.ErrorViewModelZthis ("Fbr.com.fiap.techchallange.adapters.presenters.viewmodel.ErrorViewModel"
+
+ (*y/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/adapters/presenters/viewmodel/ErrorViewModel.java

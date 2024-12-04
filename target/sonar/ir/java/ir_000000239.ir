@@ -1,8 +1,5 @@
 
-Þ
-RemoveProductControllerÀbr.com.fiap.techchallange.adapters.controllers.managementproduct.RemoveProductController#<init>(Lbr/com/fiap/techchallange/core/usecase/inputboundary/managementproduct/IRemoveProductUseCase;)V ñlthis (""Xbr.com.fiap.techchallange.adapters.controllers.managementproduct.RemoveProductController€removeProductUseCase# (M"\br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IRemoveProductUseCaselthis (""Xbr.com.fiap.techchallange.adapters.controllers.managementproduct.RemoveProductController€removeProductUseCase# (M"\br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IRemoveProductUseCase"hX
-V
- (8"D
- #set-field# removeProductUseCase #set-field# removeProductUseCase*
-
-	 	(*‹/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/adapters/controllers/managementproduct/RemoveProductController.java
+z
+#instance-init#gbr.com.fiap.techchallange.adapters.controllers.managementproduct.UpdateProductController#instance-init#nlthis ($"Xbr.com.fiap.techchallange.adapters.controllers.managementproduct.UpdateProductControllerlthis ($"Xbr.com.fiap.techchallange.adapters.controllers.managementproduct.UpdateProductController"
+
+ (*‹/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/adapters/controllers/managementproduct/UpdateProductController.java

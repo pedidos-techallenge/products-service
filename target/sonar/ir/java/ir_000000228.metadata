@@ -1,3 +1,5 @@
-br.com.fiap.techchallange.infrastructure.config.OpenApiConfig#instance-init#
+br.com.fiap.techchallange.core.entity.vo.MonetaryValue#<init>(Ljava/math/BigDecimal;Ljava/lang/String;)V
 false
-04c17131f0349708f10803aaa40cdf2b
+524f5b4d862b674c91f757fc2125baf8
+br.com.fiap.techchallange.core.entity.vo.MonetaryValue#setCurrency(Ljava/lang/String;)V
+br.com.fiap.techchallange.core.entity.vo.MonetaryValue#setValue(Ljava/math/BigDecimal;)V

@@ -1,3 +1,3 @@
-br.com.fiap.techchallange.MainApplication#<init>()V
+br.com.fiap.techchallange.adapters.controllers.managementproduct.GetProductBySkuController#<init>(Lbr/com/fiap/techchallange/core/usecase/inputboundary/managementproduct/IGetProductBySkuUseCase;)V
 false
-f79f9ee46572eed542d9fcc919db059f
+2740610163627b5377c26491e8c66d27

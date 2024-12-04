@@ -1,8 +1,7 @@
 
-}
-setDescriptionkbr.com.fiap.techchallange.core.usecase.dto.product.OutputDataProductDTO#setDescription(Ljava/lang/String;)VŠ[this ("Gbr.com.fiap.techchallange.core.usecase.dto.product.OutputDataProductDTO+description  (2"java.lang.String[this ("Gbr.com.fiap.techchallange.core.usecase.dto.product.OutputDataProductDTO+description  (2"java.lang.String"VF
-D
- (&"2
-#set-field# description#set-field# description*
-
- (*z/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/core/usecase/dto/product/OutputDataProductDTO.java
+p
+getNamecbr.com.fiap.techchallange.core.usecase.dto.product.OutputDataProductDTO#getName()Ljava/lang/String; ][this' '("Gbr.com.fiap.techchallange.core.usecase.dto.product.OutputDataProductDTO[this' '("Gbr.com.fiap.techchallange.core.usecase.dto.product.OutputDataProductDTO"[I
+G
+( (("$
+#get-field# name#get-field# name*2java.lang.String
+( ((*z/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/core/usecase/dto/product/OutputDataProductDTO.java

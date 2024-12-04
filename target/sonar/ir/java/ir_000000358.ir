@@ -1,7 +1,13 @@
 
-Q
-amountEbr.com.fiap.techchallange.infrastructure.dto.ItemRequestDTO#amount()F QOthis (";br.com.fiap.techchallange.infrastructure.dto.ItemRequestDTOOthis (";br.com.fiap.techchallange.infrastructure.dto.ItemRequestDTO"TB
-@
- ("(
-#get-field# amount#get-field# amount*2float
- (*n/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/infrastructure/dto/ItemRequestDTO.java
+Ê
+getProductBySkuController∆br.com.fiap.techchallange.infrastructure.config.controller.managementproduct.ManagementProductControlerConfig#getProductBySkuController(Lbr/com/fiap/techchallange/core/usecase/inputboundary/managementproduct/IGetProductBySkuUseCase;)Lbr/com/fiap/techchallange/adapters/controllers/managementproduct/IGetProductBySkuController; ãÅthis (8"mbr.com.fiap.techchallange.infrastructure.config.controller.managementproduct.ManagementProductControlerConfigÑgetProductBySkuUseCase9 (g"^br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IGetProductBySkuUseCaseÅthis (8"mbr.com.fiap.techchallange.infrastructure.config.controller.managementproduct.ManagementProductControlerConfigÑgetProductBySkuUseCase9 (g"^br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IGetProductBySkuUseCase"õâ
+Ü
+ (D"
+#new-object##new-object#2Zbr.com.fiap.techchallange.adapters.controllers.managementproduct.GetProductBySkuControllerí
+è
+ (D"|
+#instance-init#ibr.com.fiap.techchallange.adapters.controllers.managementproduct.GetProductBySkuController#instance-init#*8Á
+‰
+ (D"œ
+<init>ƒbr.com.fiap.techchallange.adapters.controllers.managementproduct.GetProductBySkuController#<init>(Lbr/com/fiap/techchallange/core/usecase/inputboundary/managementproduct/IGetProductBySkuUseCase;)V*8
+ (E*†/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/infrastructure/config/controller/managementproduct/ManagementProductControlerConfig.java

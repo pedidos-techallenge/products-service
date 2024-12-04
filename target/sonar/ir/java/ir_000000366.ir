@@ -1,13 +1,5 @@
 
-Ê
-registerProductController∆br.com.fiap.techchallange.infrastructure.config.controller.managementproduct.ManagementProductControlerConfig#registerProductController(Lbr/com/fiap/techchallange/core/usecase/inputboundary/managementproduct/IRegisterProductUseCase;)Lbr/com/fiap/techchallange/adapters/controllers/managementproduct/IRegisterProductController; ãÅthis (8"mbr.com.fiap.techchallange.infrastructure.config.controller.managementproduct.ManagementProductControlerConfigÑregisterProductUseCase9 (g"^br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IRegisterProductUseCaseÅthis (8"mbr.com.fiap.techchallange.infrastructure.config.controller.managementproduct.ManagementProductControlerConfigÑregisterProductUseCase9 (g"^br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IRegisterProductUseCase"õâ
-Ü
- (D"
-#new-object##new-object#2Zbr.com.fiap.techchallange.adapters.controllers.managementproduct.RegisterProductControllerí
-è
- (D"|
-#instance-init#ibr.com.fiap.techchallange.adapters.controllers.managementproduct.RegisterProductController#instance-init#*8Á
-‰
- (D"œ
-<init>ƒbr.com.fiap.techchallange.adapters.controllers.managementproduct.RegisterProductController#<init>(Lbr/com/fiap/techchallange/core/usecase/inputboundary/managementproduct/IRegisterProductUseCase;)V*8
- (E*†/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/infrastructure/config/controller/managementproduct/ManagementProductControlerConfig.java
+k
+IProductRepositorySbr.com.fiap.techchallange.adapters.gateways.repository.IProductRepository#<init>()V _]this (#"Ibr.com.fiap.techchallange.adapters.gateways.repository.IProductRepository]this (#"Ibr.com.fiap.techchallange.adapters.gateways.repository.IProductRepository"
+
+ (*|/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/adapters/gateways/repository/IProductRepository.java

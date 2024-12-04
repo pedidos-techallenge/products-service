@@ -1,5 +1,3 @@
-br.com.fiap.techchallange.infrastructure.service.mock.SequentialNumberGenerator#getInstance()Lbr/com/fiap/techchallange/infrastructure/service/mock/SequentialNumberGenerator;
+br.com.fiap.techchallange.infrastructure.service.mock.SequentialNumberGenerator#reset()V
 false
-c99c8e0a57cfcc62d419890a7baed5e4
-br.com.fiap.techchallange.infrastructure.service.mock.SequentialNumberGenerator#<init>()V
-br.com.fiap.techchallange.infrastructure.service.mock.SequentialNumberGenerator#instance-init#
+01abd7aa1f316311653893fe13988792

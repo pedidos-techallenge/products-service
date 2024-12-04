@@ -1,5 +1,18 @@
 
-h
-#instance-init#Ubr.com.fiap.techchallange.adapters.presenters.viewmodel.ErrorViewModel#instance-init#\Zthis ("Fbr.com.fiap.techchallange.adapters.presenters.viewmodel.ErrorViewModelZthis ("Fbr.com.fiap.techchallange.adapters.presenters.viewmodel.ErrorViewModel"
-
- (*y/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/adapters/presenters/viewmodel/ErrorViewModel.java
+Á
+GetProductBySkuUseCase¤br.com.fiap.techchallange.core.usecase.managementproduct.GetProductBySkuUseCase#<init>(Lbr/com/fiap/techchallange/adapters/gateways/repository/IProductRepository;)V Êcthis
+ 
+(!"Obr.com.fiap.techchallange.core.usecase.managementproduct.GetProductBySkuUseCasec
+repository
+" 
+(?"Ibr.com.fiap.techchallange.adapters.gateways.repository.IProductRepositorycthis
+ 
+(!"Obr.com.fiap.techchallange.core.usecase.managementproduct.GetProductBySkuUseCasec
+repository
+" 
+(?"Ibr.com.fiap.techchallange.adapters.gateways.repository.IProductRepository"TD
+B
+ ($"0
+#set-field# repository#set-field# repository*
+
+ (*‚/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/core/usecase/managementproduct/GetProductBySkuUseCase.java

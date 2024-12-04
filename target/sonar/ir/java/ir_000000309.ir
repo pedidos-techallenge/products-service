@@ -1,12 +1,5 @@
 
-c
-resetXbr.com.fiap.techchallange.infrastructure.service.mock.SequentialNumberGenerator#reset()V q
-0intcthis (""Obr.com.fiap.techchallange.infrastructure.service.mock.SequentialNumberGeneratorcthis (""Obr.com.fiap.techchallange.infrastructure.service.mock.SequentialNumberGenerator"ä.
-,
-   (currentNumber"
-#id##id#*J
-H
-   ("6
-#set-field# currentNumber#set-field# currentNumber*
-
-! !(*Ç/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/infrastructure/service/mock/SequentialNumberGenerator.java
+ê
+#instance-init#}br.com.fiap.techchallange.core.usecase.outputboundary.presenters.managementproduct.IProductManagementPresenter#instance-init#ÖÇthis (,"nbr.com.fiap.techchallange.core.usecase.outputboundary.presenters.managementproduct.IProductManagementPresenterÇthis (,"nbr.com.fiap.techchallange.core.usecase.outputboundary.presenters.managementproduct.IProductManagementPresenter"
+
+ 9(*°/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/core/usecase/outputboundary/presenters/managementproduct/IProductManagementPresenter.java

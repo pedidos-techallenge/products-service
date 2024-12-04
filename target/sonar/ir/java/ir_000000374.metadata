@@ -1,3 +1,6 @@
-br.com.fiap.techchallange.adapters.gateways.repository.IProductRepository#instance-init#
+br.com.fiap.techchallange.core.entity.Product#checkValue(Ljava/lang/String;Ljava/lang/String;)V
 false
-7f7dbd3f5955767a97f5b80dec3679e7
+c562d0eb8f4ef2de4bdc2d43107781ce
+java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V
+java.lang.IllegalArgumentException#instance-init#
+java.lang.String#isEmpty()Z

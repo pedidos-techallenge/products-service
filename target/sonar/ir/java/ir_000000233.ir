@@ -1,11 +1,5 @@
 
-{
-MonetaryValuehbr.com.fiap.techchallange.core.entity.vo.MonetaryValue#<init>(Ljava/math/BigDecimal;Ljava/lang/String;)V ¢Jthis ("6br.com.fiap.techchallange.core.entity.vo.MonetaryValue*amount (*"java.math.BigDecimal(currency, (;"java.lang.StringJthis ("6br.com.fiap.techchallange.core.entity.vo.MonetaryValue*amount (*"java.math.BigDecimal(currency, (;"java.lang.String"—€
-~
- ("d
-setValueXbr.com.fiap.techchallange.core.entity.vo.MonetaryValue#setValue(Ljava/math/BigDecimal;)V*2void8ƒ
-€
- (""f
-setCurrencyWbr.com.fiap.techchallange.core.entity.vo.MonetaryValue#setCurrency(Ljava/lang/String;)V*2void8
-
- (*i/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/core/entity/vo/MonetaryValue.java
+z
+#instance-init#gbr.com.fiap.techchallange.adapters.controllers.managementproduct.RemoveProductController#instance-init#nlthis ($"Xbr.com.fiap.techchallange.adapters.controllers.managementproduct.RemoveProductControllerlthis ($"Xbr.com.fiap.techchallange.adapters.controllers.managementproduct.RemoveProductController"
+
+ (*‹/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/adapters/controllers/managementproduct/RemoveProductController.java

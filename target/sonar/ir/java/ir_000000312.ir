@@ -1,5 +1,21 @@
 
-ê
-#instance-init#}br.com.fiap.techchallange.core.usecase.outputboundary.presenters.managementproduct.IProductManagementPresenter#instance-init#ÖÇthis (,"nbr.com.fiap.techchallange.core.usecase.outputboundary.presenters.managementproduct.IProductManagementPresenterÇthis (,"nbr.com.fiap.techchallange.core.usecase.outputboundary.presenters.managementproduct.IProductManagementPresenter"
-
- 9(*°/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/core/usecase/outputboundary/presenters/managementproduct/IProductManagementPresenter.java
+y
+Itemobr.com.fiap.techchallange.core.entity.vo.Item#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;F)V ›Athis ("-br.com.fiap.techchallange.core.entity.vo.Item(order_id ("java.lang.String#sku! (+"java.lang.String)quantity- (="java.lang.Integer	unitValue? (N"floatAthis ("-br.com.fiap.techchallange.core.entity.vo.Item(order_id ("java.lang.String#sku! (+"java.lang.String)quantity- (="java.lang.Integer	unitValue? (N"float"¨@
+>
+ ( ",
+#set-field# order_id#set-field# order_id*6
+4
+ (""
+#set-field# sku#set-field# sku*B
+@
+ ("".
+#set-field# unitValue#set-field# unitValue*z
+x
+ ("	"^
+setQuantityObr.com.fiap.techchallange.core.entity.vo.Item#setQuantity(Ljava/lang/Integer;)V*2void8b
+`
+ (
+"G
+	setAmount:br.com.fiap.techchallange.core.entity.vo.Item#setAmount()V*2void8
+
+ (*`/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/core/entity/vo/Item.java

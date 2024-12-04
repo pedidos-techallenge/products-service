@@ -1,5 +1,18 @@
 
-…
-IRegisterProductUseCasehbr.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IRegisterProductUseCase#<init>()V trthis (("^br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IRegisterProductUseCaserthis (("^br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IRegisterProductUseCase"
-
- (*‘/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/core/usecase/inputboundary/managementproduct/IRegisterProductUseCase.java
+Á
+RegisterProductUseCase¤br.com.fiap.techchallange.core.usecase.managementproduct.RegisterProductUseCase#<init>(Lbr/com/fiap/techchallange/adapters/gateways/repository/IProductRepository;)V Êcthis
+ 
+(!"Obr.com.fiap.techchallange.core.usecase.managementproduct.RegisterProductUseCasec
+repository
+" 
+(?"Ibr.com.fiap.techchallange.adapters.gateways.repository.IProductRepositorycthis
+ 
+(!"Obr.com.fiap.techchallange.core.usecase.managementproduct.RegisterProductUseCasec
+repository
+" 
+(?"Ibr.com.fiap.techchallange.adapters.gateways.repository.IProductRepository"TD
+B
+ ($"0
+#set-field# repository#set-field# repository*
+
+ (*‚/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/core/usecase/managementproduct/RegisterProductUseCase.java

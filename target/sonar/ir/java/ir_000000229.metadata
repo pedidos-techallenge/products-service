@@ -1,3 +1,5 @@
-br.com.fiap.techchallange.infrastructure.config.OpenApiConfig#<init>()V
+br.com.fiap.techchallange.core.entity.vo.MonetaryValue#getValue()F
 false
-d1786dc250b827c817e573fdfd710f43
+d5728c6bc3891ec74d1facfda953d487
+==
+floatValue java.math.BigDecimal#floatValue()F

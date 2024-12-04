@@ -5,10 +5,8 @@ br/com/fiap/techchallange/infrastructure/dto/ItemRequestDTO.class
 br/com/fiap/techchallange/core/usecase/managementproduct/GetProductListUseCase.class
 br/com/fiap/techchallange/core/entity/vo/Item.class
 br/com/fiap/techchallange/infrastructure/bd/MySQLProductRepository$3.class
-br/com/fiap/techchallange/infrastructure/config/gateways/DataSourceConfig.class
 br/com/fiap/techchallange/core/entity/enums/Category.class
 br/com/fiap/techchallange/adapters/controllers/managementproduct/GetProductBySkuController.class
-br/com/fiap/techchallange/infrastructure/config/OpenApiConfig$1.class
 br/com/fiap/techchallange/adapters/controllers/managementproduct/UpdateProductController.class
 br/com/fiap/techchallange/infrastructure/bd/MySQLProductRepository$1.class
 br/com/fiap/techchallange/core/usecase/managementproduct/RemoveProductUseCase.class
@@ -21,10 +19,8 @@ br/com/fiap/techchallange/adapters/gateways/repository/IProductRepository.class
 br/com/fiap/techchallange/core/usecase/outputboundary/gateways/bd/IProductGatewayBD.class
 br/com/fiap/techchallange/core/entity/Product.class
 br/com/fiap/techchallange/adapters/controllers/checkout/ProductsDisplayController.class
-br/com/fiap/techchallange/infrastructure/config/EndpointConfigLogger.class
 br/com/fiap/techchallange/core/usecase/checkout/ProductsDisplayUseCase.class
 br/com/fiap/techchallange/infrastructure/service/mock/SequentialNumberGenerator.class
-br/com/fiap/techchallange/infrastructure/config/gateways/MercadoPagoConfig.class
 br/com/fiap/techchallange/core/usecase/managementproduct/GetProductBySkuUseCase.class
 br/com/fiap/techchallange/core/usecase/managementproduct/RegisterProductUseCase.class
 br/com/fiap/techchallange/adapters/controllers/managementproduct/RegisterProductController.class
@@ -47,7 +43,6 @@ br/com/fiap/techchallange/adapters/controllers/managementproduct/IGetProductList
 br/com/fiap/techchallange/core/usecase/outputboundary/presenters/checkout/IProductPresenter.class
 br/com/fiap/techchallange/core/entity/vo/MonetaryValue.class
 br/com/fiap/techchallange/adapters/controllers/managementproduct/GetProductListController.class
-br/com/fiap/techchallange/infrastructure/config/OpenApiConfig.class
 br/com/fiap/techchallange/infrastructure/config/presenters/managementproduct/ProductPresenterConfig.class
 br/com/fiap/techchallange/core/usecase/inputboundary/checkout/IProductsDisplayUseCase.class
 br/com/fiap/techchallange/core/entity/exceptions/ChangeNotAllowedOrderException.class

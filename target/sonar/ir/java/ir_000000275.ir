@@ -1,10 +1,24 @@
 
-ä
-GetProductBySkuControllerÄbr.com.fiap.techchallange.adapters.controllers.managementproduct.GetProductBySkuController#<init>(Lbr/com/fiap/techchallange/core/usecase/inputboundary/managementproduct/IGetProductBySkuUseCase;)V ÷nthis ($"Zbr.com.fiap.techchallange.adapters.controllers.managementproduct.GetProductBySkuController„getProductBySkuUseCase% (S"^br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IGetProductBySkuUseCasenthis ($"Zbr.com.fiap.techchallange.adapters.controllers.managementproduct.GetProductBySkuController„getProductBySkuUseCase% (S"^br.com.fiap.techchallange.core.usecase.inputboundary.managementproduct.IGetProductBySkuUseCase"l\
-Z
-	 	(<"H
-"#set-field# getProductBySkuUseCase"#set-field# getProductBySkuUseCase*
+œ
+ManagementProduct„br.com.fiap.techchallange.infrastructure.api.ManagementProduct#<init>(Lbr/com/fiap/techchallange/adapters/controllers/managementproduct/IGetProductListController;Lbr/com/fiap/techchallange/adapters/controllers/managementproduct/IGetProductBySkuController;Lbr/com/fiap/techchallange/adapters/controllers/managementproduct/IRegisterProductController;Lbr/com/fiap/techchallange/adapters/controllers/managementproduct/IUpdateProductController;Lbr/com/fiap/techchallange/adapters/controllers/managementproduct/IRemoveProductController;Lbr/com/fiap/techchallange/core/usecase/outputboundary/presenters/managementproduct/IProductManagementPresenter;)V þRthis (">br.com.fiap.techchallange.infrastructure.api.ManagementProduct‚getProductListController (:"Zbr.com.fiap.techchallange.adapters.controllers.managementproduct.IGetProductListController„getProductBySkuController   (<"[br.com.fiap.techchallange.adapters.controllers.managementproduct.IGetProductBySkuController„registerProductController! !(<"[br.com.fiap.techchallange.adapters.controllers.managementproduct.IRegisterProductController€updateProductController" "(8"Ybr.com.fiap.techchallange.adapters.controllers.managementproduct.IUpdateProductController€removeProductController# #(8"Ybr.com.fiap.techchallange.adapters.controllers.managementproduct.IRemoveProductControllerŽproductPresenter$ $(4"nbr.com.fiap.techchallange.core.usecase.outputboundary.presenters.managementproduct.IProductManagementPresenterRthis (">br.com.fiap.techchallange.infrastructure.api.ManagementProduct‚getProductListController (:"Zbr.com.fiap.techchallange.adapters.controllers.managementproduct.IGetProductListController„getProductBySkuController   (<"[br.com.fiap.techchallange.adapters.controllers.managementproduct.IGetProductBySkuController„registerProductController! !(<"[br.com.fiap.techchallange.adapters.controllers.managementproduct.IRegisterProductController€updateProductController" "(8"Ybr.com.fiap.techchallange.adapters.controllers.managementproduct.IUpdateProductController€removeProductController# #(8"Ybr.com.fiap.techchallange.adapters.controllers.managementproduct.IRemoveProductControllerŽproductPresenter$ $(4"nbr.com.fiap.techchallange.core.usecase.outputboundary.presenters.managementproduct.IProductManagementPresenter"Ê`
+^
+& &(@"L
+$#set-field# getProductListController$#set-field# getProductListController*b
+`
+' '(B	"N
+%#set-field# getProductBySkuController%#set-field# getProductBySkuController*b
+`
+( ((B
+"N
+%#set-field# registerProductController%#set-field# registerProductController*^
+\
+) )(>"J
+##set-field# updateProductController##set-field# updateProductController*^
+\
+* *(>"J
+##set-field# removeProductController##set-field# removeProductController*P
+N
++ +(0"<
+#set-field# productPresenter#set-field# productPresenter*
 
-
- 
-(*/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/adapters/controllers/managementproduct/GetProductBySkuController.java
+, ,(*q/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/infrastructure/api/ManagementProduct.java

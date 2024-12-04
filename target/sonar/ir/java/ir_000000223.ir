@@ -1,5 +1,15 @@
 
-Ñ
-ProductManagementPresenterdbr.com.fiap.techchallange.adapters.presenters.managementproduct.ProductManagementPresenter#<init>()V pnthis	 	('"Zbr.com.fiap.techchallange.adapters.presenters.managementproduct.ProductManagementPresenternthis	 	('"Zbr.com.fiap.techchallange.adapters.presenters.managementproduct.ProductManagementPresenter"
-
-	 (*ç/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/adapters/presenters/managementproduct/ProductManagementPresenter.java
+¿
+present≤br.com.fiap.techchallange.adapters.presenters.managementproduct.ProductManagementPresenter#present(Lbr/com/fiap/techchallange/core/usecase/dto/product/OutputDataProductDTO;)Lbr/com/fiap/techchallange/core/usecase/outputboundary/presenters/managementproduct/IProductManagementPresenter$ProductResponseModel; ”nthis  ('"Zbr.com.fiap.techchallange.adapters.presenters.managementproduct.ProductManagementPresentera
+productDTO( (G"Gbr.com.fiap.techchallange.core.usecase.dto.product.OutputDataProductDTOnthis  ('"Zbr.com.fiap.techchallange.adapters.presenters.managementproduct.ProductManagementPresentera
+productDTO( (G"Gbr.com.fiap.techchallange.core.usecase.dto.product.OutputDataProductDTO"Ç≥
+∞
+ (3"
+#new-object##new-object#2Ébr.com.fiap.techchallange.core.usecase.outputboundary.presenters.managementproduct.IProductManagementPresenter$ProductResponseModelΩ
+∫
+ (3"¶
+#instance-init#íbr.com.fiap.techchallange.core.usecase.outputboundary.presenters.managementproduct.IProductManagementPresenter$ProductResponseModel#instance-init#*8˘
+ˆ
+ (3"·
+<init>÷br.com.fiap.techchallange.core.usecase.outputboundary.presenters.managementproduct.IProductManagementPresenter$ProductResponseModel#<init>(Lbr/com/fiap/techchallange/core/usecase/dto/product/OutputDataProductDTO;)V*8
+ (4*ç/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/adapters/presenters/managementproduct/ProductManagementPresenter.java

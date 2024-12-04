@@ -1,3 +1,7 @@
-br.com.fiap.techchallange.adapters.controllers.managementproduct.IRemoveProductController#instance-init#
+br.com.fiap.techchallange.core.entity.Product#setMonetaryValue(F)V
 false
-5c9c708bb27d8ba4d18fa9a159064a2b
+3f1fd5299179641e0b5248e9284728fc
+br.com.fiap.techchallange.core.entity.vo.MonetaryValue#<init>(Ljava/math/BigDecimal;)V
+br.com.fiap.techchallange.core.entity.vo.MonetaryValue#instance-init#
+java.math.BigDecimal#<init>(D)V
+java.math.BigDecimal#instance-init#

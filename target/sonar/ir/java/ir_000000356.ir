@@ -1,14 +1,5 @@
 
-
-ItemRequestDTOkbr.com.fiap.techchallange.infrastructure.dto.ItemRequestDTO#<init>(Ljava/lang/String;FLjava/lang/Integer;)V æOthis (";br.com.fiap.techchallange.infrastructure.dto.ItemRequestDTO#sku ($"java.lang.Stringamount& (2"float)quantity4 (D"java.lang.IntegerOthis (";br.com.fiap.techchallange.infrastructure.dto.ItemRequestDTO#sku ($"java.lang.Stringamount& (2"float)quantity4 (D"java.lang.Integer"∆6
-4
- (""
-#set-field# sku#set-field# sku*<
-:
- ("(
-#set-field# amount#set-field# amount*@
->
- ( ",
-#set-field# quantity#set-field# quantity*
-
- (*n/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/infrastructure/dto/ItemRequestDTO.java
+è
+#instance-init#|br.com.fiap.techchallange.infrastructure.config.controller.managementproduct.ManagementProductControlerConfig#instance-init#ÑÅthis	 	(-"mbr.com.fiap.techchallange.infrastructure.config.controller.managementproduct.ManagementProductControlerConfigÅthis	 	(-"mbr.com.fiap.techchallange.infrastructure.config.controller.managementproduct.ManagementProductControlerConfig"
+
+ #(*†/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/infrastructure/config/controller/managementproduct/ManagementProductControlerConfig.java

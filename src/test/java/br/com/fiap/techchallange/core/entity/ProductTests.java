@@ -65,4 +65,113 @@ class ProductTests {
             new Product("12345", "Produto X", "", 10.0f, "Lanche");
         });
     }
+
+    @Test
+    void testConstructor_ValidInputs() {
+        // Arrange
+        String sku = "sku1";
+        String name = "Product 1";
+        String description = "A great product";
+        float monetaryValue = 99.99f;
+        String category = Category.Drink.getValue();
+
+        // Act
+        Product product = new Product(sku, name, description, monetaryValue, category);
+
+        // Assert
+        assertNotNull(product);
+        assertEquals(sku, product.getSku());
+        assertEquals(name, product.getName());
+        assertEquals(description, product.getDescription());
+        assertEquals(monetaryValue, product.getMonetaryValue(), 0.01f);
+        assertEquals(category, product.getCategory());
+    }
+
+    @Test
+    void testConstructor_InvalidSku() {
+        // Arrange
+        String sku = "";
+        String name = "Product 1";
+        String description = "A great product";
+        float monetaryValue = 99.99f;
+        String category = Category.Drink.getValue();
+
+        // Act & Assert
+        IllegalArgumentException exception = assertThrows(IllegalArgumentException.class, () -> {
+            new Product(sku, name, description, monetaryValue, category);
+        });
+        assertEquals("sku cannot be empty", exception.getMessage());
+    }
+
+    @Test
+    void testSetMonetaryValue() {
+        // Arrange
+        String sku = "sku1";
+        String name = "Product 1";
+        String description = "A great product";
+        float monetaryValue = 199.99f;
+        String category = Category.Drink.getValue();
+        Product product = new Product(sku, name, description, monetaryValue, category);
+
+        // Actgg
+        float result = product.getMonetaryValue();
+
+        // Assert
+        assertEquals(monetaryValue, result, 0.01f);
+    }
+
+    @Test
+    void testCheckValue_SkuEmpty() {
+        // Arrange
+        String sku = "";
+        String name = "Product 1";
+        String description = "A great product";
+        float monetaryValue = 99.99f;
+        String category = Category.Drink.getValue();
+
+        // Act & Assert
+        IllegalArgumentException exception = assertThrows(IllegalArgumentException.class, () -> {
+            new Product(sku, name, description, monetaryValue, category);
+        });
+        assertEquals("sku cannot be empty", exception.getMessage());
+    }
+
+    @Test
+    void testCheckValue_DescriptionEmpty() {
+        // Arrange
+        String sku = "sku1";
+        String name = "Product 1";
+        String description = "";
+        float monetaryValue = 99.99f;
+        String category = Category.Drink.getValue();
+
+        // Act & Assert
+        IllegalArgumentException exception = assertThrows(IllegalArgumentException.class, () -> {
+            new Product(sku, name, description, monetaryValue, category);
+        });
+        assertEquals("description cannot be empty", exception.getMessage());
+    }
+
+    @Test
+    void testToString() {
+        // Arrange
+        String sku = "sku1";
+        String name = "Product 1";
+        String description = "A great product";
+        float monetaryValue = 99.99f;
+        String category = Category.Drink.getValue();
+        Product product = new Product(sku, name, description, monetaryValue, category);
+
+        // Act
+        String result = product.toString();
+
+        // Assert
+        assertTrue(result.contains("sku='sku1'"));
+        assertTrue(result.contains("name='Product 1'"));
+        assertTrue(result.contains("description='A great product'"));
+        assertTrue(result.contains("monetaryValue=99.99"));
+        assertTrue(result.contains("category='Drink'"));
+    }
+
+
 }

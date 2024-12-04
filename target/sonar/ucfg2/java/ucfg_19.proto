@@ -1,17 +1,14 @@
 
-óbr.com.fiap.techchallange.infrastructure.config.presenters.managementproduct.ProductPresenterConfig#getProductManagementPresenter()Lbr/com/fiap/techchallange/core/usecase/outputboundary/presenters/managementproduct/IProductManagementPresenter;¡
-–/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/infrastructure/config/presenters/managementproduct/ProductPresenterConfig.java' (D"1*Ç
-1 (/ËÈ
- (-`
-%0Zbr.com.fiap.techchallange.adapters.presenters.managementproduct.ProductManagementPresenter"Zbr.com.fiap.techchallange.adapters.presenters.managementproduct.ProductManagementPresenterù
-ö
- (/
-%1"dbr.com.fiap.techchallange.adapters.presenters.managementproduct.ProductManagementPresenter#<init>()V*~
+Qbr.com.fiap.techchallange.adapters.presenters.viewmodel.ErrorViewModel#getCode()Iƒ
+y/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/adapters/presenters/viewmodel/ErrorViewModel.java ("1*Â
+1	 	(ž
+›
+	 	(
+%0java.lang.Integer"__id*p
 
-__unknown_file (b
-`
-%0Zbr.com.fiap.techchallange.adapters.presenters.managementproduct.ProductManagementPresenter"n
- (0b
-`
-%0Zbr.com.fiap.techchallange.adapters.presenters.managementproduct.ProductManagementPresenterBge
-cbr.com.fiap.techchallange.infrastructure.config.presenters.managementproduct.ProductPresenterConfigH
+__unknown_file (T*RH
+Fbr.com.fiap.techchallange.adapters.presenters.viewmodel.ErrorViewModel"
+code"
+	 	(
+""BJH
+Fbr.com.fiap.techchallange.adapters.presenters.viewmodel.ErrorViewModelHX

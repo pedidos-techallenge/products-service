@@ -1,5 +1,5 @@
-br.com.fiap.techchallange.adapters.controllers.checkout.ProductsDisplayController#getProducts()Ljava/util/List;
+br.com.fiap.techchallange.infrastructure.config.usecase.managementproduct.ManagementProductUseCaseConfig#removeProductUseCase(Lbr/com/fiap/techchallange/adapters/gateways/repository/IProductRepository;)Lbr/com/fiap/techchallange/core/usecase/inputboundary/managementproduct/IRemoveProductUseCase;
 false
-b33445f7413cf84998f4b36d9a1504c3
-==
-getProducts br.com.fiap.techchallange.core.usecase.inputboundary.checkout.IProductsDisplayUseCase#getProducts()Ljava/util/List;
+cbbd3747e8c36a490359a35c802043d5
+br.com.fiap.techchallange.core.usecase.managementproduct.RemoveProductUseCase#<init>(Lbr/com/fiap/techchallange/adapters/gateways/repository/IProductRepository;)V
+br.com.fiap.techchallange.core.usecase.managementproduct.RemoveProductUseCase#instance-init#

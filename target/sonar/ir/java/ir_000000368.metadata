@@ -1,5 +1,8 @@
-br.com.fiap.techchallange.infrastructure.config.controller.managementproduct.ManagementProductControlerConfig#updateProductController(Lbr/com/fiap/techchallange/core/usecase/inputboundary/managementproduct/IUpdateProductUseCase;)Lbr/com/fiap/techchallange/adapters/controllers/managementproduct/IUpdateProductController;
+br.com.fiap.techchallange.core.entity.Product#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Float;Ljava/lang/String;)V
 false
-be43fd5a85a9159b4a0e8f724f031536
-br.com.fiap.techchallange.adapters.controllers.managementproduct.UpdateProductController#<init>(Lbr/com/fiap/techchallange/core/usecase/inputboundary/managementproduct/IUpdateProductUseCase;)V
-br.com.fiap.techchallange.adapters.controllers.managementproduct.UpdateProductController#instance-init#
+c0dca6830d828a16e31527d85b46f295
+br.com.fiap.techchallange.core.entity.Product#setCategory(Ljava/lang/String;)V
+br.com.fiap.techchallange.core.entity.Product#setDescription(Ljava/lang/String;)V
+br.com.fiap.techchallange.core.entity.Product#setMonetaryValue(F)V
+br.com.fiap.techchallange.core.entity.Product#setName(Ljava/lang/String;)V
+br.com.fiap.techchallange.core.entity.Product#setSku(Ljava/lang/String;)V

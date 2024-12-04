@@ -1,3 +1,4 @@
-br.com.fiap.techchallange.infrastructure.config.gateways.DataSourceConfig#instance-init#
+br.com.fiap.techchallange.core.entity.Product#setSku(Ljava/lang/String;)V
 false
-e0848b55d24e6f382c4698b7a2145977
+771ff85e22bd14d8a329eb98be48a2f5
+br.com.fiap.techchallange.core.entity.Product#checkValue(Ljava/lang/String;Ljava/lang/String;)V

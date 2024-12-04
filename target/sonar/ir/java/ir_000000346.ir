@@ -1,8 +1,15 @@
 
-Ò
-ProductsDisplayController²br.com.fiap.techchallange.adapters.controllers.checkout.ProductsDisplayController#<init>(Lbr/com/fiap/techchallange/core/usecase/inputboundary/checkout/IProductsDisplayUseCase;)V äethis ($"Qbr.com.fiap.techchallange.adapters.controllers.checkout.ProductsDisplayController{productsDisplayUseCase% (S"Ubr.com.fiap.techchallange.core.usecase.inputboundary.checkout.IProductsDisplayUseCaseethis ($"Qbr.com.fiap.techchallange.adapters.controllers.checkout.ProductsDisplayController{productsDisplayUseCase% (S"Ubr.com.fiap.techchallange.core.usecase.inputboundary.checkout.IProductsDisplayUseCase"l\
-Z
- (<"H
-"#set-field# productsDisplayUseCase"#set-field# productsDisplayUseCase*
-
- (*„/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/adapters/controllers/checkout/ProductsDisplayController.java
+É
+registerProductUseCase¬br.com.fiap.techchallange.infrastructure.config.usecase.managementproduct.ManagementProductUseCaseConfig#registerProductUseCase(Lbr/com/fiap/techchallange/adapters/gateways/repository/IProductRepository;)Lbr/com/fiap/techchallange/core/usecase/inputboundary/managementproduct/IRegisterProductUseCase; ã|this# (9"hbr.com.fiap.techchallange.infrastructure.config.usecase.managementproduct.ManagementProductUseCaseConfigc
+repository: (W"Ibr.com.fiap.techchallange.adapters.gateways.repository.IProductRepository|this# (9"hbr.com.fiap.techchallange.infrastructure.config.usecase.managementproduct.ManagementProductUseCaseConfigc
+repository: (W"Ibr.com.fiap.techchallange.adapters.gateways.repository.IProductRepository"ã}
+{
+ (5"
+#new-object##new-object#2Obr.com.fiap.techchallange.core.usecase.managementproduct.RegisterProductUseCase‡
+„
+ (5"q
+#instance-init#^br.com.fiap.techchallange.core.usecase.managementproduct.RegisterProductUseCase#instance-init#*8Ç
+Ä
+ (5"¯
+<init>¤br.com.fiap.techchallange.core.usecase.managementproduct.RegisterProductUseCase#<init>(Lbr/com/fiap/techchallange/adapters/gateways/repository/IProductRepository;)V*8
+ (6*›/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/infrastructure/config/usecase/managementproduct/ManagementProductUseCaseConfig.java

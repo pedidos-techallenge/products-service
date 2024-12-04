@@ -58,10 +58,10 @@ public class ManagementProduct {
     @GetMapping(&quot;/{sku}&quot;)
     public ResponseEntity&lt;?&gt; getProductBySkuHTTP(@PathVariable String sku) {
         try {
-<span class="nc" id="L61">            IProductManagementPresenter.ProductResponseModel response = productPresenter.present(this.getProductBySkuController.invoke(sku));</span>
-<span class="nc" id="L62">            return new ResponseEntity&lt;&gt;(response, HttpStatus.OK);</span>
-<span class="nc" id="L63">        } catch (EmptyResultDataAccessException e) {</span>
-<span class="nc" id="L64">            return new ResponseEntity&lt;&gt;(new ErrorViewModel(1,&quot;Produto não encontrado na base de dados&quot;), HttpStatus.NOT_FOUND);</span>
+<span class="fc" id="L61">            IProductManagementPresenter.ProductResponseModel response = productPresenter.present(this.getProductBySkuController.invoke(sku));</span>
+<span class="fc" id="L62">            return new ResponseEntity&lt;&gt;(response, HttpStatus.OK);</span>
+<span class="fc" id="L63">        } catch (EmptyResultDataAccessException e) {</span>
+<span class="fc" id="L64">            return new ResponseEntity&lt;&gt;(new ErrorViewModel(1,&quot;Produto não encontrado na base de dados&quot;), HttpStatus.NOT_FOUND);</span>
         }
     }
 
@@ -85,10 +85,10 @@ public class ManagementProduct {
             );
 
 <span class="fc" id="L87">            return new ResponseEntity&lt;&gt;(createdProduct, HttpStatus.CREATED);</span>
-<span class="nc" id="L88">        } catch (DataAccessException e) {</span>
-<span class="nc" id="L89">            return new ResponseEntity&lt;&gt;(new ErrorViewModel(3, &quot;Erro ao realizar cadastro de produto&quot;), HttpStatus.NOT_FOUND);</span>
-<span class="nc" id="L90">        } catch (IllegalArgumentException e) {</span>
-<span class="nc" id="L91">            return new ResponseEntity&lt;&gt;(new ErrorViewModel(99, e.getMessage()), HttpStatus.NOT_FOUND);</span>
+<span class="fc" id="L88">        } catch (DataAccessException e) {</span>
+<span class="fc" id="L89">            return new ResponseEntity&lt;&gt;(new ErrorViewModel(3, &quot;Erro ao realizar cadastro de produto&quot;), HttpStatus.NOT_FOUND);</span>
+<span class="fc" id="L90">        } catch (IllegalArgumentException e) {</span>
+<span class="fc" id="L91">            return new ResponseEntity&lt;&gt;(new ErrorViewModel(99, e.getMessage()), HttpStatus.NOT_FOUND);</span>
         }
     }
 
@@ -103,10 +103,10 @@ public class ManagementProduct {
 <span class="fc" id="L103">                    productDeserializer.category()</span>
             );
 
-<span class="nc" id="L106">        } catch (DataAccessException e) {</span>
-<span class="nc" id="L107">            return new ResponseEntity&lt;&gt;(new ErrorViewModel(5, &quot;Produto não encontrado&quot;), HttpStatus.NOT_FOUND);</span>
-<span class="nc" id="L108">        } catch (IllegalArgumentException e) {</span>
-<span class="nc" id="L109">            return new ResponseEntity&lt;&gt;(new ErrorViewModel(99, e.getMessage()), HttpStatus.NOT_FOUND);</span>
+<span class="fc" id="L106">        } catch (DataAccessException e) {</span>
+<span class="fc" id="L107">            return new ResponseEntity&lt;&gt;(new ErrorViewModel(5, &quot;Produto não encontrado&quot;), HttpStatus.NOT_FOUND);</span>
+<span class="fc" id="L108">        } catch (IllegalArgumentException e) {</span>
+<span class="fc" id="L109">            return new ResponseEntity&lt;&gt;(new ErrorViewModel(99, e.getMessage()), HttpStatus.NOT_FOUND);</span>
 <span class="fc" id="L110">        }</span>
 <span class="fc" id="L111">        return new ResponseEntity&lt;&gt;(&quot;Produto atualizado com sucesso&quot;, HttpStatus.OK);</span>
     }

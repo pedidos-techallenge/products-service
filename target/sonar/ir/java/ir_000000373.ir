@@ -1,5 +1,19 @@
 
-Å
-IRemoveProductControllercbr.com.fiap.techchallange.adapters.controllers.managementproduct.IRemoveProductController#<init>()V omthis ()"Ybr.com.fiap.techchallange.adapters.controllers.managementproduct.IRemoveProductControllermthis ()"Ybr.com.fiap.techchallange.adapters.controllers.managementproduct.IRemoveProductController"
-
- (*å/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/adapters/controllers/managementproduct/IRemoveProductController.java
+]
+setCategoryNbr.com.fiap.techchallange.core.entity.Product#setCategory(Ljava/lang/String;)Vè 
+"category"java.lang.StringAthis- -("-br.com.fiap.techchallange.core.entity.Product(category- -(,"java.lang.StringAthis- -("-br.com.fiap.techchallange.core.entity.Product(category- -(,"java.lang.String"¶ã
+à
+. .(("m
+
+checkValue_br.com.fiap.techchallange.core.entity.Product#checkValue(Ljava/lang/String;Ljava/lang/String;)V*2void8·
+ﬁ
+/ /($"ñ
+	fromValueàbr.com.fiap.techchallange.core.entity.enums.Category#fromValue(Ljava/lang/String;)Lbr/com/fiap/techchallange/core/entity/enums/Category;*24br.com.fiap.techchallange.core.entity.enums.Category·
+ﬁ
+0 0(4"ñ
+	fromValueàbr.com.fiap.techchallange.core.entity.enums.Category#fromValue(Ljava/lang/String;)Lbr/com/fiap/techchallange/core/entity/enums/Category;*24br.com.fiap.techchallange.core.entity.enums.Category@
+>
+0 0(4",
+#set-field# category#set-field# category*
+
+1 1(*`/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/core/entity/Product.java

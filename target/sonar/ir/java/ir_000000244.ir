@@ -1,5 +1,13 @@
 
-z
-#instance-init#gbr.com.fiap.techchallange.adapters.controllers.managementproduct.UpdateProductController#instance-init#nlthis ($"Xbr.com.fiap.techchallange.adapters.controllers.managementproduct.UpdateProductControllerlthis ($"Xbr.com.fiap.techchallange.adapters.controllers.managementproduct.UpdateProductController"
-
- (*ã/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/adapters/controllers/managementproduct/UpdateProductController.java
+ó
+getProductManagementPresenterÛbr.com.fiap.techchallange.infrastructure.config.presenters.managementproduct.ProductPresenterConfig#getProductManagementPresenter()Lbr/com/fiap/techchallange/core/usecase/outputboundary/presenters/managementproduct/IProductManagementPresenter; ywthis' (D"cbr.com.fiap.techchallange.infrastructure.config.presenters.managementproduct.ProductPresenterConfigwthis' (D"cbr.com.fiap.techchallange.infrastructure.config.presenters.managementproduct.ProductPresenterConfig"∏â
+Ü
+ (/"
+#new-object##new-object#2Zbr.com.fiap.techchallange.adapters.presenters.managementproduct.ProductManagementPresenterí
+è
+ (/"|
+#instance-init#ibr.com.fiap.techchallange.adapters.presenters.managementproduct.ProductManagementPresenter#instance-init#*8Ñ
+Å
+ (/"n
+<init>dbr.com.fiap.techchallange.adapters.presenters.managementproduct.ProductManagementPresenter#<init>()V*8
+ (0*ñ/home/axel/pos/products-service/src/main/java/br/com/fiap/techchallange/infrastructure/config/presenters/managementproduct/ProductPresenterConfig.java
