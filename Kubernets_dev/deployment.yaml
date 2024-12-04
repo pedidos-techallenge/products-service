@@ -1,22 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: customer-deployment
+  name: products-deployment
   labels:
-    app: customer
+    app: products
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: customer
+      app: products
   template:
     metadata:
       labels:
-        app: customer
+        app: products
     spec:
       containers:
-        - name: customer
-          image: indigrinada/customer-service:latest
+        - name: products
+          image: axelkjellin/products-service:v1
           env:
             - name: SPRING_PROFILE
               value: prd
@@ -44,10 +44,10 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: customer-service-lb
+  name: products-service-lb
 spec:
   selector:
-    app: customer
+    app: products
   ports:
     - protocol: TCP
       port: 8080

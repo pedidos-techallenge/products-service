@@ -15,7 +15,7 @@ spec:
         app: products
     spec:
       containers:
-        - name: customer
+        - name: products
           image: axelkjellin/products-service:v1
           env:
             - name: SPRING_PROFILE
