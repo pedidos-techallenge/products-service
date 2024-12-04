@@ -1,0 +1,54 @@
+name: Deploy Code to EKS cluster
+
+on:
+  workflow_dispatch:
+
+env:
+  AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+  AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+  AWS_SESSION_TOKEN: ${{ secrets.AWS_SESSION_TOKEN }}
+  AWS_REGION: 'us-east-1'
+  MYSQL_USERNAME: ${{ secrets.MYSQL_USERNAME }}
+  MYSQL_PASSWORD: ${{ secrets.MYSQL_PASSWORD }}
+
+jobs:
+  kubernetes:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+
+      - name: update-kubeconfig
+        run: aws eks update-kubeconfig --region us-east-1 --name products-eks
+
+      - name: apply-kubernetes
+        run: |
+          kubectl apply -f ./production/kubernetes/deployment.yaml
+          export MYSQL_HOST=$(aws rds describe-db-instances \
+              --region=us-east-1 \
+              --db-instance-identifier techchallenge-products-service \
+              --query 'DBInstances[0].Endpoint.Address' \
+              --output text)
+
+          kubectl set env deployment/products-deployment \
+              SPRING_PROFILE=prd \
+              MYSQL_HOST=$MYSQL_HOST \
+              MYSQL_PORT=3306 \
+              MYSQL_DATABASE=dbtechchallange \
+              MYSQL_USER=$MYSQL_USERNAME \
+              MYSQL_PASSWORD=$MYSQL_PASSWORD \
+              AWS_REGION=$AWS_REGION \
+              AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID \
+              AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY \
+              AWS_SESSION_TOKEN=$AWS_SESSION_TOKEN
+
+      ## Deploy the API Gateway for exposing the service
+      - name: setup-terraform
+        uses: hashicorp/setup-terraform@v1
+
+      - name: terraform-init-api-gateway
+        run: terraform -chdir=./production/api-gateway init
+
+      - name: terraform-apply-api-gateway
+        run: terraform -chdir=./production/api-gateway apply -auto-approve
