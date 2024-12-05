@@ -52,7 +52,7 @@ data "aws_subnets" "private-subnets" {
 }
 
 resource "aws_security_group" "vpc_link" {
-  name   = "vpc-link"
+  name   = "vpc-link-products"
   vpc_id = data.aws_vpc.techchallenge-vpc.id
 
   egress {

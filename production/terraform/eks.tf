@@ -1,6 +1,6 @@
 
 resource "aws_security_group" "eks_security_group" {
-  name        = "eks-security-group"
+  name        = "eks-security-group-products"
   vpc_id = data.aws_vpc.techchallenge-vpc.id
 }
 
